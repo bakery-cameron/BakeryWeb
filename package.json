@@ -15,5 +15,9 @@
   "homepage": "https://bitbucket.org/cmiller060/bakery-dev#readme",
   "dependencies": {
     "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.1"
   }
 }

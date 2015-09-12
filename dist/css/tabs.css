@@ -1,0 +1,67 @@
+.tabs {
+  position: relative;   
+  min-height: 550px; /* This part sucks */
+  clear: both;
+  margin: 35px 0 25px;
+}
+textarea{
+    height: 300px;
+    border: 2px #666 solid;
+    padding: 20px;
+}
+.tab {
+  display: inline-block;
+   
+}
+.tab label {
+  padding: 10px; 
+  margin-left: -1px; 
+  position: relative;
+  left: 1px; 
+  top: -70px;
+  -webkit-transition: background-color .17s linear;
+}
+.tab label h3{
+  color: #666;
+  font-size: 1.7em;
+  margin: 0px 20px;
+  border-bottom: 4px solid #1A1A1A
+}
+@media screen and (max-width: 720px){
+  .tab label h3{
+    margin: 0px 5px;
+    font-size: 1.2em;
+  }
+}
+
+
+.tab label:hover h3{
+  border-bottom: 4px solid #fac22b;
+}
+
+.tab [type=radio] {
+  display: none;   
+}
+.content {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  -webkit-transition: opacity .6s linear;
+  opacity: 0;
+  pointer-events: none;
+}
+[type=radio]:checked ~ label {
+  z-index: 2;
+}
+[type=radio]:checked ~ label ~ .content {
+  z-index: 1;
+  opacity: 1;
+  pointer-events: auto;
+}
+[type=radio]:checked ~ label h3{
+  border-bottom: 4px solid #fac22b;
+  color: #fff;
+}

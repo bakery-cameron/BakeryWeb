@@ -52,18 +52,20 @@
     z-index: 0;
 	-webkit-backface-visibility: hidden;
     -webkit-animation: slideAnimation 18s linear infinite 0s;
-    -moz-animation: slideAnimation 18s linear infinite 0s;
-    -o-animation: slideAnimation 18s linear infinite 0s;
-    -ms-animation: slideAnimation 18s linear infinite 0s;
     animation: slideAnimation 18s linear infinite 0s;
 }
 .no-animation{
+	-webkit-animation: none;
 	animation: none;
 	opacity: 1;
 }
 .slide-content-container{
 	position: fixed;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
 	justify-content: center;
 	top: 50%;
 	left: 50%;
@@ -76,8 +78,14 @@
 	background-size: cover;
 }
 .slide-content{
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 .slide-type {
@@ -88,29 +96,38 @@
 	background-size: cover;
 	background-repeat: no-repeat;
     -webkit-animation: titleAnimation 9s steps(31, end) 0s infinite;
-    -moz-animation: titleAnimation 9s steps(31, end) 0s infinite;
-    -o-animation: titleAnimation 9s steps(31, end) 0s infinite;
-    -ms-animation: titleAnimation 9s steps(31, end) 0s infinite;
     animation: titleAnimation 9s steps(31, end) 0s infinite;
 }
 .slide-client{
 	opacity: 0;
 	-webkit-animation: clientAnimation 9s infinite;
-    -moz-animation: clientAnimation 9s infinite;
-    -o-animation: clientAnimation 9s infinite;
-    -ms-animation: clientAnimation 9s infinite;
     animation: clientAnimation 9s infinite;
 }
 .slide-button{
 	opacity: 0;
 	margin-top: 75px;
 	-webkit-animation: slide-buttonAnimation 9s infinite;
-    -moz-animation: slide-buttonAnimation 9s infinite;
-    -o-animation: slide-buttonAnimation 9s infinite;
-    -ms-animation: slide-buttonAnimation 9s infinite;
     animation: slide-buttonAnimation 9s infinite;
 }
+@media screen and (max-width: 1080px){
+	.slide-client{
+		margin-left: 80px;
+    	margin-bottom: -30px;
+	}
+	.slide-type{
+		-webkit-transform: scale(.8);
+		transform: scale(.8);
+	}
+}
 @media screen and (max-width: 720px){
+	.slide-client{
+		margin-left: 210px;
+    	margin-bottom: -70px;
+	}
+	.slide-type{
+		-webkit-transform: scale(.5);
+		transform: scale(.5);
+	}
 	.slide-buttom{
 		margin-top: 0px;
 	}
@@ -120,6 +137,15 @@
 		font-size: 1em;
 		margin: 0px;
 	}
+	.slide-type{
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		width: 250px; 
+		height: 74px;
+		background-image: url(../images/visceral-animation-mobile.png);
+		-webkit-animation: titleAnimationMobile 9s steps(31) 0s infinite;
+		animation: titleAnimationMobile 9s steps(31) 0s infinite;
+	}
 	.slide-button{
 		margin-top: 50px;
 	}
@@ -128,28 +154,34 @@
 	}
 }
 
-/*---------------------------------
 
-scroll down arrows
-
------------------------------------*/
 
 #scroll-down-hold div{
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
 	flex-direction: column;
 }
 .icon-arrow-down{
+	-webkit-animation-name: flashPause;
 	animation-name: flashPause;
+	-webkit-animation-iteration-count: infinite;
 	animation-iteration-count: infinite;
+	-webkit-animation-duration: 2s;
 	animation-duration: 2s;
 }
 #icon-arrow-down-01{
+	-webkit-animation-delay: 0s;
 	animation-delay: 0s;
 }
 #icon-arrow-down-02{
+	-webkit-animation-delay: .1s;
 	animation-delay: .1s;
 }
 #icon-arrow-down-03{
+	-webkit-animation-delay: .2s;
 	animation-delay: .2s;
 }
 .icon-arrow-down:before {
@@ -158,27 +190,18 @@ scroll down arrows
 }
 
 
-/*---------------------------------
 
-home slides timing
-
------------------------------------*/
 
 #home-slide-elrey, #home-client-elrey{
+	-webkit-animation-delay: 6s;
 	animation-delay: 6s;
 }
 #home-slide-valentines, #home-client-valentines{
+	-webkit-animation-delay: 12s;
 	animation-delay: 12s;
 }
 
 
-
-
-/*---------------------------------
-
-home slide buttons
-
------------------------------------*/
 
 #slide-button-calendario{
 	border-color: #0f4c8c;
@@ -189,6 +212,7 @@ home slide buttons
 #slide-button-elrey{
 	border-color: #f7ab17;
 	background-image: linear-gradient(to bottom, rgba(255, 205, 51, 0) 50%, #f7ab17 50%);
+	-webkit-animation-delay: 6s;
 	animation-delay: 6s;
 }
 
@@ -196,6 +220,7 @@ home slide buttons
 #slide-button-valentines{
 	border-color: #eb5c5c;
 	background-image: linear-gradient(to bottom, rgba(255, 205, 51, 0) 50%, #eb5c5c 50%);
+	-webkit-animation-delay: 12s;
 	animation-delay: 12s;
 }
 
@@ -204,85 +229,118 @@ home slide buttons
 
 
 
-/*---------------------------------
 
-slide type animations
-
------------------------------------*/
 #home-slide-type-calendario{
 	width: 700px;
 	height: 112px;
 	background-image: url(../images/calendario/calendario-animation.png);
+    -webkit-animation: titleAnimation 9s steps(34, end) 0s infinite;
     animation: titleAnimation 9s steps(34, end) 0s infinite;
 }
 #home-slide-type-elrey{
 	width: 892px;
 	height: 248px;
 	background-image: url(../images/elrey/elrey-animation.png);
+    -webkit-animation: titleAnimation 9s steps(47, end) 0s infinite;
     animation: titleAnimation 9s steps(47, end) 0s infinite;
+    -webkit-animation-delay: 6s;
     animation-delay: 6s;
 }
 #home-slide-type-valentines{
 	width: 855px;
 	height: 248px;
 	background-image: url(../images/valentines-animation-home.png);
+    -webkit-animation: titleAnimation 9s steps(43, end) 0s infinite;
     animation: titleAnimation 9s steps(43, end) 0s infinite;
+    -webkit-animation-delay: 12s;
     animation-delay: 12s;
 }
+
+
+
+
+
+
+
 #slide-type-about{
 	width: 699px;
 	height: 386px;
 	background-image: url(../images/about/about-animation.png);
-    animation: titleOnceAnimation 2s steps(48, end) 0s 1;
+    -webkit-animation: titleaboutanimation 2s steps(48, end) 0s 1;
+    animation: titleaboutanimation 2s steps(48, end) 0s 1;
+    -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
 #slide-type-contact {
     width: 766px;
     height: 248px;
     background-image: url(../images/contact/contact-animation.png);
+    -webkit-animation: titleOnceAnimation 2s steps(39, end) 0s 1;
     animation: titleOnceAnimation 2s steps(39, end) 0s 1;
+    -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
 #slide-type-careers{
 	width: 863px;
 	height: 112px;
 	background-image: url(../images/careers/careers-animation.png);
+    -webkit-animation: titleOnceAnimation 1.7s steps(31, end) 0s 1;
     animation: titleOnceAnimation 1.7s steps(31, end) 0s 1;
+    -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
 #slide-type-team{
 	width: 977px;
 	height: 112px;
 	background-image: url(../images/team/team-animation.png);
+    -webkit-animation: titleOnceAnimation 1.7s steps(39, end) 0s 1;
     animation: titleOnceAnimation 1.7s steps(39, end) 0s 1;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+#slide-type-about{
+	width: 699px;
+	height: 386px;
+	background-image: url(../images/about/about-animation.png);
+    -webkit-animation: titleOnceAnimation 2s steps(48, end) 0s 1;
+    animation: titleOnceAnimation 2s steps(48, end) 0s 1;
+    -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
 #slide-type-valentines{
 	width: 855px;
 	height: 248px;
 	background-image: url(../images/valentines/valentines-animation.png);
+    -webkit-animation: titleOnceAnimation 2s steps(43, end) 0s 1;
     animation: titleOnceAnimation 2s steps(43, end) 0s 1;
+    -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
 #slide-type-elrey{
 	width: 892px;
 	height: 248px;
 	background-image: url(../images/elrey/elrey-animation.png);
+    -webkit-animation: titleOnceAnimation 2s steps(47, end) 0s 1;
     animation: titleOnceAnimation 2s steps(47, end) 0s 1;
+    -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
 #slide-type-arcade{
 	width: 689px;
 	height: 248px;
 	background-image: url(../images/aracde-animation.png);
+    -webkit-animation: titleOnceAnimation 2s steps(22, end) 0s 1;
     animation: titleOnceAnimation 2s steps(22, end) 0s 1;
+    -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
 #slide-type-calendario{
 	width: 700px;
 	height: 112px;
 	background-image: url(../images/calendario/calendario-animation.png);
+    -webkit-animation: titleOnceAnimation 2s steps(34, end) 0s 1;
     animation: titleOnceAnimation 2s steps(34, end) 0s 1;
+    -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
 #slide-type-montejo{
@@ -290,15 +348,35 @@ slide type animations
     height: 136px;
     margin-top: -30px;
 	background-image: url(../images/montejo/montejo-animation.png);
+    -webkit-animation: titleOnceAnimation 1.5s steps(25, end) 0s 1;
     animation: titleOnceAnimation 1.5s steps(25, end) 0s 1;
+    -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
 #slide-type-phocrastinate{
 	width: 1009px;
 	height: 248px;
 	background-image: url(../images/phocrastinate/phocrastinate-animation.png);
+    -webkit-animation: titleOnceAnimation 2s steps(47, end) 0s 1;
     animation: titleOnceAnimation 2s steps(47, end) 0s 1;
+    -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
+}
+
+
+
+
+@-webkit-keyframes titleOnceAnimation {
+	0% {
+		opacity: 1; 
+		background-position: 0% 0%;
+	}
+
+
+	100% {
+		opacity: 1; 
+		background-position: 100% 0%;
+	}
 }
 
 
@@ -314,6 +392,42 @@ slide type animations
 	100% {
 		opacity: 1; 
 		background-position: 100% 0%;
+	}
+}
+@-webkit-keyframes slideAnimation { 
+	0% {
+	    opacity: 1;
+	    width: 100%;
+	    z-index: 1;
+	}
+	16% {
+	    opacity: 1;
+	    width: 100%;
+	    z-index: 2;
+	}
+	33% {
+	    opacity: 1;
+	    width: 100%;
+	    z-index: 2;
+	}
+	37% {
+		opacity: 1;
+		width: 0%;
+		z-index: 2;
+	}
+	39% {
+		opacity: 0;
+		width: 0%;
+
+	}
+	44% {
+	    opacity: 0;
+	    width: 100%;
+	    z-index: 2;
+	}
+	100% { 
+		opacity: 0;
+		z-index: 1;
 	}
 }
 @keyframes slideAnimation { 
@@ -355,6 +469,28 @@ slide type animations
 
 
 
+@-webkit-keyframes titleAnimation { 
+	0% {
+		opacity: 0; 
+		background-position: 0%;
+	}
+	4% {
+		opacity: 0; 
+		background-position: 0%;
+	}
+	5% {
+		opacity: 1; 
+	
+	}
+	20% { background-position: 100%; }
+	100% {
+		opacity: 1; 
+		background-position: 100%;
+	}
+}
+
+
+
 @keyframes titleAnimation { 
 	0% {
 		opacity: 0; 
@@ -372,6 +508,25 @@ slide type animations
 	100% {
 		opacity: 1; 
 		background-position: 100%;
+	}
+}
+@-webkit-keyframes titleAnimationMobile { 
+	0% {
+		opacity: 0; 
+		background-position: -7750px
+	}
+	4% {
+		opacity: 0; 
+		background-position: -7750px
+	}
+	5% {
+		opacity: 1; 
+	
+	}
+	20% { background-position: 0px; }
+	100% {
+		opacity: 1; 
+		background-position: 0px;
 	}
 }
 @keyframes titleAnimationMobile { 
@@ -393,41 +548,95 @@ slide type animations
 		background-position: 0px;
 	}
 }
-@keyframes clientAnimation {
+@-webkit-keyframes clientAnimation {
 	0% {
 		opacity: 0; 
+		-webkit-transform: translate(100px, 0px); 
 		transform: translate(100px, 0px)
 	}
 	8% {
 		opacity: 0; 
+		-webkit-transform: translate(100px, 0px); 
 		transform: translate(100px, 0px)
 	}
 	18% {
 		opacity: 1; 
+		-webkit-transform: translate(0px, 0px); 
 		transform: translate(0px, 0px)
 	
 	}
 	100% {
 		opacity: 1; 
+		-webkit-transform: translate(0px, 0px); 
+		transform: translate(0px, 0px)
+	}
+}
+@keyframes clientAnimation {
+	0% {
+		opacity: 0; 
+		-webkit-transform: translate(100px, 0px); 
+		transform: translate(100px, 0px)
+	}
+	8% {
+		opacity: 0; 
+		-webkit-transform: translate(100px, 0px); 
+		transform: translate(100px, 0px)
+	}
+	18% {
+		opacity: 1; 
+		-webkit-transform: translate(0px, 0px); 
+		transform: translate(0px, 0px)
+	
+	}
+	100% {
+		opacity: 1; 
+		-webkit-transform: translate(0px, 0px); 
+		transform: translate(0px, 0px)
+	}
+}
+@-webkit-keyframes slide-buttonAnimation {
+	0% {
+		opacity: 0; 
+		-webkit-transform: translate(0px, 50px); 
+		transform: translate(0px, 50px)
+	}
+	18% {
+		opacity: 0; 
+		-webkit-transform: translate(0px, 50px); 
+		transform: translate(0px, 50px)
+	}
+	25% {
+		opacity: 1; 
+		-webkit-transform: translate(0px, 0px); 
+		transform: translate(0px, 0px)
+	
+	}
+	100% {
+		opacity: 1; 
+		-webkit-transform: translate(0px, 0px); 
 		transform: translate(0px, 0px)
 	}
 }
 @keyframes slide-buttonAnimation {
 	0% {
 		opacity: 0; 
+		-webkit-transform: translate(0px, 50px); 
 		transform: translate(0px, 50px)
 	}
 	18% {
 		opacity: 0; 
+		-webkit-transform: translate(0px, 50px); 
 		transform: translate(0px, 50px)
 	}
 	25% {
 		opacity: 1; 
+		-webkit-transform: translate(0px, 0px); 
 		transform: translate(0px, 0px)
 	
 	}
 	100% {
 		opacity: 1; 
+		-webkit-transform: translate(0px, 0px); 
 		transform: translate(0px, 0px)
 	}
 }
@@ -454,6 +663,8 @@ slide type animations
 
 
 .animate-once{
+	-webkit-animation-iteration-count: 1;
 	animation-iteration-count: 1;
+	-webkit-animation-fill-mode: both;
 	animation-fill-mode: both;
 }

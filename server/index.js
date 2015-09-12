@@ -5,6 +5,7 @@ var fs = require('fs');
 
 app.set('port', (process.env.PORT || 5000));
 
+app.use('css', express.static(path.join(__dirname , '../dist/css')));
 app.use(express.static(path.join(__dirname , '../')));
 
 // views is directory for all template files
