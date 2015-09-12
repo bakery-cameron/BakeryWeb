@@ -1,0 +1,11 @@
+#blog-main{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.blog-card{
+	display: flex;
+	flex-direction: column;
+	width: 33vw;
+	height: 33vw;
+}

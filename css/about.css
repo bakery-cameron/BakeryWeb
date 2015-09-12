@@ -1,0 +1,411 @@
+.title-padding{
+	color: #ff;
+	padding: 150px 0px 50px 0px;
+}
+#about-clients{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+}
+.about-client{
+	width: 25%;
+    padding-bottom: 25%;
+    position: relative;
+    border: #141414 1px solid;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 1080px){
+	.about-client{
+		width: 33%;
+	    padding-bottom: 33%;
+	}
+}
+@media screen and (max-width: 720px){
+	.about-client{
+		width: 50%;
+	    padding-bottom: 50%;
+	}
+}
+
+
+
+
+
+.about-client .hover{
+	opacity: 0;
+}
+.about-client:hover .hover{
+	opacity: 1;
+}
+
+@media screen and (max-device-width:720px){
+	.about-client{
+		border: none;
+	}
+}
+@media screen and (max-device-width:720px){
+	.about-client .hover{
+		opacity: 1;
+	}
+}
+
+
+
+.about-client-logo{
+	background-position: center;
+	background-repeat: no-repeat;
+}
+@media screen and (max-width: 720px){
+	.about-client-logo{
+		transform: scale(.7);
+	}  
+}
+
+
+
+
+
+#up-logo{
+	background-image: url("../images/about/client-up.png");
+}
+#up-hover-logo{
+	background-image: url("../images/about/client-up-hover.png");
+}
+#up-hover-bg{
+	background-image: url("../images/about/client-up-bg.png");
+}
+
+
+#budlight-logo{
+	background-image: url("../images/about/client-budlight.png");
+}
+#budlight-hover-logo{
+	background-image: url("../images/about/client-budlight-hover.png");
+}
+#budlight-hover-bg{
+	background-color: #0f4c8c;
+}
+#budlight-hover-bg:after{
+    display: block;
+    content: '';
+    width: 100%;
+    height: 50%;
+    background-image: url("../images/about/client-budlight-condensation.png");
+    background-position: center bottom;
+    background-size: cover;
+}
+
+
+#elrey-logo{
+	background-image: url("../images/about/client-elrey.png");
+}
+#elrey-hover-logo{
+	background-image: url("../images/about/client-elrey-hover.png");
+}
+#elrey-hover-bg{
+	background-image: url("../images/about/client-elrey-bg.png");
+}
+#elrey-hover-bg:after{
+	position: absolute;
+    display: block;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/about/client-elrey-embers-foreground.png");
+    background-position: center bottom;
+    background-size: cover;
+}
+
+#montejo-logo{
+	background-image: url("../images/about/client-montejo.png");
+}
+#montejo-hover-logo{
+	background-image: url("../images/about/client-montejo-hover.png");
+}
+#montejo-hover-bg{
+	background-image: url("../images/about/client-montejo-bg.png");
+}
+
+
+#waterapp-logo{
+	background-image: url("../images/about/client-waterapp.png");
+}
+#waterapp-hover-bg{
+	background-color: #fff;
+}
+#waterapp-hover-logo{
+	background-image: url("../images/about/client-waterapp-hover.png");
+}
+
+
+
+#kc-logo{
+	background-image: url("../images/about/client-kc.png");
+}
+#kc-hover-logo{
+	background-image: url("../images/about/client-kc-hover.png");
+}
+#kc-hover-bg{
+	background-color: #fff;
+}
+
+
+#goodwill-logo{
+	background-image: url("../images/about/client-goodwill.png");
+}
+#goodwill-hover-logo{
+	background-image: url("../images/about/client-goodwill-hover.png");
+}
+#goodwill-hover-bg{
+	background-color: #4777a8;
+}
+
+
+#slab-logo{
+	background-image: url("../images/about/client-slab.png");
+}
+#slab-hover-logo{
+	background-image: url("../images/about/client-slab-hover.png");
+}
+#slab-hover-bg{
+	background-image: url("../images/about/client-slab-bg.png");
+}
+
+
+
+.capabilities-container{
+	display: flex;
+	flex-wrap: wrap;
+}
+.capability-parent{
+	position: relative;
+    box-sizing: border-box;
+    width: 33%;
+    padding-bottom: 33vw;
+    overflow: hidden;
+    border: #141414 1px solid;
+}
+@media screen and (max-width: 1280px){
+	.capability-parent{
+	    width: 50%;
+	    padding-bottom: 50vw;
+	}
+}
+
+
+.capability-copy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 15%;
+    box-sizing: border-box;
+    transform: translate(0px,35%);
+	opacity: 1;
+}
+@media screen and (max-width: 1080px){
+	.capability-copy{
+	    transform: translate(0px,45%);
+	}
+}
+@media screen and (max-width: 600px){
+	.capability-copy{
+	    padding: 10%;
+	}
+}
+@media screen and (max-width: 400px){
+	.capability-copy{
+	    padding: 5%;
+	}
+}
+
+
+
+
+
+
+
+.capability-copy p{
+	opacity: 0;
+	font-size: 1em;
+}
+
+
+@media screen and (min-width: 720px){
+	.capability-parent:hover .capability-copy{
+		transform: translate(0px,0%);
+	}
+	.capability-parent:hover .capability-copy p{
+		opacity: 1;
+	}
+}
+
+
+
+.capability-icon{
+	background-position: center 40%;
+	background-repeat: no-repeat;
+	transform: translate(0px,0%);
+	opacity: 1;
+}
+@media screen and (max-width: 960px){
+	.capability-icon{
+		background-position: center 30%;
+		transform: scale(.7);
+	}
+}
+@media screen and (min-width: 720px){
+	.capability-parent:hover .capability-icon{
+		transform: translate(0px,-50%);
+		opacity: 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 720px){
+	.capability-parent{
+	    width: 100%;
+	    padding-bottom: 100vw;
+	}
+	.capability-copy{
+		transform: translate(0px,10%);
+	}
+	.capability-copy p {
+    	opacity: 1;
+    }
+    .capability-icon{
+    	transform: scale(.7) translate(0px, -20%);
+	}
+}
+@media screen and (max-width: 600px){
+    .capability-icon{
+    	transform: scale(.4) translate(0px, -50%);
+	}
+}
+@media screen and (max-width: 400px){
+    .capability-parent{
+    	padding-bottom: 150vw;
+    }
+    .capability-icon{
+    	translate(0px, -100%);
+	}
+}
+
+
+
+
+
+
+
+
+
+#capability-cultural-icon{
+	background-image: url("../images/about/icon-capabilities-01.png");
+}
+#capability-innovation-icon{
+	background-image: url("../images/about/icon-capabilities-02.png");
+}
+#capability-creative-icon{
+	background-image: url("../images/about/icon-capabilities-03.png");
+}
+#capability-experience-icon{
+	background-image: url("../images/about/icon-capabilities-04.png");
+}
+#capability-content-icon{
+	background-image: url("../images/about/icon-capabilities-05.png");
+}
+#capability-data-icon{
+	background-image: url("../images/about/icon-capabilities-06.png");
+}
+
+
+
+
+
+
+#platforms{
+	display: flex;
+	flex-wrap: wrap;
+}
+.platforms-parent{
+	position: relative;
+	width: 25%;
+	padding-bottom: 25vw;
+	text-align: center;
+	border: #141414 1px solid;
+	box-sizing: border-box;
+}
+@media screen and (max-width: 1700px){
+	.platforms-parent{
+		width: 33%;
+		padding-bottom: 33vw;
+	}
+}
+@media screen and (max-width: 1080px){
+	.platforms-parent{
+		width: 50%;
+		padding-bottom: 50vw;
+	}
+}
+@media screen and (max-width: 600px){
+	.platforms-parent{
+		width: 100%;
+		padding-bottom: 100vw;
+	}
+}
+
+
+
+.platforms-child{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.platforms-child h3{
+	margin-top: 20px;
+}
+.platforms-child h3:before{
+	display: block;
+}
+.platforms-child ul{
+	margin-top: 10px;
+}
+.platforms-child ul li{
+	margin-top: 10px;
+	color: #777;
+}
+
+
+
+
+#web-icon:before{
+	content: url("../images/icons/png/icon-platforms-01.png");
+}
+#portables-icon:before{
+	content: url("../images/icons/png/icon-platforms-02.png");
+}
+#platform-social-icon:before{
+	content: url("../images/icons/png/icon-platforms-03.png");
+}
+#video-icon:before{
+	content: url("../images/icons/png/icon-platforms-04.png");
+}
+#vr-icon:before{
+	content: url("../images/icons/png/icon-platforms-05.png");
+}
+#installations-icon:before{
+	content: url("../images/icons/png/icon-platforms-06.png");
+}
+#game-icon:before{
+	content: url("../images/icons/png/icon-platforms-07.png");
+}
+#retail-icon:before{
+	content: url("../images/icons/png/icon-platforms-08.png");
+}

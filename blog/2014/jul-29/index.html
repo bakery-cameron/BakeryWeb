@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    	<title>Why We Don't Use Bootstrap</title>
+    	<meta name="description" content="A couple of months ago, we were asked by a client which libraries and templates we use in order to make some of the elegant work...">
+    	<meta name="keywords" content="bakery blog article tech origami material design paper google">
+    	<meta name="author" content="Bakery">
+    	<meta property="og:image" content="http://cmillergraphicdesign.com/flex-test/images/blog/2014/jul-29-card-image.jpg" />
+
+
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="shortcut icon" href="../../../favicon.ico"> 
+		<link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/7e4b564d-0e4d-4f62-8fa8-90116a6aa7fd.css"/>
+		<link rel="stylesheet" type="text/css" href="../../../css/reset.css" />
+		<link rel="stylesheet" href="../../../css/utility.css">
+        <link rel="stylesheet" type="text/css" href="../../../css/style.css" />
+        <link rel="stylesheet" href="../../../css/libs/animate.css">
+        <link rel="stylesheet" href="../../../css/header.css">
+        <link rel="stylesheet" href="../../../css/careers.css">
+        <link rel="stylesheet" href="../../../css/blog.css">
+        <link rel="stylesheet" href="../../../css/icons.css">
+        <link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/7e4b564d-0e4d-4f62-8fa8-90116a6aa7fd.css"/>
+		<!--[if lt IE 9]>
+		<link rel="stylesheet" type="text/css" href="css/style_ie.css" />
+		<![endif]-->
+		<!-- jQuery -->
+		<!-- jmpress plugin -->
+		<script src="../../../js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="../../../js/modernizr.custom.48780.js"></script>
+
+
+		<script src="../../../js/wow.min.js"></script>
+		<script src="../../../js/close.js"></script>
+		<script src="../../../js/animation.js"></script>
+		<script type="text/javascript" src="../../../js/headroom.min.js"></script>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+
+    </head>
+    <body id="blog">
+
+
+
+
+    	<header id="header" class="header fixed closed">
+    		<img src="../../../images/bakery-logo.png"></img>
+    		<div>
+	    		<nav id="main-nav" class="closed">
+			    	<a href="/">home</a>
+			    	<a href="../../../about">about</a>
+			    	<a href="../../../work">work</a>
+			    	<a href="../../../careers">careers</a>
+			    	<a href="../../" class="active">blog</a>
+			    	<a href="../../../contact">contact</a>
+			    </nav>
+			    <button type="button" id="nav" class="tcon tcon-menu--xbutterfly open" aria-label="toggle menu">
+					<span class="tcon-menu__lines" aria-hidden="true"></span>
+					<span class="tcon-visuallyhidden">toggle menu</span>
+			    </button>
+			</div>
+		</header>
+
+
+		<section id="blog-header-2014-jul-29" class="static-header inner-shadow-bottom">
+			<div class="overlay bakery-purple-bg spacer-child fade-out"></div>
+			<div class="header-type center-hold scroll-fade">
+				<span class="tag wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0s">Jul 29, 2014 - Tech</span>
+				<h1 class="header-type wow fadeInUp"  data-wow-duration="1s" data-wow-delay=".2s">WHY WE DON'T USE BOOTSTRAP</h1>
+			</div>
+	    </section>
+
+
+
+<!--____________________________
+
+	blog post
+	____________________________-->
+
+
+		<section id="blog-main" class="grow-container block">
+			<p>A couple of months ago, we were asked by a client which libraries and templates we use in order to make some of the elegant work we’ve produced the past four years. At the time, our response was that the tools for each project were selected based on creative requirements, and often times this lead us to start from scratch. That last part raised some skepticism with the client and seemed counter intuitive given the popularity of styling frameworks like <a class="text-link-bakery-purple" href="http://getbootstrap.com/" target="_blank">Bootstrap</a> or <a class="text-link-bakery-purple" href="http://foundation.zurb.com/" target="_blank">Foundation</a>, and their foothold as industry standards for almost all web work.</p>
+
+			<p>What most people don’t take into account is the overhead involved in adapting a design to the layout required by these frameworks. All those extra divs used to adapt row spans to fluid containers, and duplicate elements that are toggled based on the viewing device, unfortunately pollute the <a class="text-link-bakery-purple" href="https://css-tricks.com/dom/" target="_blank">DOM</a>.</p>
+
+			<p>On a quick benchmark with the inquiring client, our agency’s website took 100ms to render, where as the client’s took well over a second before it was ready. The amount of time the page spent repainting and recalculating each HTML element in the DOM meant that, while our website had active animations and fluid changes, it kept a firm ~60 frames per second draw speed while on the same computer the client’s website. Their arguably simpler website was struggling to render a mere 30 times per second.</p>
+
+			<div class="blog-image-container">
+				<img class="wow fadeInUp" src="../../../images/blog/2014/jul-29-inline-01.png" data-wow-duration="1s" data-wow-delay=".1s"></img>
+			</div>
+			<p class="center-hold wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">Under 60 frames per second</p>
+
+			<p>The reason we don’t use bootstrap are three fold:</p>
+			<ul class="bulleted-list bullets-list-bakery-orange">
+				<li>To meet our agency’s design standards, it takes our engineers roughly the same amount of time to strip the unneeded parts within Bootstrap and alter existing components in their pre-existing framework than it would take to implement the design on a <a class="text-link-bakery-purple" href="https://css-tricks.com/dom/" target="_blank">greenfield</a>.</li>
+				<li>Even after you’ve taken the time to strip and readjust the framework, you’re still left with excess CSS and HTML elements that would have otherwise been unnecessary. This leads to both slower download times and more expensive rendering: making the site feel sluggish choppy or unresponsive, wasting mobile phone batteries and, more importantly, eating up users’ data plan usage.</li>
+				<li>You lose the opportunity to semantically capture the visual components of the project and are stuck with a mish-mash of finer grained CSS styling, dispensing with any insight for future developers who might need to update things later down the road.</li>
+			<ul>
+
+			<div class="blog-image-container">
+				<img class="wow fadeInUp" src="../../../images/blog/2014/jul-29-inline-02.png" data-wow-duration="1s" data-wow-delay=".1s"></img>
+			</div>
+			<p class="center-hold wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">Just recalculating styles</p>
+
+			<p>You’re now probably asking yourself why are those frameworks so popular if things are as I’ve explained them. The answer is simple: most developers aren’t even aware of the drawbacks in performance or maintainability. Moreover, most developers don’t have a firm enough grasp of browser layout and rendering to do a better job than Bootstrap allows them to, nor are they able to properly identify the key visual components and abstraction layers that will pay dividends as their website grows in scope and audience.</p>
+
+			<p>At Bakery we hold ourselves to the highest possible standards, and that includes the same render times and browser latency you expect from Bootstrap, and other frameworks, come about as developers follow through with processes <a class="text-link-bakery-purple" href="https://css-tricks.com/dom/" target="_blank">this one</a>, defined by Adam Kaplan. In the case of Adam’s system, you can see that it is extremely well laid out, well written and effective, but even then, the reality is that, as you start understanding your tools, you won’t want to conform yourself to an arbitrary subset of those same tools without good reason. If it were true that all one needed to use was .row and .spanX, then layouts, and the CSS box model, would consist solely of those elements.</p>
+
+			<p>Our website has a simple component in the front page - our <strong>What We Do</strong> box - which has very elaborate interactions at different viewport sizes. Emulating this layout with just the rows and columns of Bootstrap would take about double the number of HTML elements with obtuse, unstructured semantics that just lead to slower download and layout recalculation times.</p>
+
+			<p>The goal for this write-up isn’t to say Bootstrap or Foundation are without merit, on the contrary I believe their usefulness is continously proven. I just find them sometimes abused, to the point where they quickly become a hindrance for the unique web projects they are being forced into. Hopefully, my argument is enough to get you to research this further on your own and help us build a faster, leaner web.</p>
+
+			<div id="credit">
+				<h3>Rodolfo Hansen</h3>
+				<span>Chief Technology Officer</span>
+			</div>
+		</section>
+		<section class="blog-related">
+			<div class="center-hold">
+				<h2>Related Posts</h2>
+			</div>
+			<div class="blog-card-small-parent">
+				<div class="blog-card-small blog-tech spacer-child">
+					<span class="tag">Feb 17, 2014 - Tech</span>
+					<h3>IWANT TO BELIEVE</h3>
+					<a href="../feb-17" class="button wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+						<h4>Read More</h4>
+					</a>
+				</div>
+			</div>
+			<div class="blog-card-small-parent">
+				<div class="blog-card-small blog-tech spacer-child">
+					<span class="tag">Oct 5, 2013 - Tech</span>
+					<h3>STYLES ARE CROSS-CUTTING</h3>
+					<a href="../../2013/oct-05" class="button wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+						<h4>Read More</h4>
+					</a>
+				</div>
+			</div>
+			<div class="blog-card-small-parent">
+				<div class="blog-card-small blog-tech spacer-child">
+					<span class="tag">May 1, 2015 - Tech</span>
+					<h3>Google's "Mobilegeddon" and you</h3>
+					<a href="../../2015/may-01" class="button wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+						<h4>Read More</h4>
+					</a>
+				</div>
+			</div>
+			<div class="blog-card-small-parent">
+				<div class="blog-card-small placeholder spacer-child">
+				</div>
+			</div>
+		</section>
+
+
+
+
+
+<!--____________________________
+
+	footer
+
+	____________________________-->
+
+		<section id="footer">
+			<div id="footer-cta">
+				<div>Let's craft something together</div>
+				<div>
+					<a id="" class="button" href="../../contact/"><h4>Get in Touch</h4></a>
+				</div>
+			</div>
+
+			<div id="social-icons">
+				<a id="icon-facebook" class="icon" href="https://www.facebook.com/bakeryagency"></a>
+				<a id="icon-twitter" class="icon" href="https://twitter.com/bakeryagency"></a>
+				<a id="icon-youtube" class="icon" href="https://www.youtube.com/channel/UCGB_M4gNXpg1Hl0HhXXbMuQ"></a>
+				<a id="icon-instagram" class="icon" href="https://instagram.com/bakeryagency"></a>
+				<a id="icon-dribbble" class="icon" href="https://dribbble.com/BakeryAgency"></a>
+			</div>
+		</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+    </body>
+</html>

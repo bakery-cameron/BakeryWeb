@@ -1,0 +1,166 @@
+.career-post{
+	background-color: #fff;
+}
+.static-header{
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	width: 100vw;
+	height: 33vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+@media screen and (max-width: 1280px) {	
+	.static-header{
+		height: 50vw;
+	}
+}
+@media screen and (max-width: 720px) {	
+	.static-header{
+		height: 100vw;
+	}
+}
+
+
+
+
+#slide-careers{
+	background-image: url("../images/careers/careers-bg.jpg");
+}
+#careers-image{
+	background-image: url("../images/careers/careers-01.jpg");
+}
+
+
+
+
+
+
+#careers-main{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	overflow: hidden;
+}
+.careers-block{
+    width: 33.33%;
+    height: 33vw;
+  	border: #141414 1px solid;
+  	box-sizing: border-box;
+}
+@media screen and (max-width: 1080px){
+	.careers-block{
+	    width: 50%;
+	    height: 50vw;
+	}
+}
+@media screen and (max-width: 720px){
+	.careers-block{
+	    width: 100%;
+	    height: auto;
+	}
+	.careers-block .spacer-child{
+		position: relative;
+	}
+}
+.careers-block .spacer-child{
+	padding: 20%;
+	text-align: center;
+	box-sizing: border-box;
+}
+.careers-block .spacer-child h3{
+	color: #fff;
+
+}
+.careers-openings{
+	padding-top: 15px;
+}
+.careers-openings a{
+	display: block;
+	margin-bottom: 15px;
+	font-size: 1.3em;
+}
+.careers-openings a:hover{
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+.careers-operations{
+	background-image: url("../images/careers/careers-operations-bg.jpg");
+}
+.careers-strategy{
+	background-image: url("../images/careers/careers-strategy-bg.jpg");
+}
+.careers-production{
+	background-image: url("../images/careers/careers-production-bg.jpg");
+}
+.careers-services{
+	background-image: url("../images/careers/careers-services-bg.jpg");
+}
+.careers-creative{
+	background-image: url("../images/careers/careers-creative-bg.jpg");
+}
+.careers-technology{
+	background-image: url("../images/careers/careers-technology-bg.jpg");
+}
+.header-type{
+	display: flex;
+    flex-direction: column;
+}
+.header-type *{
+    color: #fff;
+}
+
+
+h1.header-type{
+	font-size: 8em;
+}
+@media screen and (max-width: 1400px) {	
+	h1.header-type{
+		font-size: 7em;
+	}
+}
+@media screen and (max-width: 960px) {	
+	h1.header-type{
+		font-size: 5em;
+	}
+}
+@media screen and (max-width: 600px) {	
+	h1.header-type{
+		font-size: 4em;
+	}
+}
+@media screen and (max-width: 480px) {	
+	h1.header-type{
+		font-size: 3.5em;
+	}
+}
+
+.header-type h2{
+	font-family:"Trade Gothic W01 Roman";
+	font-weight: 500;
+	font-size: 2em;
+	line-height: 100%;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+@media screen and (max-width: 900px) {	
+	.header-type h2{
+		font-size: 1.5em;
+	}
+}
+@media screen and (max-width: 600px) {	
+	.header-type h2{
+		font-size: 1em;
+	}
+}

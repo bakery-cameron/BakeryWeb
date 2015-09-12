@@ -1,0 +1,156 @@
+#slide-team{
+  background-image: url(../images/team/team-bg.jpg);
+}
+
+#team-images{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #131313;
+}
+.team-image{
+  position: relative;
+  width: 20%;
+  height: 20vw;
+  background-position: center;
+  background-size: cover;
+}
+@media screen and (max-width: 2200px){
+  .team-image{
+    width: 25%;
+    height: 25vw;
+  }
+}
+@media screen and (max-width: 1400px){
+  .team-image{
+    width: 33%;
+    height: 33vw;
+  }
+}
+@media screen and (max-width: 1080px){
+  .team-image{
+    width: 50%;
+    height: 50vw;
+  }
+}
+@media screen and (max-width: 600px){
+  .team-image{
+    width: 100%;
+    height: 100vw;
+  }
+}
+
+
+.team-image-info{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  color: white;
+  padding: 0px 0px 75px 5%;
+}
+.team-image-info h3, .team-image-info h4{
+  margin: 0px;
+  color: white;
+  text-shadow: 2px 2px 7px rgba(0,0,0,1);
+}
+
+#team-image-micky{
+  background-image: url(../images/team/micky-image.jpg);
+}
+#team-image-juan{
+  background-image: url(../images/team/juan-image.jpg);
+}
+#team-image-elena{
+  background-image: url(../images/team/elena-image.jpg);
+}
+#team-image-cameron{
+  background-image: url(../images/team/cameron-image.jpg);
+}
+#team-image-jose{
+  background-image: url(../images/team/jose-image.jpg);
+}
+#team-image-charlie{
+  background-image: url(../images/team/charlie-image.jpg);
+}
+#team-image-miranda{
+  background-image: url(../images/team/miranda-image.jpg);
+}
+#team-image-seain{
+  background-image: url(../images/team/seain-image.jpg);
+}
+#team-image-alejandro{
+  background-image: url(../images/team/alejandro-image.jpg);
+}
+#team-image-lloyd{
+  background-image: url(../images/team/lloyd-image.jpg);
+}
+#team-image-lumen{
+  background-image: url(../images/team/lumen-image.jpg);
+}
+#team-image-erika{
+  background-image: url(../images/team/erika-image.jpg);
+}
+#team-image-luna{
+  background-image: url(../images/team/luna-image.jpg);
+}
+
+
+#team-photo-grid{
+  display: flex;
+  width: 100%;
+}
+.team-photo-grid-half{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+#team-01, #team-02, #team-03, #team-04, #team-05, #team-06{
+  background-size: cover;
+  background-position: center;
+}
+#team-01, #team-06{
+  width: 100%;
+  height: 50vw;
+}
+#team-02, #team-03, #team-04, #team-05{
+  width: 50%;
+  height: 25vw;
+}
+@media screen and (max-width: 960px){
+  #team-photo-grid{
+    flex-direction: column;
+  }
+  .team-photo-grid-half{
+    width: 100%;
+  }
+  #team-photo-grid-half-02{
+    flex-direction: column-reverse;
+  }
+  #team-01, #team-06{
+    height: 100vw;
+  }
+  #team-02, #team-03, #team-04, #team-05{
+    height: 50vw;
+  }
+}
+
+
+
+
+#team-01{
+  background-image: url("../images/team/team-01.jpg");
+}
+#team-02{
+  background-image: url("../images/team/team-02.jpg");
+}
+#team-03{
+  background-image: url("../images/team/team-03.jpg");
+}
+#team-04{
+  background-image: url("../images/team/team-04.jpg");
+}
+#team-05{
+  background-image: url("../images/team/team-05.jpg");
+}
+#team-06{
+  background-image: url("../images/team/team-06.jpg");
+}

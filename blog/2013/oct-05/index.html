@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    	<title>Styles are Cross-Cutting</title>
+    	<meta name="description" content="As programmers, the hierarchy we choose for our code is one that somehow models our thinking about the application we are...">
+    	<meta name="keywords" content="bakery blog article tech Apple iWatch">
+    	<meta name="author" content="Bakery">
+    	<meta property="og:image" content="http://cmillergraphicdesign.com/flex-test/images/blog/2013/oct-05-card-image.jpg" />
+
+
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="shortcut icon" href="../../../favicon.ico"> 
+		<link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/7e4b564d-0e4d-4f62-8fa8-90116a6aa7fd.css"/>
+		<link rel="stylesheet" type="text/css" href="../../../css/reset.css" />
+		<link rel="stylesheet" href="../../../css/utility.css">
+        <link rel="stylesheet" type="text/css" href="../../../css/style.css" />
+        <link rel="stylesheet" href="../../../css/libs/animate.css">
+        <link rel="stylesheet" href="../../../css/header.css">
+        <link rel="stylesheet" href="../../../css/careers.css">
+        <link rel="stylesheet" href="../../../css/blog.css">
+        <link rel="stylesheet" href="../../../css/icons.css">
+        <link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/7e4b564d-0e4d-4f62-8fa8-90116a6aa7fd.css"/>
+		<!--[if lt IE 9]>
+		<link rel="stylesheet" type="text/css" href="css/style_ie.css" />
+		<![endif]-->
+		<!-- jQuery -->
+		<!-- jmpress plugin -->
+		<script src="../../../js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="../../../js/modernizr.custom.48780.js"></script>
+
+
+		<script src="../../../js/wow.min.js"></script>
+		<script src="../../../js/close.js"></script>
+		<script src="../../../js/animation.js"></script>
+		<script type="text/javascript" src="../../../js/headroom.min.js"></script>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+
+    </head>
+    <body id="blog">
+
+
+
+
+    	<header id="header" class="header fixed closed">
+    		<img src="../../../images/bakery-logo.png"></img>
+    		<div>
+	    		<nav id="main-nav" class="closed">
+			    	<a href="/">home</a>
+			    	<a href="../../../about">about</a>
+			    	<a href="../../../work">work</a>
+			    	<a href="../../../careers">careers</a>
+			    	<a href="../../" class="active">blog</a>
+			    	<a href="../../../contact">contact</a>
+			    </nav>
+			    <button type="button" id="nav" class="tcon tcon-menu--xbutterfly open" aria-label="toggle menu">
+					<span class="tcon-menu__lines" aria-hidden="true"></span>
+					<span class="tcon-visuallyhidden">toggle menu</span>
+			    </button>
+			</div>
+		</header>
+
+
+		<section id="blog-header-2013-oct-05" class="static-header inner-shadow-bottom">
+			<div class="overlay bakery-purple-bg spacer-child fade-out"></div>
+			<div class="header-type center-hold scroll-fade">
+				<span class="tag wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0s">Oct 5, 2013 - Tech</span>
+				<h1 class="header-type wow fadeInUp"  data-wow-duration="1s" data-wow-delay=".2s">STYLES ARE CROSS-CUTTING</h1>
+			</div>
+	    </section>
+
+
+
+<!--____________________________
+
+	blog post
+	____________________________-->
+
+
+		<section id="blog-main" class="grow-container block">
+			<p>As programmers, the hierarchy we choose for our code is one that somehow models our thinking about the application we are writing. We think about how the parts interact with each other, and define clear boundaries which contour the elements of our domain model. Whether its <a class="text-link-bakery-purple" href="http://rubyonrails.org/">Rails</a>, <a class="text-link-bakery-purple" href="https://angularjs.org/">AngularJS</a> or <a class="text-link-bakery-purple" href="http://www.oracle.com/technetwork/java/javaee/javaserverfaces-139869.html">JSF</a>, this distilled structure empowers us towards insight into how our applications behave.</p>
+
+			<p>Now, can we say the same structure will also apply to our styling? Should we use CSS classes that carry meaning from our problem domain? Or does style live independently of the application's problem domain? I would argue that styling is a cross cutting concern just like logging or security. That the core functions of a system are independent of how they are presented as well as how the user chooses to interact with them. Succinctly: why would you want to repeat a style for two things that should look the same.</p>
+
+			<div class="blog-image-container">
+				<img class="wow fadeInUp" src="../../../images/blog/2013/oct-05-inline-01.png" data-wow-duration="1s" data-wow-delay=".1s"></img>
+			</div>
+
+			<p>It sounds quite simple. <strong>“Styling is a cross-cutting concern.”</strong> But the statement provides powerful insight: We all start off right; we style the header and the footer, maybe we have a style for the top nav, but <i>80%</i> of us stop there. Typically, we then think about the product carousel, or the shopping cart, or the discussion thread. We ask ourselves: <i>what is the styling for those components?</i> That is when we start going down the wrong path: we break the rule of isolation by <i>carrying over notions from one axis onto another.</i></p>
+
+			<p>
+				<code>
+					&lt;?php<br>
+					$ddf=fopen('error.log','a');<br>
+					fwrite($ddf,"[".date("r")."] Error $errcode:$errmsg");<br>
+					fclose($ddf);<br>
+					?&gt;
+				</code>
+				<br>
+				<br>
+				<i>vs</i>
+				<br>
+				<br>
+				<code>
+					logger.debug("The new entry is {}.", entry);
+				</code>
+			</p>
+
+			<p>When we ask ourselves how the logging for the discussion thread as opposed to the logging for the shopping cart, or even how security will be implemented for those components. Our training as good programmers allows us to identify opportunities for isolation.</p>
+
+			<p>Explicitly writing code to open a file, print debug information to it and close it again every time we wish to log a statement, or writing down several instructions which end up querying the database for authentication at every required point is redundant and error prone. It is what we consider to be accidental complexity. Thankfully, many techniques exist to decouple separate features / concerns while coding, but do they also exist for styling.</p>
+
+			<p>Yes! They do!</p>
+
+			<p>The reason behind the success and re-usability of projects like Bootstrap, YUI, and jQuery UI is that they approach the situation precisely from a 'separation of concerns' standpoint. They have come up with styling rules and components which correctly identify patterns of repeating visual elements; things like modals, icon buttons, wells, date-pickers, tooltips, popovers. These are terms coined or borrowed by these frameworks to represent unique building blocks that should be tied together to form your own visual artifacts / library.</p>
+
+			<p>The CSS specification itself is precisely about de-coupling form from function. It is arguably our most successful attempt at such a separation. It all boils down to the granularity we choose in our models. For example, I believe the basic grid systems allow you to shoot yourself in the foot too soon; they do not offer the correct level of abstraction and you are left with too narrow a library of UI elements, forcing you to restate key visual components, like labels, badges, alerts or 'Jumbotron's, which is a much better vocabulary for presenting a page, than just <i>grid_2</i> or <i>container_12</i>. Define your own visual elements, and do it independently of your problem domain!</p>
+
+			<p>For your next project, I challenge you to think about the visual elements of your application or website. Not your subject matter, but your visual notions. Don't use names like <i>'user preference box'</i> but rather <i>'embedded preferences'</i>. Think of your <i>'sign in sequence'</i> as a <i>'wizard template'</i>. In short, stop to think about Visual differences as opposed to Domain differences. I'm sure you will find yourself re-using more styles, with shorter CSS files and a more coherent experience throughout your project.</p>
+
+			<div id="credit">
+				<h3>Rodolfo Hansen</h3>
+				<span>Chief Technology Officer</span>
+			</div>
+		</section>
+		<section class="blog-related">
+			<div class="center-hold">
+				<h2>Related Posts</h2>
+			</div>
+			<div class="blog-card-small-parent">
+				<div class="blog-card-small blog-tech spacer-child">
+					<span class="tag">May 1, 2015 - Tech</span>
+					<h3>Google's "Mobilegeddon" and you</h3>
+					<a href="../../2015/may-01" class="button wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+						<h4>Read More</h4>
+					</a>
+				</div>
+			</div>
+			<div class="blog-card-small-parent">
+				<div class="blog-card-small blog-tech spacer-child">
+					<span class="tag">Jul 29, 2014 - Tech</span>
+					<h3>WHY WE DON'T USE BOOTSTRAP</h3>
+					<a href="../../2014/jul-29" class="button wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+						<h4>Read More</h4>
+					</a>
+				</div>
+			</div>
+			<div class="blog-card-small-parent">
+				<div class="blog-card-small blog-tech spacer-child">
+					<span class="tag">Feb 17, 2014 - Tech</span>
+					<h3>IWANT TO BELIEVE</h3>
+					<a href="../../2014/feb-17" class="button wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+						<h4>Read More</h4>
+					</a>
+				</div>
+			</div>
+			<div class="blog-card-small-parent">
+				<div class="blog-card-small placeholder spacer-child">
+				</div>
+			</div>
+		</section>
+
+
+
+
+
+<!--____________________________
+
+	footer
+
+	____________________________-->
+
+		<section id="footer">
+			<div id="footer-cta">
+				<div>Let's craft something together</div>
+				<div>
+					<a id="" class="button" href="../../contact/"><h4>Get in Touch</h4></a>
+				</div>
+			</div>
+
+			<div id="social-icons">
+				<a id="icon-facebook" class="icon" href="https://www.facebook.com/bakeryagency"></a>
+				<a id="icon-twitter" class="icon" href="https://twitter.com/bakeryagency"></a>
+				<a id="icon-youtube" class="icon" href="https://www.youtube.com/channel/UCGB_M4gNXpg1Hl0HhXXbMuQ"></a>
+				<a id="icon-instagram" class="icon" href="https://instagram.com/bakeryagency"></a>
+				<a id="icon-dribbble" class="icon" href="https://dribbble.com/BakeryAgency"></a>
+			</div>
+		</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+    </body>
+</html>
