@@ -283,6 +283,38 @@ type animations
     -ms-animation: titleAnimation 9s steps(34, end) 0s infinite;
     animation: titleAnimation 9s steps(34, end) 0s infinite;
 }
+@media screen and (max-width: 1000px) { 
+	#slide-type-calendario {
+    width: 475px;
+    height: 76px;
+	}
+}
+@media screen and (max-width: 600px) { 
+	#slide-type-calendario {
+    width: 300px;
+    height: 48px;
+	}
+}
+@media screen and (max-width: 330px) { 
+	#slide-type-calendario {
+    width: 244px;
+    height: 39.04px;
+	}
+}
+@media screen and (max-device-width: 600px) { 
+	#slide-type-calendario {
+    width: 300px;
+    height: 48px;
+    background-image: url(../images/calendario/calendario-animation-mobile.png);
+	}
+}
+@media screen and (max-device-width: 330px) { 
+	#slide-type-calendario {
+    width: 244px;
+    height: 39.04px;
+    background-image: url(../images/calendario/calendario-animation-mobile.png);
+	}
+}
 
 #home-slide-type-elrey{
 	width: 892px;
@@ -297,6 +329,51 @@ type animations
     -ms-animation-delay: 6s;
     animation-delay: 6s;
 }
+@media screen and (max-width: 1000px) { 
+	#slide-type-elrey {
+    width: 467px;
+    height: 129.839px;
+	}
+}
+@media screen and (max-width: 600px) { 
+	#slide-type-elrey {
+    width: 298px;
+    height: 82.852px;
+	}
+}
+@media screen and (max-width: 376px) { 
+	#slide-type-elrey {
+    width: 302px;
+    height: 83.964px;
+	}
+}
+@media screen and (max-width: 330px) { 
+	#slide-type-elrey {
+    width: 241px;
+    height: 67.004px;
+	}
+}
+@media screen and (max-device-width: 600px) { 
+	#slide-type-elrey {
+    width: 298px;
+    height: 82.852px;
+    background-image: url(../images/elrey/elrey-animation-mobile.png);
+	}
+}
+@media screen and (max-device-width: 376px) { 
+	#slide-type-elrey {
+    width: 302px;
+    height: 83.964px;
+    background-image: url(../images/elrey/elrey-animation-mobile.png);
+	}
+}
+@media screen and (max-device-width: 330px) { 
+	#slide-type-elrey {
+    width: 241px;
+    height: 67.004px;
+    background-image: url(../images/elrey/elrey-animation-mobile.png);
+	}
+}
 
 #home-slide-type-valentines{
 	width: 855px;
@@ -310,6 +387,51 @@ type animations
     -moz-animation-delay: 12s;
     -ms-animation-delay: 12s;
     animation-delay: 12s;
+}
+@media screen and (max-width: 1000px) { 
+	#slide-type-valentines {
+    width: 470px;
+    height: 136.327px;
+	}
+}
+@media screen and (max-width: 600px) { 
+	#slide-type-valentines {
+    width: 300px;
+    height: 87.018px;
+	}
+}
+@media screen and (max-width: 376px) { 
+	#slide-type-valentines {
+    width: 303px;
+    height: 87.888px;
+	}
+}
+@media screen and (max-width: 330px) { 
+	#slide-type-valentines {
+    width: 244px;
+    height: 70.774px;
+	}
+}
+@media screen and (max-device-width: 600px) { 
+	#slide-type-valentines {
+    width: 300px;
+    height: 87.018px;
+    background-image: url(../images/valentines/valentines-animation-mobile.png);
+	}
+}
+@media screen and (max-device-width: 376px) { 
+	#slide-type-valentines {
+    width: 303px;
+    height: 87.888px;
+    background-image: url(../images/valentines/valentines-animation-mobile.png);
+	}
+}
+@media screen and (max-device-width: 330px) { 
+	#slide-type-valentines {
+    width: 244px;
+    height: 70.774px;
+    background-image: url(../images/valentines/valentines-animation-mobile.png);
+	}
 }
 
 
@@ -573,6 +695,51 @@ type animations
     -ms-animation-fill-mode: both;
     animation-fill-mode: both;
 }
+@media screen and (max-width: 1000px) { 
+	#slide-type-valentines {
+    width: 470px;
+    height: 136.327px;
+	}
+}
+@media screen and (max-width: 600px) { 
+	#slide-type-valentines {
+    width: 300px;
+    height: 87.018px;
+	}
+}
+@media screen and (max-width: 376px) { 
+	#slide-type-valentines {
+    width: 303px;
+    height: 87.888px;
+	}
+}
+@media screen and (max-width: 330px) { 
+	#slide-type-valentines {
+    width: 244px;
+    height: 70.774px;
+	}
+}
+@media screen and (max-device-width: 600px) { 
+	#slide-type-valentines {
+    width: 300px;
+    height: 87.018px;
+    background-image: url(../images/valentines/valentines-animation-mobile.png);
+	}
+}
+@media screen and (max-device-width: 376px) { 
+	#slide-type-valentines {
+    width: 303px;
+    height: 87.888px;
+    background-image: url(../images/valentines/valentines-animation-mobile.png);
+	}
+}
+@media screen and (max-device-width: 330px) { 
+	#slide-type-valentines {
+    width: 244px;
+    height: 70.774px;
+    background-image: url(../images/valentines/valentines-animation-mobile.png);
+	}
+}
 
 #slide-type-elrey{
 	width: 892px;
@@ -587,11 +754,56 @@ type animations
     -ms-animation-fill-mode: both;
     animation-fill-mode: both;
 }
+@media screen and (max-width: 1000px) { 
+	#slide-type-elrey {
+    width: 467px;
+    height: 129.839px;
+	}
+}
+@media screen and (max-width: 600px) { 
+	#slide-type-elrey {
+    width: 298px;
+    height: 82.852px;
+	}
+}
+@media screen and (max-width: 376px) { 
+	#slide-type-elrey {
+    width: 302px;
+    height: 83.964px;
+	}
+}
+@media screen and (max-width: 330px) { 
+	#slide-type-elrey {
+    width: 241px;
+    height: 67.004px;
+	}
+}
+@media screen and (max-device-width: 600px) { 
+	#slide-type-elrey {
+    width: 298px;
+    height: 82.852px;
+    background-image: url(../images/elrey/elrey-animation-mobile.png);
+	}
+}
+@media screen and (max-device-width: 376px) { 
+	#slide-type-elrey {
+    width: 302px;
+    height: 83.964px;
+    background-image: url(../images/elrey/elrey-animation-mobile.png);
+	}
+}
+@media screen and (max-device-width: 330px) { 
+	#slide-type-elrey {
+    width: 241px;
+    height: 67.004px;
+    background-image: url(../images/elrey/elrey-animation-mobile.png);
+	}
+}
 
 #slide-type-arcade{
 	width: 689px;
 	height: 248px;
-	background-image: url(../images/aracde-animation.png);
+	background-image: url(../images/arcade/aracde-animation.png);
     -webkit-animation: titleOnceAnimation 2s steps(22, end) 0s 1;
     -moz-animation: titleOnceAnimation 2s steps(22, end) 0s 1;
     -ms-animation: titleOnceAnimation 2s steps(22, end) 0s 1;
@@ -600,6 +812,51 @@ type animations
     -moz-animation-fill-mode: both;
     -ms-animation-fill-mode: both;
     animation-fill-mode: both;
+}
+@media screen and (max-width: 1000px) { 
+	#slide-type-arcade {
+    width: 472px;
+    height: 169.893px;
+	}
+}
+@media screen and (max-width: 600px) { 
+	#slide-type-arcade {
+    width: 297px;
+    height: 106.903px;
+	}
+}
+@media screen and (max-width: 376px) { 
+	#slide-type-arcade {
+    width: 305px;
+    height: 109.782px;
+	}
+}
+@media screen and (max-width: 330px) { 
+	#slide-type-arcade {
+    width: 241px;
+    height: 86.746px;
+	}
+}
+@media screen and (max-device-width: 600px) { 
+	#slide-type-arcade {
+    width: 297px;
+    height: 106.903px;
+    background-image: url(../images/arcade/aracde-animation-mobile.png);
+	}
+}
+@media screen and (max-device-width: 376px) { 
+	#slide-type-arcade {
+    width: 305px;
+    height: 109.782px;
+    background-image: url(../images/arcade/aracde-animation-mobile.png);
+	}
+}
+@media screen and (max-device-width: 330px) { 
+	#slide-type-arcade {
+    width: 241px;
+    height: 86.746px;
+    background-image: url(../images/arcade/aracde-animation-mobile.png);
+	}
 }
 
 #slide-type-calendario{
@@ -614,6 +871,38 @@ type animations
     -moz-animation-fill-mode: both;
     -ms-animation-fill-mode: both;
     animation-fill-mode: both;
+}
+@media screen and (max-width: 1000px) { 
+	#slide-type-calendario {
+    width: 475px;
+    height: 76px;
+	}
+}
+@media screen and (max-width: 600px) { 
+	#slide-type-calendario {
+    width: 300px;
+    height: 48px;
+	}
+}
+@media screen and (max-width: 330px) { 
+	#slide-type-calendario {
+    width: 244px;
+    height: 39.04px;
+	}
+}
+@media screen and (max-device-width: 600px) { 
+	#slide-type-calendario {
+    width: 300px;
+    height: 48px;
+    background-image: url(../images/calendario/calendario-animation-mobile.png);
+	}
+}
+@media screen and (max-device-width: 330px) { 
+	#slide-type-calendario {
+    width: 244px;
+    height: 39.04px;
+    background-image: url(../images/calendario/calendario-animation-mobile.png);
+	}
 }
 
 #slide-type-montejo{
@@ -630,6 +919,51 @@ type animations
     -ms-animation-fill-mode: both;
     animation-fill-mode: both;
 }
+@media screen and (max-width: 1000px) { 
+	#slide-type-montejo {
+    width: 472px;
+    height: 107.705px;
+	}
+}
+@media screen and (max-width: 600px) { 
+	#slide-type-montejo {
+    width: 301px;
+    height: 68.685px;
+	}
+}
+@media screen and (max-width: 376px) { 
+	#slide-type-montejo {
+    width: 306px;
+    height: 69.826px;
+	}
+}
+@media screen and (max-width: 330px) { 
+	#slide-type-montejo {
+    width: 240px;
+    height: 54.765px;
+	}
+}
+@media screen and (max-device-width: 600px) { 
+	#slide-type-montejo {
+    width: 301px;
+    height: 68.685px;
+    background-image: url(../images/montejo/montejo-animation-mobile.png);
+	}
+}
+@media screen and (max-device-width: 376px) { 
+	#slide-type-montejo {
+    width: 306px;
+    height: 69.826px;
+    background-image: url(../images/montejo/montejo-animation-mobile.png);
+	}
+}
+@media screen and (max-device-width: 330px) { 
+	#slide-type-montejo {
+    width: 240px;
+    height: 54.765px;
+    background-image: url(../images/montejo/montejo-animation-mobile.png);
+	}
+}
 
 #slide-type-phocrastinate{
 	width: 1009px;
@@ -643,6 +977,51 @@ type animations
     -moz-animation-fill-mode: both;
     -ms-animation-fill-mode: both;
     animation-fill-mode: both;
+}
+@media screen and (max-width: 1000px) { 
+	#slide-type-phocrastinate {
+    width: 472px;
+    height: 116.012px;
+	}
+}
+@media screen and (max-width: 600px) { 
+	#slide-type-phocrastinate {
+    width: 297px;
+    height: 72.999px;
+	}
+}
+@media screen and (max-width: 376px) { 
+	#slide-type-phocrastinate {
+    width: 301px;
+    height: 73.982px;
+	}
+}
+@media screen and (max-width: 330px) { 
+	#slide-type-phocrastinate {
+    width: 240px;
+    height: 58.989px;
+	}
+}
+@media screen and (max-device-width: 600px) { 
+	#slide-type-phocrastinate {
+    width: 297px;
+    height: 72.999px;
+    background-image: url(../images/phocrastinate/phocrastinate-animation-mobile.png);
+	}
+}
+@media screen and (max-device-width: 376px) { 
+	#slide-type-phocrastinate {
+    width: 301px;
+    height: 73.982px;
+    background-image: url(../images/phocrastinate/phocrastinate-animation-mobile.png);
+	}
+}
+@media screen and (max-device-width: 330px) { 
+	#slide-type-phocrastinate {
+    width: 240px;
+    height: 58.989px;
+    background-image: url(../images/phocrastinate/phocrastinate-animation-mobile.png);
+	}
 }
 
 
