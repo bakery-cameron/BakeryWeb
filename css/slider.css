@@ -53,6 +53,7 @@
     overflow: hidden;
     z-index: 0;
 	-webkit-backface-visibility: hidden;
+<<<<<<< HEAD
 	-moz-backface-visibility: hidden;
 	-ms-backface-visibility: hidden;
 	backface-visibility: hidden;
@@ -61,6 +62,13 @@
     -o-animation: slideAnimation 18s linear infinite 0s;
     -ms-animation: slideAnimation 18s linear infinite 0s;
     animation: slideAnimation 18s linear infinite 0s;
+=======
+    -webkit-animation: slideAnimation 18s ease-out infinite 0s;
+    -moz-animation: slideAnimation 18s ease-out infinite 0s;
+    -o-animation: slideAnimation 18s ease-out infinite 0s;
+    -ms-animation: slideAnimation 18s ease-out infinite 0s;
+    animation: slideAnimation 18s ease-out infinite 0s;
+>>>>>>> b95d227c32859495586e87b3af0247838b651c3f
 }
 .no-animation{
 	-webkit-animation: none;
@@ -583,7 +591,7 @@ type animations
 #slide-type-arcade{
 	width: 689px;
 	height: 248px;
-	backgrounheight: 248px; url(../images/aracde-animation.png);
+	background-image: url(../images/aracde-animation.png);
     -webkit-animation: titleOnceAnimation 2s steps(22, end) 0s 1;
     -moz-animation: titleOnceAnimation 2s steps(22, end) 0s 1;
     -ms-animation: titleOnceAnimation 2s steps(22, end) 0s 1;
