@@ -24,6 +24,9 @@
 }
 
 
+#icon-arrow-down:before {
+	content: "\e600";
+}
 #icon-arrow-left:before {
 	content: "\e601";
 }
@@ -36,72 +39,75 @@
 #icon-attach:before {
 	content: "\e604";
 }
-#icon-briefcase-after:before {
+#icon-bakery-logo-plain:before {
 	content: "\e605";
 }
-#icon-briefcase-before:before {
+#icon-briefcase-after:before {
 	content: "\e606";
 }
-#icon-bulb-after:before {
+#icon-briefcase-before:before {
 	content: "\e607";
 }
-#icon-bulb-before:before {
+#icon-bulb-after:before {
 	content: "\e608";
 }
-#icon-dribbble:before {
+#icon-bulb-before:before {
 	content: "\e609";
 }
-#icon-email{
-	font-size: 1.2em;
-}
-#icon-email:before {
+#icon-dribbble:before {
 	content: "\e60a";
 }
-#icon-facebook:before {
+#icon-email:before {
 	content: "\e60b";
 }
-#icon-film-after:before {
+#icon-facebook:before {
 	content: "\e60c";
 }
-#icon-film-before:before {
+#icon-film-after:before {
 	content: "\e60d";
 }
-#icon-grid-after:before {
+#icon-film-before:before {
 	content: "\e60e";
 }
-#icon-grid-before:before {
+#icon-grid-after:before {
 	content: "\e60f";
 }
-#icon-images-after:before {
+#icon-grid-before:before {
 	content: "\e610";
 }
-#icon-images-before:before {
+#icon-images-after:before {
 	content: "\e611";
 }
-#icon-instagram:before {
+#icon-images-before:before {
 	content: "\e612";
 }
-#icon-paper-after:before {
+#icon-instagram:before {
 	content: "\e613";
 }
-#icon-paper-before:before {
+#icon-linkedin:before {
 	content: "\e614";
 }
-#icon-search:before {
+#icon-paper-after:before {
 	content: "\e615";
 }
-#icon-share:before {
+#icon-paper-before:before {
 	content: "\e616";
 }
-#icon-twitter:before {
+#icon-search:before {
 	content: "\e617";
 }
-#icon-window-after:before {
+#icon-share:before {
 	content: "\e618";
 }
-#icon-window-before:before {
+#icon-twitter:before {
 	content: "\e619";
 }
-#icon-youtube:before {
+#icon-window-after:before {
 	content: "\e61a";
+}
+#icon-window-before:before {
+	content: "\e61b";
+}
+#icon-youtube:before {
+	content: "\e61c";
 }

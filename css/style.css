@@ -213,6 +213,12 @@ a{
     justify-content: center;
     padding: 0px 15px;
 }
+#social-icons #icon-twitter {
+    font-size: 1.4em;
+}
+#social-icons #icon-youtube {
+    font-size: 1.2em;
+}
 #social-icons .icon:hover{
 	transform: scale(1.1);
 	color: #585858;
