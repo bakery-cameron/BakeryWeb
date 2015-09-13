@@ -51,11 +51,11 @@
     overflow: hidden;
     z-index: 0;
 	-webkit-backface-visibility: hidden;
-    -webkit-animation: slideAnimation 18s linear infinite 0s;
-    -moz-animation: slideAnimation 18s linear infinite 0s;
-    -o-animation: slideAnimation 18s linear infinite 0s;
-    -ms-animation: slideAnimation 18s linear infinite 0s;
-    animation: slideAnimation 18s linear infinite 0s;
+    -webkit-animation: slideAnimation 18s ease-out infinite 0s;
+    -moz-animation: slideAnimation 18s ease-out infinite 0s;
+    -o-animation: slideAnimation 18s ease-out infinite 0s;
+    -ms-animation: slideAnimation 18s ease-out infinite 0s;
+    animation: slideAnimation 18s ease-out infinite 0s;
 }
 .no-animation{
 	-webkit-animation: none;

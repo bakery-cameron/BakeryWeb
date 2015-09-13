@@ -17,6 +17,12 @@
     background: #fff;
   }
 }
+#header #icon-bakery-logo-plain{
+  line-height: 100%;
+  font-size: 2em;
+  margin: 16px 0px 16px 25px;
+  color: #FAC22B;
+}
 #header img{
   margin: 16px 0px 16px 16px;
 }
