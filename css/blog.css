@@ -367,7 +367,7 @@
     color: #ff478a;
 }
 #sub-nav-design > .icon:hover,#sub-nav-design #icon-share:hover{
-    color: #7f2345;
+    color: #b23260;
 }
 #sub-nav-design .icon h4{
 	color: #333333;
@@ -379,7 +379,7 @@
     color: rgba(0, 0, 0, .2);
 }
 #sub-nav-design .share-icon:hover {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, .4);
 }
 
 
@@ -389,7 +389,7 @@
     color: #9322c7;
 }
 #sub-nav-tech > .icon:hover,#sub-nav-tech #icon-share:hover{
-    color: #491163;
+    color: #67188b;
 }
 #sub-nav-tech .icon h4{
 	color: #333333;
@@ -401,51 +401,51 @@
     color: rgba(0, 0, 0, .2);
 }
 #sub-nav-tech .share-icon:hover {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, .4);
 }
 
 
 /* culture */
 
 #sub-nav-culture > .icon, #sub-nav-culture #icon-share, #sub-nav-culture .icon h4 {
-    color: #e91d1d;
+    color: #ff6021;
 }
 #sub-nav-culture > .icon:hover,#sub-nav-culture #icon-share:hover{
-    color: #740e0e;
+    color: #b24317;
 }
 #sub-nav-culture .icon h4{
 	color: #333333;
 }
 #share-culture{
-	background-color: #e91d1d;
+	background-color: #ff6021;
 }
 #sub-nav-culture .share-icon {
     color: rgba(0, 0, 0, .2);
 }
 #sub-nav-culture .share-icon:hover {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, .4);
 }
 
 
 /* industry */
 
 #sub-nav-industry > .icon, #sub-nav-industry #icon-share, #sub-nav-industry .icon h4 {
-    color: #9322c7;
+    color: #e91d1d;
 }
 #sub-nav-industry > .icon:hover,#sub-nav-industry #icon-share:hover{
-    color: #560F77;
+    color: #a31414;
 }
 #sub-nav-industry .icon h4{
 	color: #333333;
 }
 #share-industry{
-	background-color: #9322c7;
+	background-color: #e91d1d;
 }
 #sub-nav-industry .share-icon {
     color: rgba(0, 0, 0, .2);
 }
 #sub-nav-industry .share-icon:hover {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, .4);
 }
 
 
