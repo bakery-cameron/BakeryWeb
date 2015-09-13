@@ -58,12 +58,15 @@
     animation: slideAnimation 18s linear infinite 0s;
 }
 .no-animation{
+	-webkit-animation: none;
 	animation: none;
 	opacity: 1;
 }
 .slide-content-container{
 	position: fixed;
+	display: -webkit-flex;
 	display: flex;
+	-webkit-justify-content: center;
 	justify-content: center;
 	top: 50%;
 	left: 50%;
@@ -76,8 +79,11 @@
 	background-size: cover;
 }
 .slide-content{
+	display: -webkit-flex;
 	display: flex;
+	-webkit-flex-direction: column;
     flex-direction: column;
+    -webkit-justify-content: center;
     justify-content: center;
 }
 .slide-type {
@@ -240,7 +246,9 @@ slide type animations
     width: 766px;
     height: 248px;
     background-image: url(../images/contact/contact-animation.png);
+    -webkit-animation: titleOnceAnimation 2s steps(39, end) 0s 1;
     animation: titleOnceAnimation 2s steps(39, end) 0s 1;
+    -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
 
@@ -329,8 +337,7 @@ slide type animations
 
 
 
-
-@keyframes titleOnceAnimation {
+@-webkit-keyframes titleOnceAnimation {
 	0% {
 		opacity: 1; 
 		background-position: 0% 0%;
@@ -342,7 +349,58 @@ slide type animations
 		background-position: 100% 0%;
 	}
 }
-@keyframes slideAnimation { 
+@-webkit-keyframes titleOnceAnimation {
+	0% {
+		opacity: 1; 
+		background-position: 0% 0%;
+	}
+
+
+	100% {
+		opacity: 1; 
+		background-position: 100% 0%;
+	}
+}
+
+
+
+@-webkit-keyframes slideAnimation { 
+	0% {
+	    opacity: 1;
+	    width: 100%;
+	    z-index: 1;
+	}
+	16% {
+	    opacity: 1;
+	    width: 100%;
+	    z-index: 2;
+	}
+	33% {
+	    opacity: 1;
+	    width: 100%;
+	    z-index: 2;
+	}
+	37% {
+		opacity: 1;
+		width: 0%;
+		z-index: 2;
+	}
+	39% {
+		opacity: 0;
+		width: 0%;
+
+	}
+	44% {
+	    opacity: 0;
+	    width: 100%;
+	    z-index: 2;
+	}
+	100% { 
+		opacity: 0;
+		z-index: 1;
+	}
+}
+@-webkit-keyframes slideAnimation { 
 	0% {
 	    opacity: 1;
 	    width: 100%;
@@ -380,8 +438,7 @@ slide type animations
 }
 
 
-
-@keyframes titleAnimation { 
+@-webkit-keyframes titleAnimation { 
 	0% {
 		opacity: 0; 
 		background-position: 0%;
@@ -400,7 +457,7 @@ slide type animations
 		background-position: 100%;
 	}
 }
-@keyframes titleAnimationMobile { 
+@-webkit-keyframes titleAnimationMobile { 
 	0% {
 		opacity: 0; 
 		background-position: -7750px
@@ -419,41 +476,49 @@ slide type animations
 		background-position: 0px;
 	}
 }
-@keyframes clientAnimation {
+@-webkit-keyframes clientAnimation {
 	0% {
-		opacity: 0; 
+		opacity: 0;
+		-webkit-transform: translate(100px, 0px)
 		transform: translate(100px, 0px)
 	}
 	8% {
-		opacity: 0; 
+		opacity: 0;
+		-webkit-transform: translate(100px, 0px)
 		transform: translate(100px, 0px)
 	}
 	18% {
-		opacity: 1; 
+		opacity: 1;
+		-webkit-transform: translate(0px, 0px) 
 		transform: translate(0px, 0px)
 	
 	}
 	100% {
-		opacity: 1; 
+		opacity: 1;
+		-webkit-transform: translate(0px, 0px)
 		transform: translate(0px, 0px)
 	}
 }
-@keyframes slide-buttonAnimation {
+@-webkit-keyframes slide-buttonAnimation {
 	0% {
-		opacity: 0; 
+		opacity: 0;
+		-webkit-transform: translate(0px, 50px) 
 		transform: translate(0px, 50px)
 	}
 	18% {
-		opacity: 0; 
+		opacity: 0;
+		-webkit-transform: translate(0px, 50px)
 		transform: translate(0px, 50px)
 	}
 	25% {
-		opacity: 1; 
+		opacity: 1;
+		-webkit-transform: translate(0px, 0px)
 		transform: translate(0px, 0px)
 	
 	}
 	100% {
-		opacity: 1; 
+		opacity: 1;
+		-webkit-transform: translate(0px, 0px)
 		transform: translate(0px, 0px)
 	}
 }
@@ -480,6 +545,8 @@ slide type animations
 
 
 .animate-once{
+	-webkit-animation-iteration-count: 1;
 	animation-iteration-count: 1;
+	-webkit-animation-fill-mode: both;
 	animation-fill-mode: both;
 }
