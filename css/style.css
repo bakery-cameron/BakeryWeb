@@ -1353,23 +1353,19 @@ textarea.field{
 
 
 
-@media screen and (min-width: 720px) and (max-width: 1080px){
-	.grid4 li:nth-child(4){
-		display: none;
-	}
-}
+
 @media screen and (max-width: 480px){
-	.grid4 li {
-	    width: 100%;
-	}
+	iframe#insta-large{ display: none;}
+	iframe#insta-medium{ display: none;}
+	iframe#insta-small{ display: inherit;}
 }
 @media screen and (max-width: 720px){
-	.grid4 li {
-	    width: 50%;
-	}
+	iframe#insta-large{ display: none;}
+	iframe#insta-medium{ display: inherit;}
+	iframe#insta-small{ display: none;}
 }
 @media screen and (max-width: 1080px){
-	.grid4 li {
-	    width: 33.3%;
-	}
+	iframe#insta-large{ display: inherit;}
+	iframe#insta-medium{ display: none;}
+	iframe#insta-small{ display: none;}
 }
