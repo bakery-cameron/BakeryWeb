@@ -23,6 +23,33 @@
   margin: 16px 0px 16px 25px;
   color: #FAC22B;
 }
+
+#header #icon-bakery-logo-plain.arcade-brown{
+  color: #916e4f;
+}
+#header #icon-bakery-logo-plain.budlight-red{
+  color: #ff0000;
+}
+#header #icon-bakery-logo-plain.elrey-yellow{
+  color: #f7ab17;
+}
+#header #icon-bakery-logo-plain.budlight-red{
+  color: #ff0000;
+}
+#header #icon-bakery-logo-plain.montejo-yellow{
+  color: #fcba52;
+}
+#header #icon-bakery-logo-plain.phocrastinate-dark-pink{
+  color: #8f1f28;
+}
+#header #icon-bakery-logo-plain.valentines-dark-pink{
+  color: #B83E3E;
+}
+
+
+
+
+
 #header img{
   margin: 16px 0px 16px 16px;
 }
