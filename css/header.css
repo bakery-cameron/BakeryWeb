@@ -1,11 +1,8 @@
 
 /** page structure **/
 .wrap {
-<<<<<<< .merge_file_DERY9d
   display: block;
-=======
   display: inline-block;
->>>>>>> .merge_file_FsxX8H
   margin: 0 auto;
   max-width: 800px;
   padding: 0 10px;
@@ -88,31 +85,38 @@
 }
 
 #main-nav a{
-  text-transform: uppercase;
   font-weight: 500;
-  color: #bbb;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0px 18px;
   box-sizing: border-box;
-  margin-top: 0px;
-  border-bottom: solid 0px #fff;
+  margin: 0px;
+  padding: 0px 10px;
+  border-width: 5px 0px;
+  border-style: solid;
+  border-color: rgba(255,255,255,0);
 }
-<<<<<<< .merge_file_DERY9d
+#main-nav a h4{
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #bbb;
+}
+
 #main-nav a.active{
   color: #333;
   margin-top: 3px;
   border-bottom: #fac22b 5px solid;
-=======
+}
 
+#main-nav a.active{
+  border-bottom-color: #fac22b;
+}
 #main-nav a.active h4 {
     margin-top: 3px;
     padding-bottom: 10px;
->>>>>>> .merge_file_FsxX8H
 }
 
-#main-nav a:hover{
+#main-nav a:hover h4{
   color: #333;
 }
 
@@ -140,11 +144,15 @@
   }
   #header div{
     width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   #main-nav{
     display: flex;
     width: inherit;
-    margin: 0px;
+    margin-top: -92px;
     flex-direction: column;
     text-align: center;
   }
@@ -159,22 +167,17 @@
     top: 30px;
     right: 0px;
   }
-<<<<<<< .merge_file_DERY9d
-  #main-nav a, #main-nav a.active{
-=======
-  #main-nav a h4{
->>>>>>> .merge_file_FsxX8H
+  #main-nav a{
+    border-width: 0px;
+  }
+  #main-nav a h4, #main-nav a.active h4{
     border: none;
-    margin-top: 5%;
+    margin: 3% 0px;
     font-size: 2em;
     color: #999;
     pointer-events: none;
   }
-<<<<<<< .merge_file_DERY9d
   #main-nav a:hover, #main-nav a.active{
-=======
-  #main-nav a:hover h4, #main-nav a.active h4{
->>>>>>> .merge_file_FsxX8H
     color: #fff;
   }
   .mobile-no-scroll{
