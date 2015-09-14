@@ -70,6 +70,9 @@
 	text-align: center;
 	box-sizing: border-box;
 }
+.careers-block .accent{
+	margin-bottom: 25px;
+}
 .careers-block .spacer-child h3{
 	color: #fff;
 
@@ -78,7 +81,7 @@
 	padding-top: 15px;
 }
 .careers-openings a{
-	display: block;
+	display: inline-block;
 	margin-bottom: 15px;
 	font-size: 1.3em;
 }
