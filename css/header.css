@@ -64,6 +64,7 @@
   margin: 16px 0px 16px 16px;
 }
 #header div{
+  display: -webkit-inline-flex;
   display: inline-flex;
   pointer-events: auto;
 }
@@ -87,7 +88,7 @@
 
 #main-nav{
   color: #333;
-  ddisplay: -webkit-flex;
+  display: -webkit-flex;
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
@@ -101,8 +102,11 @@
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-flex-direction: column;
   flex-direction: column;
+  -webkit-justify-content: center;
   justify-content: center;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0px;
   padding: 0px 15px;
@@ -153,7 +157,9 @@
     display: -moz-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-flex-direction: column;
     flex-direction: column;
+    -webkit-justify-content: center;
     justify-content: center;
   }
   #main-nav{
@@ -163,6 +169,7 @@
     display: flex;
     width: inherit;
     margin-top: -92px;
+    -webkit-flex-direction: column;
     flex-direction: column;
     text-align: center;
   }

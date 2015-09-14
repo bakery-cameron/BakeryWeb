@@ -165,7 +165,13 @@ scroll down arrows
 -----------------------------------*/
 
 #scroll-down-hold div{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
 	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
 	flex-direction: column;
 }
 .icon-arrow-down{

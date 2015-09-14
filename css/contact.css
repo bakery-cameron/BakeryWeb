@@ -33,10 +33,16 @@
 
 
 #contact-photo-grid{
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
 	display: flex;
 	width: 100%;
 }
 .contact-photo-grid-half{
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
 	display: flex;
 	width: 100%;
 }
@@ -87,9 +93,16 @@
 
 @media screen and (max-width: 600px){
 	#contact .two-up{
+	    -webkit-flex-direction: column-reverse;
+	    -moz-flex-direction: column-reverse;
+	    -ms-flex-direction: column-reverse;
 	    flex-direction: column-reverse;
+	    -webkit-flex-wrap: wrap;
 	}
 	#contact .two-up-reverse {
+	    -webkit-flex-direction: column;
+	    -moz-flex-direction: column;
+	    -ms-flex-direction: column;
 	    flex-direction: column;
 	}
 	#contact .two-up div,#contact  .two-up-reverse div {
