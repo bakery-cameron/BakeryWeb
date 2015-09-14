@@ -56,6 +56,8 @@
 }
 #blog-main .blog-card{
 	display: none;
+	width: 33.33%;
+	height: 33.33vw;
 }
 #blog-main .blog-card:nth-child(n+9){
 	display: none;
@@ -64,8 +66,8 @@
 	-webkit-flex-direction: column;
 	-ms-flex-direction: column;
 	flex-direction: column;
-	width: 33.33%;
-	height: 33.33vw;
+	width: 50%;
+	height: 50vw;
 	background-color: #fff;
 }
 .blog-card-home-featured{

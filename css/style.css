@@ -596,7 +596,7 @@ a{
 
 
 #home-about-half p{
-	margin-top: 20px;
+	margin-top: 40px;
 	max-width: 720px;
 }
 #home-about-half .button{
@@ -738,7 +738,7 @@ a{
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: flex;
-	-webkit-flex-wrap: wrap
+	-webkit-flex-wrap: wrap;
 	flex-wrap: wrap;
 }
 #home-half > div{
@@ -1176,7 +1176,7 @@ a{
 	transform:scale(1.1);
 }
 .sub-nav .icon div{
-	position: abso
+	position: absolute;
 	display: -webkit-flex;
 	display: -moz-box;
 	display: -ms-flexbox;

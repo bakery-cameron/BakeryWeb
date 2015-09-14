@@ -48,7 +48,7 @@
   padding: 0px 0px 75px 5%;
 }
 .team-image-info h3, .team-image-info h4{
-  margin: 0px;
+  margin-top: 5px;
   color: white;
   text-shadow: 2px 2px 7px rgba(0,0,0,1);
 }
