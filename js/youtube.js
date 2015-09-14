@@ -17,12 +17,12 @@ function onYouTubePlayerAPIReady() {
 function onPlayerReady(event) {
   
   // bind events
-  var playButton = document.getElementById("about-video-play");
+  var playButton = document.getElementsByClassName("play-video");
   playButton.addEventListener("click", function() {
     player.playVideo();
   });
   
-  var pauseButton = document.getElementById("popup-container-about");
+  var pauseButton = document.getElementsByClassName("popup-container");
   pauseButton.addEventListener("click", function() {
     player.pauseVideo();
   });
