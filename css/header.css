@@ -18,6 +18,7 @@
   }
 }
 #header #icon-bakery-logo-plain{
+  display: block;
   line-height: 100%;
   font-size: 2em;
   margin: 16px 0px 16px 25px;
@@ -146,13 +147,13 @@
     top: 30px;
     right: 0px;
   }
-  #main-nav a, #main-nav a.active{
+  #main-nav a, #main-nav a.active h4{
     border: none;
     margin-top: 5%;
     font-size: 2em;
     pointer-events: none;
   }
-  #main-nav a:hover, #main-nav a.active{
+  #main-nav a:hover, #main-nav a.active h4{
     color: #fff;
   }
   .mobile-no-scroll{
