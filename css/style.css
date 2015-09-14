@@ -169,9 +169,9 @@ a{
 }
 @media screen and (max-width: 960px){
 	#footer{
-		flex-direction:
 		-webkit-flex-direction: column;
--ms-flex-direction: column; column;
+		-ms-flex-direction: column; 
+		flex-direction: column;
 		justify-content: center;
 		-webkit-box-pack: center;
 		-moz-box-pack: center;
@@ -651,7 +651,7 @@ a{
 }
 @media screen and (max-device-width: 720px){
 	.work-block .hover{
-	  	transform: translateY(5em);
+	  	transform: translateY(0em);
 	}
 }
 

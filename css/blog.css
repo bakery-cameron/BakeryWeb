@@ -157,6 +157,10 @@
 	.blog-card-small{
 		border-bottom-width: 10px;
 	}
+	.blog-card:hover .blog-card-info, .blog-card-small:hover{
+		border-bottom-style: solid;
+		border-bottom-width: 10px;
+	}
 }
 
 
