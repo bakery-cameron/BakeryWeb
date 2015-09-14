@@ -124,7 +124,7 @@ $(window).scroll(function(){
 // slide container pointer events none on scroll down
 
  $(document).scroll(function(){
-     $('#video-wrap, #slide-team, #blog-header, #home-slider', 'slider-content').toggleClass('pointer-none', $(this).scrollTop() > 200);
+     $('#video-wrap, #slide-team, #blog-header, #home-slider, slide-video-bg, slider-content').toggleClass('pointer-none', $(this).scrollTop() > 200);
  });
 
 
