@@ -52,6 +52,8 @@
 	display: none;
 }
 .blog-card{
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
 	flex-direction: column;
 	width: 33.33%;
 	height: 33.33vw;
@@ -106,6 +108,7 @@
 	height: 50%;
 	background-size: 100%;
 	-webkit-transition-duration: .6s;
+	transition-duration: .6s;
 	pointer-events: none;
 }
 @media screen and (max-width: 720px){
