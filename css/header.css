@@ -1,6 +1,7 @@
 
 /** page structure **/
 .wrap {
+  display: block;
   display: inline-block;
   margin: 0 auto;
   max-width: 800px;
@@ -102,7 +103,17 @@
 }
 
 #main-nav a.active{
+  color: #333;
+  margin-top: 3px;
+  border-bottom: #fac22b 5px solid;
+}
+
+#main-nav a.active{
   border-bottom-color: #fac22b;
+}
+#main-nav a.active h4 {
+    margin-top: 3px;
+    padding-bottom: 10px;
 }
 
 #main-nav a:hover h4{
@@ -126,6 +137,7 @@
     height: 100vh;
     bottom: 0px;
     background-image: url("../images/bakery-overlay-texture.png");
+    opacity: .95;
   }
   #header *{
     transition: 0s;
@@ -165,7 +177,7 @@
     color: #999;
     pointer-events: none;
   }
-  #main-nav a:hover h4, #main-nav a.active h4{
+  #main-nav a:hover, #main-nav a.active{
     color: #fff;
   }
   .mobile-no-scroll{

@@ -284,34 +284,34 @@ type animations
     animation: titleAnimation 9s steps(34, end) 0s infinite;
 }
 @media screen and (max-width: 1000px) { 
-	#slide-type-calendario {
+	#home-slide-type-calendario {
     width: 475px;
     height: 76px;
 	}
 }
 @media screen and (max-width: 600px) { 
-	#slide-type-calendario {
+	#home-slide-type-calendario {
     width: 300px;
     height: 48px;
 	}
 }
 @media screen and (max-width: 330px) { 
-	#slide-type-calendario {
-    width: 244px;
-    height: 39.04px;
+	#home-slide-type-calendario {
+    width: 250px;
+    height: 40px;
 	}
 }
 @media screen and (max-device-width: 600px) { 
-	#slide-type-calendario {
+	#home-slide-type-calendario {
     width: 300px;
     height: 48px;
     background-image: url(../images/calendario/calendario-animation-mobile.png);
 	}
 }
 @media screen and (max-device-width: 330px) { 
-	#slide-type-calendario {
-    width: 244px;
-    height: 39.04px;
+	#home-slide-type-calendario {
+    width: 250px;
+    height: 40px;
     background-image: url(../images/calendario/calendario-animation-mobile.png);
 	}
 }
@@ -330,45 +330,45 @@ type animations
     animation-delay: 6s;
 }
 @media screen and (max-width: 1000px) { 
-	#slide-type-elrey {
-    width: 467px;
-    height: 129.839px;
+	#home-slide-type-elrey {
+    width: 463px;
+    height: 128.726px;
 	}
 }
 @media screen and (max-width: 600px) { 
-	#slide-type-elrey {
+	#home-slide-type-elrey {
+    width: 295px;
+    height: 82.018px;
+	}
+}
+@media screen and (max-width: 376px) { 
+	#home-slide-type-elrey {
     width: 298px;
     height: 82.852px;
 	}
 }
-@media screen and (max-width: 376px) { 
-	#slide-type-elrey {
-    width: 302px;
-    height: 83.964px;
-	}
-}
 @media screen and (max-width: 330px) { 
-	#slide-type-elrey {
+	#home-slide-type-elrey {
     width: 241px;
     height: 67.004px;
 	}
 }
 @media screen and (max-device-width: 600px) { 
-	#slide-type-elrey {
+	#home-slide-type-elrey {
+    width: 295px;
+    height: 82.018px;
+    background-image: url(../images/elrey/elrey-animation-mobile.png);
+	}
+}
+@media screen and (max-device-width: 376px) { 
+	#home-slide-type-elrey {
     width: 298px;
     height: 82.852px;
     background-image: url(../images/elrey/elrey-animation-mobile.png);
 	}
 }
-@media screen and (max-device-width: 376px) { 
-	#slide-type-elrey {
-    width: 302px;
-    height: 83.964px;
-    background-image: url(../images/elrey/elrey-animation-mobile.png);
-	}
-}
 @media screen and (max-device-width: 330px) { 
-	#slide-type-elrey {
+	#home-slide-type-elrey {
     width: 241px;
     height: 67.004px;
     background-image: url(../images/elrey/elrey-animation-mobile.png);
@@ -389,47 +389,47 @@ type animations
     animation-delay: 12s;
 }
 @media screen and (max-width: 1000px) { 
-	#slide-type-valentines {
-    width: 470px;
-    height: 136.327px;
+	#home-slide-type-valentines {
+    width: 472px;
+    height: 136.908px;
 	}
 }
 @media screen and (max-width: 600px) { 
-	#slide-type-valentines {
-    width: 300px;
-    height: 87.018px;
-	}
-}
-@media screen and (max-width: 376px) { 
-	#slide-type-valentines {
+	#home-slide-type-valentines {
     width: 303px;
     height: 87.888px;
 	}
 }
+@media screen and (max-width: 376px) { 
+	#home-slide-type-valentines {
+    width: 300px;
+    height: 87.018px;
+	}
+}
 @media screen and (max-width: 330px) { 
-	#slide-type-valentines {
-    width: 244px;
-    height: 70.774px;
+	#home-slide-type-valentines {
+    width: 241px;
+    height: 69.904px;
 	}
 }
 @media screen and (max-device-width: 600px) { 
-	#slide-type-valentines {
-    width: 300px;
-    height: 87.018px;
+	#home-slide-type-valentines {
+    width: 303px;
+    height: 87.888px;
     background-image: url(../images/valentines/valentines-animation-mobile.png);
 	}
 }
 @media screen and (max-device-width: 376px) { 
-	#slide-type-valentines {
-    width: 303px;
-    height: 87.888px;
+	#home-slide-type-valentines {
+    width: 300px;
+    height: 87.018px;
     background-image: url(../images/valentines/valentines-animation-mobile.png);
 	}
 }
 @media screen and (max-device-width: 330px) { 
-	#slide-type-valentines {
-    width: 244px;
-    height: 70.774px;
+	#home-slide-type-valentines {
+    width: 241px;
+    height: 69.904px;
     background-image: url(../images/valentines/valentines-animation-mobile.png);
 	}
 }
