@@ -361,9 +361,9 @@ p .text-link{
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: flex;
-	position: relative;
-	-webkit-justify-content: center;
-  	justify-content: center;
+	-webkit-justify-content: space-around;
+  	justify-content: space-around;
+  	-webkit-box-align: center;
   	padding: 25px 0px;
 }
 .break-button h4{
