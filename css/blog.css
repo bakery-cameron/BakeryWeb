@@ -37,7 +37,7 @@
 	width: 100%;
 }
 @media screen and (max-width: 480px){
-	#blog-main p{
+	#blog-main .description{
 		display: none;
 	}
 }
