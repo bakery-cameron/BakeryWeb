@@ -7,6 +7,9 @@
 	background-position: center;
 	width: 100vw;
 	min-height: 33vw;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -39,8 +42,17 @@
 
 
 #careers-main{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
 	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
 	flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 	overflow: hidden;
 }
@@ -117,7 +129,13 @@
 	background-image: url("../images/careers/careers-technology-bg.jpg");
 }
 .header-type{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
 	display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 .header-type *{

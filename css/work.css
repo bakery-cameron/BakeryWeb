@@ -25,9 +25,16 @@
 
 
 #work-header{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
 	display: flex;
 	position: relative;
+    -webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
     flex-direction: column;
+    -webkit-justify-content: center;
     justify-content: center;
 	width: 100vw;
 	height: 100vh;
@@ -75,7 +82,13 @@
 }
 
 #work-main, #work-home{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
 	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 }
 #work-main{
@@ -117,10 +130,21 @@
 
 
 .results-container{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
 	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
 	flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
+	-moz-justify-content: center;
 	justify-content: center;
+	-webkit-align-content: space-between;
 	align-content: space-between;
 	margin-top: 50px;
 	width: 1080px;
@@ -223,6 +247,9 @@
 	background-image: url(../images/elrey/elrey-embers-02.jpg);
 }
 #elrey-mockup, #elrey-gif{
+	-webkit-transition: all 0s;
+	-moz-transition: all 0s;
+	-ms-transition: all 0s;
 	transition: all 0s;
 }
 #elrey-mockup{
@@ -294,7 +321,7 @@
 	left: 5%;
 	z-index: -1;
 }
-#elrey- hole-01{
+#elrey-hole-01{
 	position: absolute;
 	top: 5px;
 	right: 15%;
@@ -415,6 +442,9 @@ a.valentines-break-button:hover h4{
 }
 @media screen and (max-width: 960px) {
 	.valentines-backstory-images{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
 		flex-direction: column;
 	}
 	.valentines-bts{
@@ -431,6 +461,9 @@ a.valentines-break-button:hover h4{
 }
 #valentines-hearts{
 	min-width: 75%;
+	-webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+	-ms-justify-content: space-between;
 	justify-content: space-between;
 }
 #heart-container img {
@@ -468,9 +501,15 @@ a.valentines-break-button:hover h4{
 }
 @media screen and (max-width: 1080px) {
 	#valentines-top-videos{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
 		flex-direction: column;
 	}
 	#valentines-top-videos .valentines-video{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
 		flex-direction: column;
 		padding-bottom: 50vw;
 		width: 100%;
@@ -496,6 +535,9 @@ a.valentines-break-button:hover h4{
 	right: 46%;
 	padding: 35px 22px 35px 24px;
 	line-height: 0px;
+	-webkit-transition: all .4s;
+	-moz-transition: all .4s;
+	-ms-transition: all .4s;
 	transition: all .4s;
 }
 
@@ -512,6 +554,9 @@ a.valentines-break-button:hover h4{
 	bottom: 0px;
 	top: inherit;
 	background-position: left 3vw;
+	-webkit-transition: all .7s;
+	-moz-transition: all .7s;
+	-ms-transition: all .7s;
 	transition: all .7s;
 	pointer-events: none;
 }
@@ -657,6 +702,9 @@ a.valentines-break-button:hover h4{
 
 @media screen and (max-width: 720px){
 	#montejo-bts-container{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
 		flex-direction: column;
 	}
 	#montejo-bts-container .montejo-bts-image{
@@ -684,6 +732,9 @@ a.valentines-break-button:hover h4{
 
 #montejo-cines-container-01{
 	width: 33vw;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
 	flex-direction: column;
 }
 #montejo-cines-container-02{
@@ -691,6 +742,9 @@ a.valentines-break-button:hover h4{
 }
 #montejo-cines-container-03{
 	width: 50%;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
 	flex-direction: column;
 }
 
@@ -764,10 +818,16 @@ a.valentines-break-button:hover h4{
 
 @media screen and (max-width: 1280px){
 	#montejo-cines{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
 		flex-direction: column;
 	}
 	#montejo-cines-container-01 {
 		width: 100vw;
+		-webkit-flex-direction: row;
+		-moz-flex-direction: row;
+		-ms-flex-direction: row;
 		flex-direction: row;
 	}
 	#montejo-cines-container-01 .montejo-cine{
@@ -801,6 +861,9 @@ a.valentines-break-button:hover h4{
 		background-position: center left;
 	}
 	#montejo-cines-container-01{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
 		flex-direction: column;
 	}
 	#montejo-cines-container-01 .montejo-cine{
@@ -808,6 +871,9 @@ a.valentines-break-button:hover h4{
 		padding-bottom: 100vw;
 	}
 	#montejo-cines-container-02{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
 		flex-direction: column;
 	}
 	#montejo-cine-guitar{
@@ -818,6 +884,9 @@ a.valentines-break-button:hover h4{
 		width: 100%;
 	}
 	#montejo-cines-container-03 .flex{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
 		flex-direction: column;
 	}
 	#montejo-cine-bottles{
@@ -959,19 +1028,31 @@ a.valentines-break-button:hover h4{
 
 .phocrastinate-brand-half{
 	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
 	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
 	flex-direction: column;
 }
 
 
 @media screen and (max-width: 1080px){
 	#phocrastinate-brand{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
 		flex-direction: column;
 	}
 	.phocrastinate-brand-half{
 		width: 100%;
 	}
 	#phocrastinate-brand-half-02{
+		-webkit-flex-direction: column-reverse;
+		-moz-flex-direction: column-reverse;
+		-ms-flex-direction: column-reverse;
 		flex-direction: column-reverse;
 	}
 }
@@ -1195,11 +1276,23 @@ a.valentines-break-button:hover h4{
 
 
 #arcade-photos{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
 	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
 	flex-direction: column;
 }
 .arcade-photos-row{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
 	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
 	flex-direction: row;
 }
 .arcade-photo{
@@ -1219,6 +1312,9 @@ a.valentines-break-button:hover h4{
 		width: 100vw;
 	}
 	.arcade-photos-row{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
 		flex-direction: column;
 	}
 }
@@ -1242,6 +1338,9 @@ a.valentines-break-button:hover h4{
 
 
 #arcade-apparel-photos{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
 	display: flex;
 	width: 100%;
 }
@@ -1250,6 +1349,9 @@ a.valentines-break-button:hover h4{
 }
 
 .arcade-apparel-photo-row{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
 	display: flex;
 }
 .arcade-apparel-photo{
@@ -1258,6 +1360,9 @@ a.valentines-break-button:hover h4{
 }
 @media screen and (max-width: 960px){
 	#arcade-apparel-photos{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
 		flex-direction: column;
 	}
 	#arcade-apparel-photo-01{
@@ -1396,11 +1501,20 @@ a.valentines-break-button:hover h4{
 
 
 #calendario-photos{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
 	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
 	flex-direction: row;
 	overflow:none;
 }
 .calendario-photo{
+    display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
     display: flex;
     padding-bottom: 25vw;
     width: 100%;
@@ -1414,6 +1528,9 @@ a.valentines-break-button:hover h4{
 }
 @media screen and (max-width: 720px){
 	#calendario-photos{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
 		flex-direction: column;
 	}
 	.calendario-photo{
@@ -1556,7 +1673,13 @@ a.valentines-break-button:hover h4{
 	width: 100%;
 }
 .calendario-mobile-slide{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
 	display: flex;
+	-webkit-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
 	justify-content: center;
 	position: absolute;
 	top: 12%;
