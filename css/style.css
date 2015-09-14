@@ -295,7 +295,7 @@ a{
 	    flex-direction: column;
 	}
 }
-@media screen and (max-width: 1280px){
+@media screen and (min-width: 960px){
 	#contact .two-up, #contact .two-up-reverse {
 	    flex-direction: row;
 	}
