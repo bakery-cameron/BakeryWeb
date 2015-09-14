@@ -5,6 +5,31 @@
 	color: #808080;
 }
 
+
+div#insta-large{
+	display: inherit;
+}
+div#insta-medium{
+	display: none;
+}
+div#insta-small{
+	display: none;
+}
+
+@media screen and (max-width: 720px){
+	div#insta-large{ display: none;}
+	div#insta-medium{ display: inherit;}
+	div#insta-small{ display: none;}
+}
+@media screen and (max-width: 480px){
+	div#insta-large{ display: none;}
+	div#insta-medium{ display: none;}
+	div#insta-small{ display: inherit;}
+}
+
+
+
+
 body, textarea, input{
 	height: 100%;
 	font-family: 'Open Sans','Arial Narrow', serif;
@@ -156,7 +181,7 @@ a{
 
 
 
-#footer{
+#footer{ 
 	display: -webkit-box;
   	display: -moz-box;
   	display: -ms-flexbox;
@@ -1502,18 +1527,24 @@ textarea.field{
 
 
 
-@media screen and (max-width: 1080px){
-	iframe#insta-large{ display: inherit;}
-	iframe#insta-medium{ display: none;}
-	iframe#insta-small{ display: none;}
+
+div#insta-large{
+	display: inherit;
 }
+div#insta-medium{
+	display: none;
+}
+div#insta-small{
+	display: none;
+}
+
 @media screen and (max-width: 720px){
-	iframe#insta-large{ display: none;}
-	iframe#insta-medium{ display: inherit;}
-	iframe#insta-small{ display: none;}
+	div#insta-large{ display: none;}
+	div#insta-medium{ display: inherit;}
+	div#insta-small{ display: none;}
 }
 @media screen and (max-width: 480px){
-	iframe#insta-large{ display: none;}
-	iframe#insta-medium{ display: none;}
-	iframe#insta-small{ display: inherit;}
+	div#insta-large{ display: none;}
+	div#insta-medium{ display: none;}
+	div#insta-small{ display: inherit;}
 }
