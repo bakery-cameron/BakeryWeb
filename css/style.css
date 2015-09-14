@@ -16,20 +16,6 @@ div#insta-small{
 	display: none;
 }
 
-@media screen and (max-width: 720px){
-	div#insta-large{ display: none;}
-	div#insta-medium{ display: inherit;}
-	div#insta-small{ display: none;}
-}
-@media screen and (max-width: 480px){
-	div#insta-large{ display: none;}
-	div#insta-medium{ display: none;}
-	div#insta-small{ display: inherit;}
-}
-
-
-
-
 body, textarea, input{
 	height: 100%;
 	font-family: 'Open Sans','Arial Narrow', serif;
@@ -1526,7 +1512,9 @@ textarea.field{
 
 
 
-
+.insta-container{
+	width: 100%;
+}
 
 div#insta-large{
 	display: inherit;
