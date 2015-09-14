@@ -13,7 +13,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <link rel="shortcut icon" href="../favicon.ico"> 
-		<link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/7e4b564d-0e4d-4f62-8fa8-90116a6aa7fd.css"/>
+		<link type="text/css" rel="stylesheet" href="https://fast.fonts.net/cssapi/7e4b564d-0e4d-4f62-8fa8-90116a6aa7fd.css"/>
 		<link rel="stylesheet" type="text/css" href="css/reset.css" />
 		<link rel="stylesheet" href="css/utility.css">
         <link rel="stylesheet" href="css/libs/animate.css">
@@ -22,7 +22,6 @@
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link rel="stylesheet" href="css/icons.css">
         <link rel="stylesheet" href="css/slider.css">
-        <link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/7e4b564d-0e4d-4f62-8fa8-90116a6aa7fd.css"/>
 		<!--[if lt IE 9]>
 		<link rel="stylesheet" type="text/css" href="css/style_ie.css" />
 		<![endif]-->
@@ -34,7 +33,6 @@
 
 		<script src="js/wow.min.js"></script>
 		<script src="js/close.js"></script>
-		<script src="js/instafeed.min.js"></script>
 		<script src="js/animation.js"></script>
 		<script type="text/javascript" src="js/headroom.min.js"></script>
 
@@ -71,7 +69,7 @@
 		<section id="home-slider" class="slider">
 			<div id="black-overlay" class="spacer-child fade-out"></div>
 			<ul id="home-slides" class="slides">
-	            <li id="home-type-calendario" class="slide home-slide">
+	            <li id="home-slide-calendario" class="slide home-slide">
 	                <video class="slide-video-bg" preload="metadata" autoplay loop>
 	                    <source src="videos/home-bg-01.mp4" type="video/mp4">
 	                </video>
@@ -351,13 +349,23 @@
 
 
 		<section id="social" class="flex full wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
-			<!-- 4x1 INSTANSIVE WIDGET -->
-			<script src="//instansive.com/widget/js/instansive.js"></script><iframe id="insta-large" src="//instansive.com/widgets/f4171dec4ca7e20935622e3de8ca8a16fd722f9a.html" id="instansive_f4171dec4c" name="instansive_f4171dec4c"  scrolling="no" allowtransparency="true" class="instansive-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
 
-			<!-- 3x2 INSTANSIVE WIDGET -->
-			<script src="//instansive.com/widget/js/instansive.js"></script><iframe id="insta-medium" src="//instansive.com/widgets/c200259e8fb22743ccf4be3dd3f854ab09e243c5.html" id="instansive_c200259e8f" name="instansive_c200259e8f"  scrolling="no" allowtransparency="true" class="instansive-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+			<div id="insta-large" class="insta-container">
+				<!-- 4x1 INSTANSIVE WIDGET -->
+				<script src="//instansive.com/widget/js/instansive.js"></script><iframe src="//instansive.com/widgets/f4171dec4ca7e20935622e3de8ca8a16fd722f9a.html" id="instansive_f4171dec4c" name="instansive_f4171dec4c"  scrolling="no" allowtransparency="true" class="instansive-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+			</div>
 
-			<!-- 2x2 INSTANSIVE WIDGET --><script src="//instansive.com/widget/js/instansive.js"></script><iframe id="insta-small" src="//instansive.com/widgets/642f170555034308f57e2599595ee227c8b58112.html" id="instansive_642f170555" name="instansive_642f170555"  scrolling="no" allowtransparency="true" class="instansive-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+
+			<div id="insta-medium" class="insta-container">
+				<!-- 3x2 INSTANSIVE WIDGET -->
+				<script src="//instansive.com/widget/js/instansive.js"></script><iframe src="//instansive.com/widgets/c200259e8fb22743ccf4be3dd3f854ab09e243c5.html" id="instansive_c200259e8f" name="instansive_c200259e8f"  scrolling="no" allowtransparency="true" class="instansive-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+			</div>
+
+
+			<div id="insta-small" class="insta-container">
+				<!-- 2x2 INSTANSIVE WIDGET -->
+				<script src="//instansive.com/widget/js/instansive.js"></script><iframe src="//instansive.com/widgets/642f170555034308f57e2599595ee227c8b58112.html" id="instansive_642f170555" name="instansive_642f170555"  scrolling="no" allowtransparency="true" class="instansive-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+			</div>
 		</section>
 
 

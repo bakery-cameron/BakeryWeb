@@ -24,7 +24,7 @@
 }
 @media screen and (max-width: 720px) {	
 	.block{
-		padding: 75px 0px 100px 0px;
+		padding: 75px 0px;
 	}
 }
 @media screen and (max-width: 480px) {	
@@ -35,9 +35,16 @@
 
 
 .flex{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
 	display: flex;
 }
 .flex-center{
+	display: flex;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -340,16 +347,23 @@ p .text-link{
 }
 
 .break{
-	  width: 100%;
-	  display: flex;
+	width: 100%;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
 }
 .break span{
 	margin: 0px auto;
 }
 .break-button{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
 	display: flex;
-	position: relative;
-  	justify-content: center;
+	-webkit-justify-content: space-around;
+  	justify-content: space-around;
+  	-webkit-box-align: center;
   	padding: 25px 0px;
 }
 .break-button h4{

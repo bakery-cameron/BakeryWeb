@@ -98,6 +98,19 @@ $(window).scroll(function() {
   }
 });
 
+// detect scrolling
+$(window).scroll(function() {
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    clearTimeout($.data(this, 'scrollTimer'));
+    $.data(this, 'scrollTimer', setTimeout(function() {
+        $('#sub-nav-holder').removeClass('reveal');
+    }, 1000)); 
+  }
+});
+
+
+
+
 
 $(document).ready(function(){
   $("#share-hover").on({
@@ -124,10 +137,8 @@ $(window).scroll(function(){
 // slide container pointer events none on scroll down
 
  $(document).scroll(function(){
-     $('#video-wrap, #slide-team, #blog-header, #home-slider').toggleClass('pointer-none', $(this).scrollTop() > 200);
+     $('#video-wrap, #slide-team, #blog-header, #home-slider, .slide-content-container').toggleClass('pointer-none', $(this).scrollTop() > 200);
  });
-
-
 
 
 

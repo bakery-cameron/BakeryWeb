@@ -1,7 +1,6 @@
 
 /** page structure **/
 .wrap {
-  display: block;
   display: inline-block;
   margin: 0 auto;
   max-width: 800px;
@@ -13,7 +12,11 @@
 }
 @media screen and (min-width: 721px){
   #header {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-justify-content: space-between;
     justify-content: space-between;
     background: #fff;
   }
@@ -24,6 +27,11 @@
   font-size: 2em;
   margin: 16px 0px 16px 25px;
   color: #FAC22B;
+}
+@media screen and (max-width: 720px){
+  #header #icon-bakery-logo-plain{
+    margin: 16px 0px 16px 15px;
+  }
 }
 
 #header #icon-bakery-logo-plain.arcade-brown{
@@ -79,6 +87,9 @@
 
 #main-nav{
   color: #333;
+  ddisplay: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   margin-right: 10px;
   pointer-events: auto;
@@ -86,34 +97,28 @@
 
 #main-nav a{
   font-weight: 500;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   flex-direction: column;
   justify-content: center;
   box-sizing: border-box;
   margin: 0px;
-  padding: 0px 10px;
+  padding: 0px 15px;
   border-width: 5px 0px;
   border-style: solid;
   border-color: rgba(255,255,255,0);
 }
 #main-nav a h4{
   text-transform: capitalize;
+  font-size: 1.3em;
   font-weight: 500;
   color: #bbb;
 }
 
 #main-nav a.active{
-  color: #333;
-  margin-top: 3px;
-  border-bottom: #fac22b 5px solid;
-}
-
-#main-nav a.active{
   border-bottom-color: #fac22b;
-}
-#main-nav a.active h4 {
-    margin-top: 3px;
-    padding-bottom: 10px;
 }
 
 #main-nav a:hover h4{
@@ -137,7 +142,6 @@
     height: 100vh;
     bottom: 0px;
     background-image: url("../images/bakery-overlay-texture.png");
-    opacity: .95;
   }
   #header *{
     transition: 0s;
@@ -145,11 +149,17 @@
   #header div{
     width: 100%;
     height: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
   #main-nav{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
     width: inherit;
     margin-top: -92px;
@@ -177,7 +187,7 @@
     color: #999;
     pointer-events: none;
   }
-  #main-nav a:hover, #main-nav a.active{
+  #main-nav a:hover h4, #main-nav a.active h4{
     color: #fff;
   }
   .mobile-no-scroll{
