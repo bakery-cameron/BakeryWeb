@@ -168,12 +168,13 @@ a{
 
 
 #footer{ 
-	display: -webkit-flex;
   	display: -moz-box;
   	display: -ms-flexbox;
 	display: flex;
 	flex-direction: row;
+	-webkit-justify-content: space-between;
 	justify-content: space-between;
+	-webkit-flex-wrap: wrap;
 	background-color:#fff;
 	width: 100%;
 	padding: 20px 0px;
@@ -342,10 +343,14 @@ a{
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: flex;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
 	flex-direction: row;
 }
 @media screen and (max-width: 1280px){
 	.two-up{
+		-webkit-flex-direction: column-reverse;
+		-ms-flex-direction: column-reverse;
 	    flex-direction: column-reverse;
 	}
 	.two-up-reverse {
@@ -356,6 +361,8 @@ a{
 }
 @media screen and (min-width: 960px){
 	#contact .two-up, #contact .two-up-reverse {
+		-webkit-flex-direction: row;
+		-ms-flex-direction: row;
 	    flex-direction: row;
 	}
 }
