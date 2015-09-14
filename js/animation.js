@@ -22,6 +22,15 @@ $(document).ready(function(){
   });
 
 
+
+  $('.close').click(function(){
+    $('.myVideoClass').each(function(){
+      $(this).stopVideo();
+    });
+  });
+
+
+
   $("#valentines-video-01-parent").click(function(){
     $("#popup-container-01").toggleClass("hide");
   });
