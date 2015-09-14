@@ -22,7 +22,7 @@ function onPlayerReady(event) {
     player.playVideo();
   });
   
-  var pauseButton = document.getElementById("popup-container");
+  var pauseButton = document.getElementById("popup-container-about");
   pauseButton.addEventListener("click", function() {
     player.pauseVideo();
   });
