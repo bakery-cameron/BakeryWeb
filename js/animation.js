@@ -13,15 +13,6 @@ $(document).ready(function(){
   });
 
 
-  $("#about-video-play").click(function(){
-    $("#popup-container-about").toggleClass("hide");
-  });
-  $("#close-popup-01").click(function(){
-    $("#popup-container-about").toggleClass("hide");
-    $('html').toggleClass("no-scroll");
-  });
-
-
 
   $('.close').click(function(){
     $('.youtube-frame').each(function(){

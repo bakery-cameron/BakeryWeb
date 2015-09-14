@@ -20,11 +20,14 @@ function onPlayerReady(event) {
   var playButton = document.getElementsByClassName("play-video");
   playButton.addEventListener("click", function() {
     player.playVideo();
+    $("#popup-container-about").toggleClass("hide");
   });
   
   var pauseButton = document.getElementsByClassName("popup-container");
   pauseButton.addEventListener("click", function() {
     player.pauseVideo();
+    $("#popup-container-about").toggleClass("hide");
+    $('html').toggleClass("no-scroll");
   });
   
 }
