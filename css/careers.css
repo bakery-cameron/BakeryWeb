@@ -6,7 +6,7 @@
 	background-size: cover;
 	background-position: center;
 	width: 100vw;
-	height: 33vw;
+	min-height: 33vw;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -127,6 +127,8 @@
 
 h1.header-type{
 	font-size: 8em;
+	margin: 50px 0px;
+	max-width: 75%;
 }
 @media screen and (max-width: 1400px) {	
 	h1.header-type{
@@ -141,6 +143,7 @@ h1.header-type{
 @media screen and (max-width: 600px) {	
 	h1.header-type{
 		font-size: 4em;
+		max-width: 90%;
 	}
 }
 @media screen and (max-width: 480px) {	
