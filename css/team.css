@@ -53,41 +53,44 @@
   text-shadow: 2px 2px 7px rgba(0,0,0,1);
 }
 
-#team-image-micky{
-  background-image: url(../images/team/micky-image.jpg);
-}
 #team-image-juan{
   background-image: url(../images/team/juan-image.jpg);
 }
-#team-image-elena{
-  background-image: url(../images/team/elena-image.jpg);
-}
-#team-image-cameron{
-  background-image: url(../images/team/cameron-image.jpg);
-}
-#team-image-jose{
-  background-image: url(../images/team/jose-image.jpg);
-}
-#team-image-charlie{
-  background-image: url(../images/team/charlie-image.jpg);
+#team-image-micky{
+  background-image: url(../images/team/micky-image.jpg);
 }
 #team-image-miranda{
   background-image: url(../images/team/miranda-image.jpg);
 }
-#team-image-seain{
-  background-image: url(../images/team/seain-image.jpg);
+#team-image-cameron{
+  background-image: url(../images/team/cameron-image.jpg);
 }
-#team-image-alejandro{
-  background-image: url(../images/team/alejandro-image.jpg);
+#team-image-omar{
+  background-image: url(../images/team/omar-image.jpg);
+}
+#team-image-elena{
+  background-image: url(../images/team/elena-image.jpg);
+}
+#team-image-charlie{
+  background-image: url(../images/team/charlie-image.jpg);
 }
 #team-image-lloyd{
   background-image: url(../images/team/lloyd-image.jpg);
 }
-#team-image-lumen{
-  background-image: url(../images/team/lumen-image.jpg);
+#team-image-seain{
+  background-image: url(../images/team/seain-image.jpg);
 }
 #team-image-erika{
   background-image: url(../images/team/erika-image.jpg);
+}
+#team-image-jose{
+  background-image: url(../images/team/jose-image.jpg);
+}
+#team-image-lumin{
+  background-image: url(../images/team/lumin-image.jpg);
+}
+#team-image-alejandro{
+  background-image: url(../images/team/alejandro-image.jpg);
 }
 #team-image-luna{
   background-image: url(../images/team/luna-image.jpg);

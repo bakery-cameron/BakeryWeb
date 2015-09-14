@@ -203,6 +203,7 @@ scroll down arrows
 .icon-arrow-down:before {
 	content: "\e600";
 	color: #fff;
+	font-size: .7em;
 }
 
 
