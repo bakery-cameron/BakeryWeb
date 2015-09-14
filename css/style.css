@@ -769,7 +769,11 @@ a{
 	display: -ms-flexbox;rder-box;
 	display: flex;
 }
-
+@media screen and (max-width: 1400px){
+	#home-half .blog-card .blog-card-info-parent .blog-card-info h3{
+		font-size: 2em;
+	}
+}
 @media screen and (max-width: 1280px){
 	.blog-card-home-featured{
 		width: 66%;
