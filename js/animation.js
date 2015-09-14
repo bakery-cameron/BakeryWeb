@@ -18,6 +18,7 @@ $(document).ready(function(){
   });
   $("#close-popup-01").click(function(){
     $("#popup-container-about").toggleClass("hide");
+    $('html').toggleClass("no-scroll");
   });
 
 
