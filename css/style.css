@@ -168,7 +168,7 @@ a{
 
 
 #footer{ 
-  	display: -webkit-box;
+  	display: -webkit-flex;
   	display: -moz-box;
   	display: -ms-flexbox;
 	display: flex;
@@ -768,19 +768,12 @@ a{
 	display: -moz-box;
 	display: -ms-flexbox;rder-box;
 	display: flex;
+	position: relative;
 }
 #home-half .blog-card .blog-card-info-parent{
 	height: 100%;
 	border: 1px solid #ddd;
 	box-sizing: border-box;
-}
-.home-blog-card{
-	padding: 50px;
-	box-sizing: border-box;
-	display: -webkit-flex;
-	display: -moz-box;
-	display: -ms-flexbox;rder-box;
-	display: flex;
 }
 @media screen and (max-width: 1400px){
 	#home-half .blog-card .blog-card-info-parent .blog-card-info h3{
@@ -834,7 +827,7 @@ a{
 		max-width: 480px;
 	}
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 600px){
 	#home-half > div {
     	height: 100vw;
     }
