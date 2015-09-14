@@ -168,7 +168,7 @@ a{
 
 
 #footer{ 
-	display: -webkit-box;
+	display: -webkit-flex;
   	display: -moz-box;
   	display: -ms-flexbox;
 	display: flex;
@@ -184,7 +184,7 @@ a{
 		-ms-flex-direction: column; 
 		flex-direction: column;
 		justify-content: center;
-		-webkit-box-pack: center;
+		-webkit-flex-pack: center;
 		-moz-box-pack: center;
 		-webkit-justify-content: center;
 		-ms-flex-pack: center;
@@ -196,19 +196,19 @@ a{
 	#social-icons {
 	flex-direction: row;
 	justify-content: center;
-	-webkit-box-pack: center;
+	-webkit-flex-pack: center;
 	-moz-box-pack: center;
 	-webkit-justify-content: center;
 	-ms-flex-pack: center;
 	}
 }
 #footer-cta{
-	display: -webkit-box;
+	display: -webkit-flex;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: flex;
 	flex-direction: row;
-	-webkit-box-pack: center;
+	-webkit-flex-pack: center;
     -moz-box-pack: center;
     -webkit-justify-content:
     -ms-flex-pack: center;
@@ -216,12 +216,12 @@ a{
 }
 
 #footer-cta div{
-	display: -webkit-box;
+	display: -webkit-flex;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: flex;
 	flex-direction: row;
-	-webkit-box-pack: center;
+	-webkit-flex-pack: center;
     -moz-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -243,7 +243,7 @@ a{
 	margin: 0px;
 }
 #social-icons{
-	display: -webkit-box;
+	display: -webkit-flex;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -251,14 +251,14 @@ a{
 }
 #social-icons .icon {
     font-size: 1.5em;
-	display: -webkit-box;
+	display: -webkit-flex;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-flex-direction: column;
 	-ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-pack: center;
+    -webkit-flex-pack: center;
     -moz-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -338,7 +338,7 @@ a{
 
 
 .two-up, .two-up-reverse { 
-	display: -webkit-box;
+	display: -webkit-flex;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -375,7 +375,7 @@ a{
 }
 .copy-half{
 	position: absolute;
-	display: -webkit-box;
+	display: -webkit-flex;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -384,7 +384,7 @@ a{
 	flex-direction: column;
 	-webkit-justify-content: center;
   	justify-content: center;
-  	-webkit-box-align: center;
+  	-webkit-flex-align: center;
 	top: 0px;
 	height: 100%;
 	bottom: 0px;
@@ -565,7 +565,7 @@ a{
 	z-index: 1;
 	width: 66vw;
 	justify-content: center;
-	-webkit-box-pack: center;
+	-webkit-flex-pack: center;
     -moz-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -602,14 +602,14 @@ a{
 	position: relative;
 }
 #home-work .featurured .work-block{
-	display: -webkit-box;
+	display: -webkit-flex;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: flex;
 }
 
 .work-block{
-	display: -webkit-box;
+	display: -webkit-flex;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -637,7 +637,7 @@ a{
 	background-image: url(../images/bakery-overlay-texture.png);
 	height: 100%;
  
-	display: -webkit-box;
+	display: -webkit-flex;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -646,7 +646,7 @@ a{
 	flex-direction: column;
 	-webkit-justify-content: space-around;
   	justify-content: space-around;
-  	-webkit-box-align: center;
+  	-webkit-flex-align: center;
   	padding: 30px;
   	box-sizing: border-box;
   	opacity: 0;
@@ -727,7 +727,7 @@ a{
 #home-half{
 	width: 50%;
 	height: 50vw;
-	display: -webkit-box;
+	display: -webkit-flex;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -750,7 +750,7 @@ a{
 .home-blog-card{
 	padding: 50px;
 	box-sizing: border-box;
-	display: -webkit-box;
+	display: -webkit-flex;
 	display: -moz-box;
 	display: -ms-flexbox;rder-box;
 	display: flex;
@@ -763,7 +763,7 @@ a{
 .home-blog-card{
 	padding: 50px;
 	box-sizing: border-box;
-	display: -webkit-box;
+	display: -webkit-flex;
 	display: -moz-box;
 	display: -ms-flexbox;rder-box;
 	display: flex;
@@ -1112,14 +1112,14 @@ a{
     right: -53px;
     opacity: 0;
   
-	display: -webkit-box;
+	display: -webkit-flex;
 	display: -moz-box;
 	display: -ms-flexbox;  display: flex;
     -webkit-flex-direction: column;
 	-ms-flex-direction: column;
 	flex-direction: column;
     justify-content: center;
-    -webkit-box-pack: center;
+    -webkit-flex-pack: center;
     -moz-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -1169,7 +1169,7 @@ a{
 }
 .sub-nav .icon div{
 	position: abso
-	display: -webkit-box;
+	display: -webkit-flex;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -1177,7 +1177,7 @@ a{
 	-ms-flex-direction: column;
 	flex-direction: column;
 	justify-content: center;
-	-webkit-box-pack: center;
+	-webkit-flex-pack: center;
     -moz-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -1227,7 +1227,7 @@ a{
 .easy-modal-animated {
 	box-shadow: 1px 1px 3px rgba(0,0,0,0.35);
 	justify-content: center;
-	-webkit-box-pack: center;
+	-webkit-flex-pack: center;
     -moz-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -1254,7 +1254,7 @@ a{
 	bottom: 0px;
 	z-index: 10;
 	width: 100vw;
-	display: -webkit-box;
+	display: -webkit-flex;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -1263,7 +1263,7 @@ a{
 	flex-direction: column;
 	align-content: center;
 	justify-content: center;
-	-webkit-box-pack: center;
+	-webkit-flex-pack: center;
     -moz-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -1287,7 +1287,7 @@ a{
 
 }
 .contact-form div{
-	display: -webkit-box;
+	display: -webkit-flex;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -1306,7 +1306,7 @@ a{
     transition: all .5s;
 }
 input:-webkit-autofill {
-    -webkit-box-shadow: 0 0 0px 1000px #666 inset;
+    -webkit-flex-shadow: 0 0 0px 1000px #666 inset;
 }
 @media screen and (max-width: 720px) {	
 	.contact-form div{
@@ -1427,7 +1427,7 @@ textarea.field{
 
 
 .blog-related{
-	display: -webkit-box;
+	display: -webkit-flex;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: flex;
