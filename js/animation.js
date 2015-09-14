@@ -24,7 +24,7 @@ $(document).ready(function(){
 
 
   $('.close').click(function(){
-    $('.myVideoClass').each(function(){
+    $('.youtube-frame').each(function(){
       $(this).stopVideo();
     });
   });
