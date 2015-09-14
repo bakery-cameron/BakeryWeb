@@ -24,6 +24,11 @@
   margin: 16px 0px 16px 25px;
   color: #FAC22B;
 }
+@media screen and (max-width: 720px){
+  #header #icon-bakery-logo-plain{
+    margin: 16px 0px 16px 15px;
+  }
+}
 
 #header #icon-bakery-logo-plain.arcade-brown{
   color: #916e4f;

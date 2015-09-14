@@ -490,11 +490,6 @@ a{
 		padding: 0px;
 	}
 }
-@media screen and (max-width: 1080px) {	
-	#home-about{
-		min-height: 600px;
-	}
-}
 
 
  
@@ -594,9 +589,7 @@ a{
 
 
 
-#home-about-half h1{
-	margin-top: 30px;
-}
+
 #home-about-half p{
 	margin-top: 20px;
 	max-width: 720px;
@@ -653,6 +646,7 @@ a{
   	-webkit-flex-direction: column;
 	-ms-flex-direction: column;
 	flex-direction: column;
+	-webkit-justify-content: space-around;
   	justify-content: space-around;
   	padding: 30px;
   	box-sizing: border-box;
