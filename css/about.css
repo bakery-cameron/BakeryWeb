@@ -2,14 +2,23 @@
 	color: #ff;
 	padding: 150px 0px 50px 0px;
 }
+#about-image-01{
+	background-image: url("../images/about/about-image-01.jpg");
+}
+#about-image-02{
+	background-image: url("../images/about/about-image-02.jpg");
+}
+#about-image-03{
+	background-image: url("../images/about/about-image-03.jpg");
+}
 #about-clients{
 	display: -webkit-flex;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: flex;
 	width: 100%;
-	flex-wrap: wrap;
 	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 .about-client{
 	width: 25%;
@@ -178,7 +187,11 @@
 
 
 .capabilities-container{
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-flex-wrap: wrap;
 	flex-wrap: wrap;
 }
 .capability-parent{
@@ -211,12 +224,18 @@
     text-align: center;
     padding: 15%;
     box-sizing: border-box;
+    -webkit-transform: translate(0px,35%);
+    -moz-transform: translate(0px,35%);
+    -ms-transform: translate(0px,35%);
     transform: translate(0px,35%);
 	opacity: 1;
 }
 @media screen and (max-width: 1080px){
 	.capability-copy{
-	    transform: translate(0px,45%);
+		-webkit-transform: translate(0px,45%);
+		-moz-transform: translate(0px,45%);
+		-ms-transform: translate(0px,45%);
+		transform: translate(0px,45%);
 	}
 }
 @media screen and (max-width: 600px){
@@ -244,6 +263,9 @@
 
 @media screen and (min-width: 720px){
 	.capability-parent:hover .capability-copy{
+		-webkit-transform: translate(0px,0%);
+		-moz-transform: translate(0px,0%);
+		-ms-transform: translate(0px,0%);
 		transform: translate(0px,0%);
 	}
 	.capability-parent:hover .capability-copy p{
@@ -256,17 +278,26 @@
 .capability-icon{
 	background-position: center 40%;
 	background-repeat: no-repeat;
+	-webkit-transform: translate(0px,0%);
+	-moz-transform: translate(0px,0%);
+	-ms-transform: translate(0px,0%);
 	transform: translate(0px,0%);
 	opacity: 1;
 }
 @media screen and (max-width: 960px){
 	.capability-icon{
 		background-position: center 30%;
+		-webkit-transform: scale(.7);
+		-moz-transform: scale(.7);
+		-ms-transform: scale(.7);
 		transform: scale(.7);
 	}
 }
 @media screen and (min-width: 720px){
 	.capability-parent:hover .capability-icon{
+		-webkit-transform: translate(0px,-50%);
+		-moz-transform: translate(0px,-50%);
+		-ms-transform: translate(0px,-50%);
 		transform: translate(0px,-50%);
 		opacity: 0;
 	}
@@ -286,17 +317,26 @@
 	    padding-bottom: 100vw;
 	}
 	.capability-copy{
+		-webkit-transform: translate(0px,10%);
+		-moz-transform: translate(0px,10%);
+		-ms-transform: translate(0px,10%);
 		transform: translate(0px,10%);
 	}
 	.capability-copy p {
     	opacity: 1;
     }
     .capability-icon{
+    	-webkit-transform: scale(.7) translate(0px, -20%);
+    	-moz-transform: scale(.7) translate(0px, -20%);
+    	-ms-transform: scale(.7) translate(0px, -20%);
     	transform: scale(.7) translate(0px, -20%);
 	}
 }
 @media screen and (max-width: 600px){
     .capability-icon{
+    	-webkit-transform: scale(.4) translate(0px, -50%);
+    	-moz-transform: scale(.4) translate(0px, -50%);
+    	-ms-transform: scale(.4) translate(0px, -50%);
     	transform: scale(.4) translate(0px, -50%);
 	}
 }
@@ -305,6 +345,10 @@
     	padding-bottom: 150vw;
     }
     .capability-icon{
+    	-webkit-transform: scale(0.5) translate(0px, -30%);
+    	-moz-transform: scale(0.5) translate(0px, -30%);
+    	-ms-transform: scale(0.5) translate(0px, -30%);
+    	transform: scale(0.5) translate(0px, -30%);
     	transform: scale(0.3) translate(0px, -62%);
 	}
 }
@@ -342,7 +386,11 @@
 
 
 #platforms{
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-flex-wrap: wrap;
 	flex-wrap: wrap;
 }
 .platforms-parent{
@@ -376,9 +424,16 @@
 
 .platforms-child{
 	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-justify-content: center;
     justify-content: center;
-    display: flex;
+    
 }
 .platforms-child h3{
 	margin-top: 20px;
@@ -387,10 +442,9 @@
 	display: block;
 }
 .platforms-child ul{
-	margin-top: 10px;
+	margin-top: 25px;
 }
 .platforms-child ul li{
-	margin-top: 10px;
 	color: #777;
 }
 .platforms-child .accent{
