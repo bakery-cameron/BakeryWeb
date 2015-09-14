@@ -1295,6 +1295,10 @@ a{
 .popup-container iframe{
 	margin: auto;
 }
+iframe#about-video {
+    max-width: 80%;
+    max-height: 75%;
+}
 
 .close{
 	position: absolute;

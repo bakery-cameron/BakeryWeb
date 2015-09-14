@@ -349,6 +349,7 @@
     	-moz-transform: scale(0.5) translate(0px, -30%);
     	-ms-transform: scale(0.5) translate(0px, -30%);
     	transform: scale(0.5) translate(0px, -30%);
+    	transform: scale(0.3) translate(0px, -62%);
 	}
 }
 
