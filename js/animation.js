@@ -124,10 +124,19 @@ $(window).scroll(function(){
 // slide container pointer events none on scroll down
 
  $(document).scroll(function(){
-     $('#video-wrap, #slide-team, #blog-header, #home-slider, .slide-video-bg, .slider-content').toggleClass('pointer-none', $(this).scrollTop() > 200);
+     $('#video-wrap, #slide-team, #blog-header, #home-slider').toggleClass('pointer-none', $(this).scrollTop() > 200);
  });
 
 
+
+// detect scrolling
+$(window).scroll(function() {
+    clearTimeout($.data(this, 'scrollTimer'));
+    $.data(this, 'scrollTimer', setTimeout(function() {
+        // do something
+        console.log("Haven't scrolled in 250ms!");
+    }, 250));
+});
 
 
 
