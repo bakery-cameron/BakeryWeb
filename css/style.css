@@ -256,7 +256,7 @@ a{
 
 .slide-client{
 	font-family: Trade Gothic W01 Roman;
-	font-weight: 300;
+	font-weight: 600;
 	font-style: italic;
 	font-size: 2vw;
 	margin: 0px;
@@ -380,7 +380,7 @@ a{
 }
 #scroll-down-hold{
 	position: absolute;
-	bottom: 5%;
+	bottom: 3%;
 	z-index: 2;
 }
 
