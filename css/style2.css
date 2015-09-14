@@ -1,7 +1,7 @@
 *,
 *:after,
 *::before {
-	-webkit-box-sizing: border-box;
+	-webkit-flex-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }

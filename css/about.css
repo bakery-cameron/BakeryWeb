@@ -3,7 +3,7 @@
 	padding: 150px 0px 50px 0px;
 }
 #about-clients{
-	display: -webkit-box;
+	display: -webkit-flex;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -198,7 +198,7 @@
 
 
 .capability-copy{
-    display: -webkit-box;
+    display: -webkit-flex;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -207,7 +207,7 @@
 	flex-direction: column;
   	-webkit-justify-content: center;
   	justify-content: center;
-  	-webkit-box-align: center;
+  	-webkit-flex-align: center;
     text-align: center;
     padding: 15%;
     box-sizing: border-box;
@@ -305,7 +305,7 @@
     	padding-bottom: 150vw;
     }
     .capability-icon{
-    	transform: translate(0px, -100%);
+    	transform: scale(0.5) translate(0px, -30%);
 	}
 }
 
@@ -375,7 +375,7 @@
 
 
 .platforms-child{
-	display: -webkit-box;
+	display: -webkit-flex;
     flex-direction: column;
     justify-content: center;
     display: flex;
