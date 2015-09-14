@@ -17,17 +17,14 @@ function onYouTubePlayerAPIReady() {
 function onPlayerReady(event) {
   
   // bind events
-  var playButton = document.getElementsByClassName("play-video");
+  var playButton = document.getElementById("about-video-play");
   playButton.addEventListener("click", function() {
     player.playVideo();
-    $("#popup-container-about").toggleClass("hide");
   });
   
-  var pauseButton = document.getElementsByClassName("popup-container");
+  var pauseButton = document.getElementById("popup-container-about");
   pauseButton.addEventListener("click", function() {
     player.pauseVideo();
-    $("#popup-container-about").toggleClass("hide");
-    $('html').toggleClass("no-scroll");
   });
   
 }

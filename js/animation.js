@@ -13,11 +13,12 @@ $(document).ready(function(){
   });
 
 
-
-  $('.close').click(function(){
-    $('.youtube-frame').each(function(){
-      $(this).stopVideo();
-    });
+  $("#about-video-play").click(function(){
+    $("#popup-container-about").toggleClass("hide");
+  });
+  $("#close-popup-01").click(function(){
+    $("#popup-container-about").toggleClass("hide");
+    $('html').toggleClass("no-scroll");
   });
 
 
