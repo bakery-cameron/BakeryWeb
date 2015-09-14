@@ -364,6 +364,7 @@ p .text-link{
 	-webkit-justify-content: space-around;
   	justify-content: space-around;
   	-webkit-box-align: center;
+  	margin: auto;
   	padding: 25px 0px;
 }
 .break-button h4{
