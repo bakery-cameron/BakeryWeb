@@ -202,11 +202,8 @@
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: flex;
-  	-webkit-flex-direction: column;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	-webkit-justify-content: space-around;
-  	justify-content: space-around;
+  	-webkit-justify-content: center;
+  	justify-content: center;
   	-webkit-box-align: center;
     text-align: center;
     padding: 15%;
@@ -375,9 +372,10 @@
 
 
 .platforms-child{
-	display: flex;
+	display: -webkit-box;
     flex-direction: column;
     justify-content: center;
+    display: flex;
 }
 .platforms-child h3{
 	margin-top: 20px;
