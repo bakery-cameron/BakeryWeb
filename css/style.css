@@ -1526,12 +1526,12 @@ div#insta-small{
 	display: none;
 }
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 1280px){
 	div#insta-large{ display: none;}
 	div#insta-medium{ display: inherit;}
 	div#insta-small{ display: none;}
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 720px){
 	div#insta-large{ display: none;}
 	div#insta-medium{ display: none;}
 	div#insta-small{ display: inherit;}
