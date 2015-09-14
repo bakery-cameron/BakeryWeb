@@ -174,7 +174,7 @@
     text-align: center;
   }
   #header.closed {
-    height: 100px;
+    height: 32px;
   }
   #main-nav.closed {
     height: 0px;
