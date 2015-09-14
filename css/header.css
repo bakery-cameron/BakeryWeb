@@ -1,7 +1,11 @@
 
 /** page structure **/
 .wrap {
+<<<<<<< .merge_file_DERY9d
   display: block;
+=======
+  display: inline-block;
+>>>>>>> .merge_file_FsxX8H
   margin: 0 auto;
   max-width: 800px;
   padding: 0 10px;
@@ -18,6 +22,7 @@
   }
 }
 #header #icon-bakery-logo-plain{
+  display: inline-block;
   line-height: 100%;
   font-size: 2em;
   margin: 16px 0px 16px 25px;
@@ -94,11 +99,19 @@
   margin-top: 0px;
   border-bottom: solid 0px #fff;
 }
+<<<<<<< .merge_file_DERY9d
 #main-nav a.active{
   color: #333;
   margin-top: 3px;
   border-bottom: #fac22b 5px solid;
+=======
+
+#main-nav a.active h4 {
+    margin-top: 3px;
+    padding-bottom: 10px;
+>>>>>>> .merge_file_FsxX8H
 }
+
 #main-nav a:hover{
   color: #333;
 }
@@ -146,13 +159,22 @@
     top: 30px;
     right: 0px;
   }
+<<<<<<< .merge_file_DERY9d
   #main-nav a, #main-nav a.active{
+=======
+  #main-nav a h4{
+>>>>>>> .merge_file_FsxX8H
     border: none;
     margin-top: 5%;
     font-size: 2em;
+    color: #999;
     pointer-events: none;
   }
+<<<<<<< .merge_file_DERY9d
   #main-nav a:hover, #main-nav a.active{
+=======
+  #main-nav a:hover h4, #main-nav a.active h4{
+>>>>>>> .merge_file_FsxX8H
     color: #fff;
   }
   .mobile-no-scroll{
