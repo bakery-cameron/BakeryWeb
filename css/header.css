@@ -12,7 +12,11 @@
 }
 @media screen and (min-width: 721px){
   #header {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-justify-content: space-between;
     justify-content: space-between;
     background: #fff;
   }
@@ -83,6 +87,9 @@
 
 #main-nav{
   color: #333;
+  ddisplay: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   margin-right: 10px;
   pointer-events: auto;
@@ -90,6 +97,9 @@
 
 #main-nav a{
   font-weight: 500;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -139,11 +149,17 @@
   #header div{
     width: 100%;
     height: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
   #main-nav{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
     width: inherit;
     margin-top: -92px;

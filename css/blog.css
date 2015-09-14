@@ -29,7 +29,11 @@
 
 
 #blog-main, #blog-home{
-	display: flex;
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
 	flex-wrap: wrap;
 }
 #blog-main p{
