@@ -1389,6 +1389,17 @@ textarea.field{
 	background-color: #1A1A1A;
 	font-size: 0;
 }
+@media screen and (max-width: 720px){
+	.filter-container{
+		display: -webkit-flex;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-justify-content: space-around;
+	    justify-content: space-around;
+	}
+}
+
 .filter{
 	display: inline-block;
 	background: none;
@@ -1401,7 +1412,7 @@ textarea.field{
 }
 @media screen and (max-width: 600px){
 	.filter{
-		width: 20%;
+		padding: 20px 11px;
 	}
 }
 

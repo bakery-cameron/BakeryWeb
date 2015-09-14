@@ -54,7 +54,7 @@
 		display: none;
 	}
 }
-#blog-main .blog-card{
+.blog-card{
 	display: none;
 	width: 33.33%;
 	height: 33.33vw;
@@ -71,16 +71,8 @@
 	background-color: #fff;
 }
 .blog-card-home-featured{
-	.blog-card{
-		width: 50%;
-		height: 50vw;
-	}
-}
-@media screen and (max-width: 2100px){
-	.blog-card{
-		width: 50%;
-		height: 50vw;
-	}
+	width: 50%;
+	height: 50vw;
 }
 @media screen and (max-width: 1080px){
 	.blog-card{
