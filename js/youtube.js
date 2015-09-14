@@ -17,7 +17,7 @@ function onYouTubePlayerAPIReady() {
 function onPlayerReady(event) {
   
   // bind events
-  var playButton = document.getElementById("play-button");
+  var playButton = document.getElementById("about-video-play");
   playButton.addEventListener("click", function() {
     player.playVideo();
   });
