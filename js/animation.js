@@ -98,6 +98,19 @@ $(window).scroll(function() {
   }
 });
 
+// detect scrolling
+$(window).scroll(function() {
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    clearTimeout($.data(this, 'scrollTimer'));
+    $.data(this, 'scrollTimer', setTimeout(function() {
+        $('#sub-nav-holder').removeClass('reveal');
+    }, 1000)); 
+  }
+});
+
+
+
+
 
 $(document).ready(function(){
   $("#share-hover").on({
@@ -126,17 +139,6 @@ $(window).scroll(function(){
  $(document).scroll(function(){
      $('#video-wrap, #slide-team, #blog-header, #home-slider').toggleClass('pointer-none', $(this).scrollTop() > 200);
  });
-
-
-
-// detect scrolling
-$(window).scroll(function() {
-    clearTimeout($.data(this, 'scrollTimer'));
-    $.data(this, 'scrollTimer', setTimeout(function() {
-        // do something
-        console.log("Haven't scrolled in 250ms!");
-    }, 250));
-});
 
 
 
