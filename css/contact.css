@@ -68,12 +68,12 @@
 }
 @media screen and (max-width: 600px){
 	#contact .two-up div,#contact  .two-up-reverse div {
-	    height: 100vw;
+	    height: 133vw;
 	}
 }
 @media screen and (max-width: 480px){
 	#contact .two-up div,#contact  .two-up-reverse div {
-	    height: 133vw;
+	    height: 166vw;
 	}
 }
 
