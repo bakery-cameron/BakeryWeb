@@ -648,6 +648,7 @@ a{
 	flex-direction: column;
 	-webkit-justify-content: space-around;
   	justify-content: space-around;
+  	-webkit-box-align: center;
   	padding: 30px;
   	box-sizing: border-box;
   	opacity: 0;
