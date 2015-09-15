@@ -50,11 +50,6 @@ app.get('*', function(req, res) {
   	res.sendFile(path.join(__dirname , '../404/index.html'));
 });
 
-app.listen(app.get('port'), function() {
-  console.log('Node app is running on port', app.get('port'));
-});
-
-
 
 //-----email stuff-------//
 
@@ -121,6 +116,11 @@ app.post('/email-resume',upload.single('resume'),function(req,res){
 
 
 
+
+
+app.listen(app.get('port'), function() {
+  console.log('Node app is running on port', app.get('port'));
+});
 
 function isValidFolder(folder){
 	stats = fs.lstatSync(path.join(__dirname , folder));
