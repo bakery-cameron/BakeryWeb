@@ -130,6 +130,8 @@
 }
 
 #main-nav.closed {
+  -webkit-transform: translate(50px,0px);
+  -moz-transform: translate(50px,0px);
   transform: translate(50px,0px);
   pointer-events: none;
   opacity: 0;
@@ -148,6 +150,8 @@
     background-image: url("../images/bakery-overlay-texture.png");
   }
   #header *{
+    -webkit-transition: 0s;
+    -moz-transition: 0s;
     transition: 0s;
   }
   #header div{
@@ -483,6 +487,8 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
   transition: 0.2s;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -502,6 +508,8 @@
   display: inline-block;
   width: 30px;
   border-radius: 1.5px;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
   transition: 0.2s;
   background: #fac22b;
   position: relative; }
@@ -510,6 +518,8 @@
     height: 3px;
     width: 30px;
     border-radius: 1.5px;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
     transition: 0.2s;
     background: #fac22b;
     content: '';

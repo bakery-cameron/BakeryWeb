@@ -70,6 +70,8 @@
 }
 @media screen and (max-width: 720px){
 	.about-client-logo{
+		-webkit-transform: scale(.7);
+		-moz-transform: scale(.7);
 		transform: scale(.7);
 	}  
 }
