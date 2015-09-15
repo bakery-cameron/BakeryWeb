@@ -1364,7 +1364,7 @@ iframe#about-video {
     background: none;
     border: none;
     border-bottom: 2px #666 solid;
-    border-radius: none;
+    border-radius: none !important;
     padding: 12px 12px 12px 0px;
     font-size: 1rem;
     line-height: 100%;
@@ -1433,7 +1433,7 @@ textarea.field{
 }
 @media screen and (max-width: 720px){
 	#textbox{
-		height: 21px;
+		height: 21px !important;
 	}
 }
 
