@@ -11,12 +11,12 @@ $(document).ready(function(){
 			text:$('#message-textbox').val()
 		}
 		$.ajax( {
-	      url: 'email-message',
+	      url: '../email-message',
 	      type: 'POST',
 	      data: data,
 	      dataType: 'json',
 	      success:function(){
-	      	alert('success');
+	      	alert('Thanks!');
 	      	$('#contact-career')[0].reset();
 	      }
 	    } );
@@ -33,12 +33,13 @@ $(document).ready(function(){
 			text:$('#project-textbox').val()
 		}
 		$.ajax( {
-	      url: 'email-project',
+	      url: '../email-project',
 	      type: 'POST',
 	      data: data,
 	      dataType: 'json',
 	      success:function(){
-	      	alert('success');
+	      	alert('Thanks!');
+	      	$('#contact-career')[0].reset();
 	      }
 	    } );
 	});
@@ -54,13 +55,14 @@ $(document).ready(function(){
 		fd.append( 'email',$('#resume-email').val());
 		fd.append( 'text',$('#resume-textbox').val());
 		$.ajax( {
-	      url: 'email-resume',
+	      url: '../email-resume',
 	      type: 'POST',
 	      data: fd,
 	      processData: false,
 	      contentType: false,
 	      success:function(){
-	      	alert('success');
+	      	alert('Thanks!');
+	      	$('#contact-career')[0].reset();
 	      }
 	    } );
 	});
