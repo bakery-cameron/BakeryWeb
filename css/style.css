@@ -1348,8 +1348,8 @@ iframe#about-video {
 
 
 
-.contact-form{
-
+textarea.field{
+    height: 300px;
 }
 .contact-form div{
 	display: -webkit-flex;
@@ -1613,3 +1613,4 @@ iframe#video{
     height: 44vw;
     max-height: 720px;
 }
+

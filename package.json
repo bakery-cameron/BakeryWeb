@@ -14,7 +14,10 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/cmiller060/bakery-dev#readme",
   "dependencies": {
-    "express": "^4.13.3"
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "mailgun-js": "^0.7.1",
+    "multer": "^1.0.3"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
