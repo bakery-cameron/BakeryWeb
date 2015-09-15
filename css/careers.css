@@ -26,7 +26,11 @@
 		height: 100vw;
 	}
 }
-
+#blog .static-header{
+	height: auto;
+	min-height: 0px;
+	padding: 75px 0px;
+}
 
 
 
@@ -146,7 +150,7 @@
 
 h1.header-type{
 	font-size: 8em;
-	margin: 50px 0px;
+	margin: auto;;
 	max-width: 75%;
 }
 @media screen and (max-width: 1400px) {	

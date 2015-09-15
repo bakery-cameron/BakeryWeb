@@ -1597,3 +1597,11 @@ div#insta-small{
 	div#insta-medium{ display: none;}
 	div#insta-small{ display: inherit;}
 }
+
+
+iframe#video{
+	width: 80%;
+    max-width: 1280px;
+    height: 44vw;
+    max-height: 720px;
+}
