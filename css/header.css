@@ -141,6 +141,12 @@
 
 /** mobile nav **/
 @media screen and (max-width: 720px){
+  html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative;
+  }
   #header{
     display: block;
     position: fixed;
@@ -190,6 +196,7 @@
   }
   #main-nav a{
     border-width: 0px;
+    padding-bottom: 15px;
   }
   #main-nav a h4, #main-nav a.active h4{
     border: none;
