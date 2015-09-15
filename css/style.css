@@ -276,6 +276,8 @@ a{
     font-size: 1.2em;
 }
 #social-icons .icon:hover{
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
 	transform: scale(1.1);
 	color: #585858;
 }
@@ -1362,6 +1364,7 @@ iframe#about-video {
     background: none;
     border: none;
     border-bottom: 2px #666 solid;
+    border-radius: none;
     padding: 12px 12px 12px 0px;
     font-size: 1rem;
     line-height: 100%;
@@ -1391,9 +1394,6 @@ input:-webkit-autofill {
 .field:focus{
 	outline: none;
     border-bottom-color: #fac22b;
-}
-input:required:valid{
-	border-bottom: 2px #fac22b solid;
 }
 
 

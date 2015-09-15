@@ -82,6 +82,11 @@
 		position: relative;
 	}
 }
+@media screen and (min-width: 2000px){
+	.careers-block{
+		height: 25vw;
+	}
+}
 .careers-block .spacer-child{
 	padding: 20%;
 	text-align: center;
