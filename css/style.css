@@ -441,6 +441,14 @@ a{
 	    height: 166vw;
 	}
 }
+@media screen and (min-width: 2000px){
+	.two-up div, .two-up-reverse div {
+	    height: 33vw;
+	}
+	.copy-half {
+    	height: 33vw;
+    }
+}
 
 
 

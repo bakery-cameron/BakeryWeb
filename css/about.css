@@ -39,6 +39,12 @@
 	    padding-bottom: 50%;
 	}
 }
+@media screen and (min-width: 2000px){
+	.about-client{
+		width: 16.66%;
+	    padding-bottom: 16.66%;
+	}
+}
 
 
 
@@ -49,17 +55,6 @@
 }
 .about-client:hover .hover{
 	opacity: 1;
-}
-
-@media screen and (max-device-width:720px){
-	.about-client{
-		border: none;
-	}
-}
-@media screen and (max-device-width:720px){
-	.about-client .hover{
-		opacity: 1;
-	}
 }
 
 
@@ -110,6 +105,21 @@
     background-size: cover;
 }
 
+#dmwt-logo{
+	background-image: url("../images/about/client-dmwt.png");
+}
+#dmwt-hover-logo{
+	background-image: url("../images/about/client-dmwt-hover.png");
+}
+#dmwt-hover-bg{
+	display: block;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+	background-image: url("../images/about/client-dmwt-bg.jpg");
+}
+
 
 #elrey-logo{
 	background-image: url("../images/about/client-elrey.png");
@@ -142,26 +152,19 @@
 }
 
 
-#waterapp-logo{
-	background-image: url("../images/about/client-waterapp.png");
+#sxsw-logo{
+	background-image: url("../images/about/client-sxsw.png");
 }
-#waterapp-hover-bg{
-	background-color: #fff;
+#sxsw-hover-logo{
+	background-image: url("../images/about/client-sxsw-hover.png");
 }
-#waterapp-hover-logo{
-	background-image: url("../images/about/client-waterapp-hover.png");
-}
-
-
-
-#kc-logo{
-	background-image: url("../images/about/client-kc.png");
-}
-#kc-hover-logo{
-	background-image: url("../images/about/client-kc-hover.png");
-}
-#kc-hover-bg{
-	background-color: #fff;
+#sxsw-hover-bg{
+	display: block;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+	background-image: url("../images/about/client-sxsw-bg.jpg");
 }
 
 
@@ -176,6 +179,92 @@
 }
 
 
+#kc-logo{
+	background-image: url("../images/about/client-kc.png");
+}
+#kc-hover-logo{
+	background-image: url("../images/about/client-kc-hover.png");
+}
+#kc-hover-bg{
+	background-color: #fff;
+}
+
+
+#bpi-logo{
+	background-image: url("../images/about/client-bpi.png");
+}
+#bpi-hover-logo{
+	background-image: url("../images/about/client-bpi-hover.png");
+}
+#bpi-hover-bg{
+	display: block;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+	background-image: url("../images/about/client-bpi-bg.jpg");
+}
+
+
+#hausvac-logo{
+	background-image: url("../images/about/client-hausvac.png");
+}
+#hausvac-hover-logo{
+	background-image: url("../images/about/client-hausvac-hover.png");
+}
+#hausvac-hover-bg{
+	display: block;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+	background-image: url("../images/about/client-hausvac-bg.jpg");
+}
+
+
+#nest-logo{
+	background-image: url("../images/about/client-nest.png");
+}
+#nest-hover-logo{
+	background-image: url("../images/about/client-nest-hover.png");
+}
+#nest-hover-bg{
+	display: block;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+	background-image: url("../images/about/client-nest-bg.jpg");
+}
+
+
+#phocrastinate-logo{
+	background-image: url("../images/about/client-phocrastinate.png");
+}
+#phocrastinate-hover-logo{
+	background-image: url("../images/about/client-phocrastinate-hover.png");
+}
+#phocrastinate-hover-bg{
+	background-color: #264363;
+}
+
+
+#ehco-logo{
+	background-image: url("../images/about/client-ehco.png");
+}
+#ehco-hover-logo{
+	background-image: url("../images/about/client-ehco-hover.png");
+}
+#ehco-hover-bg{
+	display: block;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+	background-image: url("../images/about/client-ehco-bg.jpg");
+}
+
+
 #slab-logo{
 	background-image: url("../images/about/client-slab.png");
 }
@@ -184,6 +273,33 @@
 }
 #slab-hover-bg{
 	background-image: url("../images/about/client-slab-bg.png");
+}
+
+
+#waterapp-logo{
+	background-image: url("../images/about/client-waterapp.png");
+}
+#waterapp-hover-bg{
+	background-color: #fff;
+}
+#waterapp-hover-logo{
+	background-image: url("../images/about/client-waterapp-hover.png");
+}
+
+
+#timdoi-logo{
+	background-image: url("../images/about/client-timdoi.png");
+}
+#timdoi-hover-logo{
+	background-image: url("../images/about/client-timdoi-hover.png");
+}
+#timdoi-hover-bg{
+	display: block;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+	background-image: url("../images/about/client-timdoi-bg.jpg");
 }
 
 
@@ -208,6 +324,11 @@
 	.capability-parent{
 	    width: 50%;
 	    padding-bottom: 50vw;
+	}
+}
+@media screen and (min-width: 2000px){
+	.capability-parent{
+	    padding-bottom: 25vw;
 	}
 }
 
@@ -419,6 +540,11 @@
 	.platforms-parent{
 		width: 100%;
 		padding-bottom: 100vw;
+	}
+}
+@media screen and (min-width: 2000px){
+	.platforms-parent{
+		padding-bottom: 20vw;
 	}
 }
 
