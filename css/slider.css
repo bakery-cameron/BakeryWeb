@@ -705,6 +705,23 @@ type animations
 }
 
 
+
+/*-----404-----*/
+
+#slide-type-error{
+	width: 630px;
+	height: 248px;
+	background-image: url(../images/error-animation.png);
+    -webkit-animation: titleOnceAnimation 1.7s steps(38, end) 0s 1;
+    -moz-animation: titleOnceAnimation 1.7s steps(38, end) 0s 1;
+    -ms-animation: titleOnceAnimation 1.7s steps(38, end) 0s 1;
+    animation: titleOnceAnimation 1.7s steps(38, end) 0s 1;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
 /*-----case studies-----*/
 
 #slide-type-valentines{

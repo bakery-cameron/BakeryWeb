@@ -54,9 +54,6 @@
 		display: none;
 	}
 }
-#blog-main .blog-card:nth-child(n+9){
-	display: none;
-}
 .blog-card{
 	-webkit-flex-direction: column;
 	-ms-flex-direction: column;
@@ -109,7 +106,9 @@
 		height: 33.33vw;
 	}
 }
-
+#blog-main .blog-card{
+	display: none;
+}
 
 
 
