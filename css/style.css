@@ -1432,7 +1432,7 @@ textarea.field{
     background-clip: content-box;
 }
 @media screen and (max-width: 720px){
-	#textbox{
+	textarea.field{
 		height: 21px !important;
 	}
 }
