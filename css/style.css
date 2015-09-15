@@ -27,7 +27,7 @@ body, textarea, input{
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
 	font-smoothing: antialiased;
-	overflow-x: hidden; 
+	overflow-x: hidden !important; 
 }
 #website-content{
 	z-index: 20;
