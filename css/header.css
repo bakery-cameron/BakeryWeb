@@ -141,12 +141,6 @@
 
 /** mobile nav **/
 @media screen and (max-width: 720px){
-  html, body {
-    overflow-x: hidden;
-  }
-  body {
-    position: relative;
-  }
   #header{
     display: block;
     position: fixed;
