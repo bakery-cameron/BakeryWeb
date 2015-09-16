@@ -245,6 +245,11 @@
 		opacity: .4;
 	}
 }
+@media screen and (min-width: 1600px) {
+	#elrey-backstory-woman{
+		height: 150%;
+	}
+}
 #elrey-pull-01{
 	background-image: url(../images/elrey/elrey-embers-01.jpg);
 }
@@ -297,6 +302,16 @@
 	    width: 178px;
 	}
 }
+@media screen and (max-width: 420px){
+	#elrey-mockup{
+		width: 120%;
+	}
+}
+@media screen and (max-width: 380px){
+	#elrey-mockup{
+		width: 135%;
+	}
+}
 
 
 #elrey-name-container{
@@ -305,7 +320,13 @@
 }
 #elrey-name{
 	width: 60%;
+	max-width: 1300px;
 	margin-top: 25vw;
+}
+@media screen and (min-width: 1800px){
+	#elrey-name{
+		margin-top: 250px;
+	}
 }
 #elrey-results{
 	position: relative;
@@ -321,40 +342,39 @@
 	left: 0px;
 	background-size: 100% 100%;
 }
-#elrey-hole-03{
-	position: absolute;
-	left: 5%;
-	z-index: -1;
-}
 #elrey-hole-01{
 	position: absolute;
-	top: 5px;
+    bottom: -75px;
 	right: 15%;
 	z-index: -1;
 }
 #elrey-hole-02{
 	position: absolute;
-	bottom: 0px;
-	right: 10%;
+	left: 5%;
 	z-index: -1;
 }
 #elrey-results-woman{
 	position: absolute;
-	top: 0px;
+	bottom: 0px;
 	right: 0px;
 	z-index: -1;
 	height: 100%;
 }
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1000px) {
 	#elrey-results-woman{
 		opacity: .4;
 	}
-	#elrey-hole-01{
-	left: -5%;
+}
+@media screen and (min-width: 2000px) {
+	#elrey-results-woman{
+		height: 140%;
 	}
 }
 @media screen and (max-width: 900px) {
 	#elrey-hole-01{
+	display: none;
+	}
+	#elrey-hole-02{
 	display: none;
 	}
 }
@@ -1462,8 +1482,11 @@ a.valentines-break-button:hover h4{
 
 
 
-#calendario h1, #calendario h2, #calendario h4{
+#calendario h1, #calendario h2{
 	color: #fff;
+}
+#calendario h4{
+	color: #ff0000;
 }
 #footer-cta h4{
 	color: #000;
@@ -1473,6 +1496,11 @@ a.valentines-break-button:hover h4{
 }
 #calendario h2{
 	font-size: 8em;
+}
+@media screen and (max-width: 600px){
+	#calendario h2{
+		font-size: 4em;
+	}
 }
 #calendario .pull-quote{
 	position: relative;
@@ -1740,8 +1768,8 @@ a.valentines-break-button:hover h4{
 	color: #ff0000;
 	font-family: "TradeGothicW01-BoldCn20 675334", Helvetica, sans;
 	font-weight: 500;
-	line-height: 130%;
-    font-size: .8em;
+	line-height: 175%;
+    font-size: .6em;
 }
 #calendario-ice{
 	position: relative;
