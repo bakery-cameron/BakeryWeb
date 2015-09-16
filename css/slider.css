@@ -248,12 +248,12 @@ home slide buttons
 -----------------------------------*/
 
 #slide-button-calendario{
-	border-color: #0f4c8c;
-	background-image: linear-gradient(to bottom, rgba(255, 205, 51, 0) 50%, #0f4c8c 50%);
+	border-color: #ff0000;
+	background-image: linear-gradient(to bottom, rgba(255, 205, 51, 0) 50%, #ff0000 50%);
 }
 @media screen and (max-device-width: 720px){
 	#slide-button-calendario{
-		background-color: #0f4c8c;
+		background-color: #ff0000;
 	}
 }
 
@@ -275,8 +275,8 @@ home slide buttons
 
 
 #slide-button-valentines{
-	border-color: #eb5c5c;
-	background-image: linear-gradient(to bottom, rgba(255, 205, 51, 0) 50%, #eb5c5c 50%);
+	border-color: #7ecdc0;
+	background-image: linear-gradient(to bottom, rgba(255, 205, 51, 0) 50%, #7ecdc0 50%);
 	-webkit-animation-delay: 12s;
 	-moz-animation-delay: 12s;
 	-ms-animation-delay: 12s;
@@ -284,7 +284,7 @@ home slide buttons
 }
 @media screen and (max-device-width: 720px){
 	#slide-button-valentines{
-		background-color: #eb5c5c;
+		background-color: #7ecdc0;
 	}
 }
 

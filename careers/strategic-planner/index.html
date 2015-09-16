@@ -152,40 +152,23 @@
 		<div class="grow-container">
 			<h2>Apply Now</h2>
 
-			<form id="contact-career" class="contact-form wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0s" method="post" action="mailto:" enctype="multipart/form-data">
+			<form id="contact-career" class="contact-form wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0s">
 				<div>
-					<input class="field" type="text"  name="fname" required placeholder="First name">
-					<input class="field" type="text"  name="lname" required placeholder="Last name">
+					<input id="resume-first" class="field" type="text"  name="fname" required placeholder="First name">
+					<input id="resume-last" class="field" type="text"  name="lname" required placeholder="Last name">
 				</div>
 				<div>
-					<input class="field" type="text" name="mail" required placeholder="Email">
-					<input class="field" type="text" required placeholder="Subject">
+					<input id="resume-email" class="field" type="text" name="mail" required placeholder="Your Email">
+					<input id="resume-file-input" class="field upload" type="file" required name="attachedfile" placeholder="attach file">
 				</div>
 				<div>
-					<textarea id="textbox" rows="1" class="field" name="hello" required placeholder="Tell us about yourself" onkeydown="AutoGrowTextArea(this)"></textarea>
+					<textarea id="resume-textbox" rows="1" class="field" name="hello" required placeholder="Tell us about yourself"></textarea>
 				</div>
-				<input class="button" type="submit">
+				<input id="resume-submit" class="button" type="submit">
 			</form>
 		</div>
 	</section>
 
-<script type="text/javascript">
-// Auto-Grow-TextArea script.
-// Script copyright (C) 2011 www.cryer.co.uk. (thanks!!)
-// Script is free to use provided this copyright header is included.
-function AutoGrowTextArea(textField)
-{
-  if (textField.clientHeight < textField.scrollHeight)
-  {
-    textField.style.height = textField.scrollHeight + "px";
-    if (textField.clientHeight < textField.scrollHeight)
-    {
-      textField.style.height = 
-        (textField.scrollHeight * 2 - textField.clientHeight) + "px";
-    }
-  }
-}
-</script>
 <!--____________________________
 
 	footer
@@ -225,6 +208,7 @@ function AutoGrowTextArea(textField)
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.js"></script>
 		<script src='../../js/jquery.parallax.js' type='text/javascript'></script>
+		<script src="../js/email.js"></script>
 
 
 

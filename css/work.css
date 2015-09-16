@@ -113,7 +113,12 @@
 }
 @media screen and (max-width: 600px){
 	#work-main .info h2{
-		font-size: 4em;
+		font-size: 3.2em;
+	}
+}
+@media screen and (max-width: 400px){
+	#work-main .info h2{
+		font-size: 2.2em;
 	}
 }
 
@@ -371,7 +376,7 @@
 }
 
 #valentines-scroll-down div:before{
-	color: #B83E3E;
+	color: #7ecdc0;
 }
 
 #sub-nav-valentines > .icon, #sub-nav-valentines #icon-share, #sub-nav-valentines .icon h4 {
@@ -1721,6 +1726,13 @@ a.valentines-break-button:hover h4{
 	margin-bottom: 25px;
 	display: inline-block;
 }
+
+@media screen and (max-width: 720px){
+	#calendario-badge{
+		width: 60%;
+	}
+}
+
 .plus:after{
 	position: absolute;
 	content: "+";
@@ -1728,6 +1740,8 @@ a.valentines-break-button:hover h4{
 	color: #ff0000;
 	font-family: "TradeGothicW01-BoldCn20 675334", Helvetica, sans;
 	font-weight: 500;
+	line-height: 130%;
+    font-size: .8em;
 }
 #calendario-ice{
 	position: relative;
