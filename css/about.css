@@ -26,6 +26,15 @@
     position: relative;
     border: #141414 1px solid;
     box-sizing: border-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
 }
 @media screen and (max-width: 1080px){
 	.about-client{
@@ -63,16 +72,12 @@
 	background-position: center;
 	background-repeat: no-repeat;
 }
-@media screen and (max-width: 720px){
-	.about-client-logo{
-		-webkit-transform: scale(.7);
-		-moz-transform: scale(.7);
-		transform: scale(.7);
-	}  
-}
 @media screen and (max-width: 400px){
 	.about-client-logo{
-		background-size: contain;
+		    background-size: contain;
+			width: 60%;
+			height: 60%;
+			margin: 20%;
 	}  
 }
 

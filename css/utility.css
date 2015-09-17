@@ -366,6 +366,7 @@ p .text-link{
 	margin: 0px auto;
 }
 .break-button{
+	position: relative;
 	display: -webkit-flex;
 	display: -moz-box;
 	display: -ms-flexbox;

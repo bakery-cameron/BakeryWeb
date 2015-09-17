@@ -113,6 +113,12 @@ h2{
 		margin-bottom: 20px;
 	}
 }
+@media screen and (max-width: 400px) {	
+	h2{
+		font-size: 2em;
+		margin-bottom: 20px;
+	}
+}
 h3{
 	font-size: 3em;
 }
@@ -440,10 +446,18 @@ a{
 	.two-up div, .two-up-reverse div {
 	    height: 166vw;
 	}
+	.two-up .bg-image, .two-up-reverse .bg-image{
+	    height: 100vw;
+	}
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 400px){
 	.two-up div, .two-up-reverse div {
-	    height: 166vw;
+	    height: 200vw;
+	}
+}
+@media screen and (max-width: 350px){
+	.two-up div, .two-up-reverse div {
+	    height: 233vw;
 	}
 }
 @media screen and (min-width: 2000px){
