@@ -864,7 +864,7 @@ type animations
 #slide-type-arcade{
 	width: 689px;
 	height: 248px;
-	background-image: url(../images/arcade/aracde-animation.png);
+	background-image: url(../images/arcade/arcade-animation.png);
     -webkit-animation: titleOnceAnimation 2s steps(22, end) 0s 1;
     -moz-animation: titleOnceAnimation 2s steps(22, end) 0s 1;
     -ms-animation: titleOnceAnimation 2s steps(22, end) 0s 1;
@@ -907,21 +907,21 @@ type animations
 	#slide-type-arcade {
     width: 297px;
     height: 106.903px;
-    background-image: url(../images/arcade/aracde-mobile.png);
+    background-image: url(../images/arcade/arcade-mobile.png);
 	}
 }
 @media screen and (max-device-width: 376px) { 
 	#slide-type-arcade {
     width: 305px;
     height: 109.782px;
-    background-image: url(../images/arcade/aracde-mobile.png);
+    background-image: url(../images/arcade/arcade-mobile.png);
 	}
 }
 @media screen and (max-device-width: 330px) { 
 	#slide-type-arcade {
     width: 241px;
     height: 86.746px;
-    background-image: url(../images/arcade/aracde-mobile.png);
+    background-image: url(../images/arcade/arcade-mobile.png);
 	}
 }
 
