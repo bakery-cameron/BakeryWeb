@@ -214,7 +214,7 @@ a{
 	flex-direction: row;
 	-webkit-flex-pack: center;
     -moz-box-pack: center;
-    -webkit-justify-content:
+    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
 }

@@ -63,10 +63,6 @@
 	background-color: #fff;
 	position: relative;
 }
-.blog-card-home-featured{
-	width: 50%;
-	height: 50vw;
-}
 @media screen and (max-width: 1080px){
 	.blog-card{
 		width: 100%;
@@ -105,6 +101,10 @@
 		width: 33.33%;
 		height: 33.33vw;
 	}
+}
+.blog-card-home-featured{
+	width: 50%;
+	height: 50vw;
 }
 #blog-main .blog-card{
 	display: none;
