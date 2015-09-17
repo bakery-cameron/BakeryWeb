@@ -1045,6 +1045,13 @@ a.valentines-break-button:hover h4{
 	background: url("../images/phocrastinate/phocrastinate-sketches-bg.jpg");
 	overflow: hidden;
 }
+@media screen and (max-width: 700px){
+	#phocrastinate-sketches-container{
+		position: relative;
+		background: url("../images/phocrastinate/phocrastinate-sketches-bg-small.jpg");
+		overflow: hidden;
+	}
+}
 .phocrastinate-sketches{
 	position: absolute;
 }

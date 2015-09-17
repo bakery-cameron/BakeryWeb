@@ -512,7 +512,6 @@
 .tcon-menu__lines {
   display: inline-block;
   width: 30px;
-  border-radius: 1.5px;
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
   transition: 0.2s;
@@ -522,7 +521,6 @@
     display: inline-block;
     height: 4px;
     width: 30px;
-    border-radius: 1.5px;
     -webkit-transition: 0.2s;
     -moz-transition: 0.2s;
     transition: 0.2s;
