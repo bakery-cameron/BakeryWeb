@@ -70,7 +70,11 @@
 		transform: scale(.7);
 	}  
 }
-
+@media screen and (max-width: 400px){
+	.about-client-logo{
+		background-size: contain;
+	}  
+}
 
 
 
