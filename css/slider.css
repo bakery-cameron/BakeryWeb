@@ -330,14 +330,14 @@ type animations
 	#home-slide-type-calendario {
     width: 300px;
     height: 48px;
-    background-image: url(../images/calendario/calendario-animation-mobile.png);
+    background-image: url(../images/calendario/calendario-mobile.png);
 	}
 }
 @media screen and (max-device-width: 330px) { 
 	#home-slide-type-calendario {
     width: 250px;
     height: 40px;
-    background-image: url(../images/calendario/calendario-animation-mobile.png);
+    background-image: url(../images/calendario/calendario-mobile.png);
 	}
 }
 
@@ -382,21 +382,21 @@ type animations
 	#home-slide-type-elrey {
     width: 295px;
     height: 82.018px;
-    background-image: url(../images/elrey/elrey-animation-mobile.png);
+    background-image: url(../images/elrey/elrey-mobile.png);
 	}
 }
 @media screen and (max-device-width: 376px) { 
 	#home-slide-type-elrey {
     width: 298px;
     height: 82.852px;
-    background-image: url(../images/elrey/elrey-animation-mobile.png);
+    background-image: url(../images/elrey/elrey-mobile.png);
 	}
 }
 @media screen and (max-device-width: 330px) { 
 	#home-slide-type-elrey {
     width: 241px;
     height: 67.004px;
-    background-image: url(../images/elrey/elrey-animation-mobile.png);
+    background-image: url(../images/elrey/elrey-mobile.png);
 	}
 }
 
@@ -441,21 +441,21 @@ type animations
 	#home-slide-type-valentines {
     width: 303px;
     height: 87.888px;
-    background-image: url(../images/valentines/valentines-animation-mobile.png);
+    background-image: url(../images/valentines-home-mobile.png);
 	}
 }
 @media screen and (max-device-width: 376px) { 
 	#home-slide-type-valentines {
     width: 300px;
     height: 87.018px;
-    background-image: url(../images/valentines/valentines-animation-mobile.png);
+    background-image: url(../images/valentines-home-mobile.png);
 	}
 }
 @media screen and (max-device-width: 330px) { 
 	#home-slide-type-valentines {
     width: 241px;
     height: 69.904px;
-    background-image: url(../images/valentines/valentines-animation-mobile.png);
+    background-image: url(../images/valentines-home-mobile.png);
 	}
 }
 
@@ -503,21 +503,21 @@ type animations
 	#slide-type-about {
     width: 301px;
     height: 166.217px;
-    background-image: url(../images/about/about-animation-mobile.png);
+    background-image: url(../images/about/about-mobile.png);
 	}
 }
 @media screen and (max-device-width: 376px) { 
 	#slide-type-about {
     width: 295px;
     height: 162.904px;
-    background-image: url(../images/about/about-animation-mobile.png);
+    background-image: url(../images/about/about-mobile.png);
 	}
 }
 @media screen and (max-device-width: 330px) { 
 	#slide-type-about {
     width: 247px;
     height: 136.398px;
-    background-image: url(../images/about/about-animation-mobile.png);
+    background-image: url(../images/about/about-mobile.png);
 	}
 }
 
@@ -562,21 +562,21 @@ type animations
 	#slide-type-contact {
     width: 300px;
     height: 97.128px;
-    background-image: url(../images/contact/contact-animation-mobile.png);
+    background-image: url(../images/contact/contact-mobile.png);
 	}
 }
 @media screen and (max-device-width: 376px) { 
 	#slide-type-contact {
     width: 303px;
     height: 98.099px;
-    background-image: url(../images/contact/contact-animation-mobile.png);
+    background-image: url(../images/contact/contact-mobile.png);
 	}
 }
 @media screen and (max-device-width: 330px) { 
 	#slide-type-contact {
     width: 244px;
     height: 78.997px;
-    background-image: url(../images/contact/contact-animation-mobile.png);
+    background-image: url(../images/contact/contact-mobile.png);
 	}
 }
 
@@ -621,32 +621,32 @@ type animations
 	#slide-type-careers {
     width: 301px;
     height: 39.064px;
-    background-image: url(../images/careers/careers-animation-mobile.png);
+    background-image: url(../images/careers/careers-mobile.png);
 	}
 }
 @media screen and (max-device-width: 376px) { 
 	#slide-type-careers {
     width: 293px;
     height: 38.155px;
-    background-image: url(../images/careers/careers-animation-mobile.png);
+    background-image: url(../images/careers/careers-mobile.png);
 	}
 }
 @media screen and (max-device-width: 330px) { 
 	#slide-type-careers {
     width: 254px;
     height: 32.964px;
-    background-image: url(../images/careers/careers-animation-mobile.png);
+    background-image: url(../images/careers/careers-mobile.png);
 	}
 }
 
 #slide-type-team{
-	width: 977px;
-	height: 112px;
+	width: 811px;
+	height: 248px;
 	background-image: url(../images/team/team-animation.png);
-    -webkit-animation: titleOnceAnimation 1.7s steps(39, end) 0s 1;
-    -moz-animation: titleOnceAnimation 1.7s steps(39, end) 0s 1;
-    -ms-animation: titleOnceAnimation 1.7s steps(39, end) 0s 1;
-    animation: titleOnceAnimation 1.7s steps(39, end) 0s 1;
+    -webkit-animation: titleOnceAnimation 1.7s steps(47, end) 0s 1;
+    -moz-animation: titleOnceAnimation 1.7s steps(47, end) 0s 1;
+    -ms-animation: titleOnceAnimation 1.7s steps(47, end) 0s 1;
+    animation: titleOnceAnimation 1.7s steps(47, end) 0s 1;
     -webkit-animation-fill-mode: both;
     -moz-animation-fill-mode: both;
     -ms-animation-fill-mode: both;
@@ -654,53 +654,47 @@ type animations
 }
 @media screen and (max-width: 1000px) { 
 	#slide-type-team {
-    width: 768px;
-    height: 88.041px;
-	}
-}
-@media screen and (max-width: 768px) { 
-	#slide-type-team {
-    width: 593px;
-    height: 67.98px;
+    width: 470px;
+    height: 143.724px;
 	}
 }
 @media screen and (max-width: 600px) { 
 	#slide-type-team {
-    width: 305px;
-    height: 34.964px;
+    width: 297px;
+    height: 90.821px;
 	}
 }
 @media screen and (max-width: 376px) { 
 	#slide-type-team {
-    width: 296px;
-    height: 33.932px;
+    width: 300px;
+    height: 91.739px;
 	}
 }
 @media screen and (max-width: 330px) { 
 	#slide-type-team {
-    width: 253px;
-    height: 28.201px;
+    width: 245px;
+    height: 74.92px;
 	}
 }
 @media screen and (max-device-width: 600px) { 
 	#slide-type-team {
-    width: 305px;
-    height: 34.964px;
-    background-image: url(../images/team/team-animation-mobile.png);
+    width: 300px;
+    height: 91.739px;
+    background-image: url(../images/team/team-mobile.png);
 	}
 }
 @media screen and (max-device-width: 376px) { 
 	#slide-type-team {
-    width: 296px;
-    height: 33.932px;
-    background-image: url(../images/team/team-animation-mobile.png);
+    width: 303px;
+    height: 92.656px;
+    background-image: url(../images/team/team-mobile.png);
 	}
 }
 @media screen and (max-device-width: 330px) { 
 	#slide-type-team {
-    width: 253px;
-    height: 28.201px;
-    background-image: url(../images/team/team-animation-mobile.png);
+    width: 244px;
+    height: 74.614px;
+    background-image: url(../images/team/team-mobile.png);
 	}
 }
 
@@ -765,21 +759,21 @@ type animations
 	#slide-type-valentines {
     width: 300px;
     height: 87.018px;
-    background-image: url(../images/valentines/valentines-animation-mobile.png);
+    background-image: url(../images/valentines/valentines-mobile.png);
 	}
 }
 @media screen and (max-device-width: 376px) { 
 	#slide-type-valentines {
     width: 303px;
     height: 87.888px;
-    background-image: url(../images/valentines/valentines-animation-mobile.png);
+    background-image: url(../images/valentines/valentines-mobile.png);
 	}
 }
 @media screen and (max-device-width: 330px) { 
 	#slide-type-valentines {
     width: 244px;
     height: 70.774px;
-    background-image: url(../images/valentines/valentines-animation-mobile.png);
+    background-image: url(../images/valentines/valentines-mobile.png);
 	}
 }
 
@@ -824,21 +818,21 @@ type animations
 	#slide-type-elrey {
     width: 298px;
     height: 82.852px;
-    background-image: url(../images/elrey/elrey-animation-mobile.png);
+    background-image: url(../images/elrey/elrey-mobile.png);
 	}
 }
 @media screen and (max-device-width: 376px) { 
 	#slide-type-elrey {
     width: 302px;
     height: 83.964px;
-    background-image: url(../images/elrey/elrey-animation-mobile.png);
+    background-image: url(../images/elrey/elrey-mobile.png);
 	}
 }
 @media screen and (max-device-width: 330px) { 
 	#slide-type-elrey {
     width: 241px;
     height: 67.004px;
-    background-image: url(../images/elrey/elrey-animation-mobile.png);
+    background-image: url(../images/elrey/elrey-mobile.png);
 	}
 }
 
@@ -883,21 +877,21 @@ type animations
 	#slide-type-arcade {
     width: 297px;
     height: 106.903px;
-    background-image: url(../images/arcade/aracde-animation-mobile.png);
+    background-image: url(../images/arcade/aracde-mobile.png);
 	}
 }
 @media screen and (max-device-width: 376px) { 
 	#slide-type-arcade {
     width: 305px;
     height: 109.782px;
-    background-image: url(../images/arcade/aracde-animation-mobile.png);
+    background-image: url(../images/arcade/aracde-mobile.png);
 	}
 }
 @media screen and (max-device-width: 330px) { 
 	#slide-type-arcade {
     width: 241px;
     height: 86.746px;
-    background-image: url(../images/arcade/aracde-animation-mobile.png);
+    background-image: url(../images/arcade/aracde-mobile.png);
 	}
 }
 
@@ -936,14 +930,14 @@ type animations
 	#slide-type-calendario {
     width: 300px;
     height: 48px;
-    background-image: url(../images/calendario/calendario-animation-mobile.png);
+    background-image: url(../images/calendario/calendario-mobile.png);
 	}
 }
 @media screen and (max-device-width: 330px) { 
 	#slide-type-calendario {
     width: 244px;
     height: 39.04px;
-    background-image: url(../images/calendario/calendario-animation-mobile.png);
+    background-image: url(../images/calendario/calendario-mobile.png);
 	}
 }
 
@@ -989,21 +983,21 @@ type animations
 	#slide-type-montejo {
     width: 301px;
     height: 68.685px;
-    background-image: url(../images/montejo/montejo-animation-mobile.png);
+    background-image: url(../images/montejo/montejo-mobile.png);
 	}
 }
 @media screen and (max-device-width: 376px) { 
 	#slide-type-montejo {
     width: 306px;
     height: 69.826px;
-    background-image: url(../images/montejo/montejo-animation-mobile.png);
+    background-image: url(../images/montejo/montejo-mobile.png);
 	}
 }
 @media screen and (max-device-width: 330px) { 
 	#slide-type-montejo {
     width: 240px;
     height: 54.765px;
-    background-image: url(../images/montejo/montejo-animation-mobile.png);
+    background-image: url(../images/montejo/montejo-mobile.png);
 	}
 }
 
@@ -1048,21 +1042,21 @@ type animations
 	#slide-type-phocrastinate {
     width: 297px;
     height: 72.999px;
-    background-image: url(../images/phocrastinate/phocrastinate-animation-mobile.png);
+    background-image: url(../images/phocrastinate/phocrastinate-mobile.png);
 	}
 }
 @media screen and (max-device-width: 376px) { 
 	#slide-type-phocrastinate {
     width: 301px;
     height: 73.982px;
-    background-image: url(../images/phocrastinate/phocrastinate-animation-mobile.png);
+    background-image: url(../images/phocrastinate/phocrastinate-mobile.png);
 	}
 }
 @media screen and (max-device-width: 330px) { 
 	#slide-type-phocrastinate {
     width: 240px;
     height: 58.989px;
-    background-image: url(../images/phocrastinate/phocrastinate-animation-mobile.png);
+    background-image: url(../images/phocrastinate/phocrastinate-mobile.png);
 	}
 }
 

@@ -155,17 +155,27 @@
 
 h1.header-type{
 	font-size: 8em;
-	margin: auto;;
-	max-width: 75%;
+	margin: 0 auto;
+	width: 90%;
+	max-width: 1000px;
+}
+.header-type h1.thin{
+	font-size: 6em;
 }
 @media screen and (max-width: 1400px) {	
 	h1.header-type{
 		font-size: 7em;
 	}
+	.header-type h1.thin{
+		font-size: 3em;
+	}
 }
 @media screen and (max-width: 960px) {	
 	h1.header-type{
 		font-size: 5em;
+	}
+	.header-type h1.thin{
+		font-size: 3em;
 	}
 }
 @media screen and (max-width: 600px) {	
@@ -173,10 +183,16 @@ h1.header-type{
 		font-size: 4em;
 		max-width: 90%;
 	}
+	.header-type h1.thin{
+		font-size: 3em;
+	}
 }
 @media screen and (max-width: 480px) {	
 	h1.header-type{
 		font-size: 3.5em;
+	}
+	.header-type h1.thin{
+		font-size: 2em;
 	}
 }
 
