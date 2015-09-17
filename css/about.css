@@ -74,7 +74,10 @@
 }
 @media screen and (max-width: 400px){
 	.about-client-logo{
-		background-size: contain;
+		    background-size: contain;
+			width: 60%;
+			height: 60%;
+			margin: 20%;
 	}  
 }
 
