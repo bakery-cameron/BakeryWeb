@@ -118,7 +118,7 @@
 }
 @media screen and (max-width: 400px){
 	#work-main .info h2{
-		font-size: 2.2em;
+		font-size: 2.5em;
 	}
 }
 
@@ -147,6 +147,7 @@
 	-moz-flex-wrap: wrap;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
+	-webkit-justify-content: center;
 	-moz-justify-content: center;
 	justify-content: center;
 	-webkit-align-content: space-between;
@@ -158,6 +159,17 @@
 	width: 33%;
 	min-width: 250px;
 	margin-top: 50px;
+}
+@media screen and (max-width: 600px){
+	.results-container{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+	.result{
+		width: 100%;
+	}
 }
 .result h2{
 	font-size: 5em;
@@ -450,12 +462,19 @@
 	background-color: #7ecdc0;
 }
 a.valentines-break-button:hover h4{
-	color: #333;
+	color: #eb5c5c;
 }
 
 
 
 
+#valentines-backstory-images{
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	overflow:none
+}
 #valentines-bts-01{
 	background-image: url("../images/valentines/valentines-bts-01.jpg");
 }
@@ -466,7 +485,10 @@ a.valentines-break-button:hover h4{
 	background-image: url("../images/valentines/valentines-bts-03.jpg");
 }
 @media screen and (max-width: 960px) {
-	.valentines-backstory-images{
+	#valentines-bts-01{
+		display: none;
+	}
+	#valentines-backstory-images{
 		-webkit-flex-direction: column;
 		-moz-flex-direction: column;
 		-ms-flex-direction: column;
@@ -540,6 +562,11 @@ a.valentines-break-button:hover h4{
 		width: 100%;
 	}
 }
+@media screen and (max-width: 600px) {
+	#valentines-top-videos .valentines-video{
+		padding-bottom: 100vw;
+	}
+}
 
 .valentines-video .valentines-overlay{
 	background-color: rgba(0,0,0,.3);
@@ -564,6 +591,11 @@ a.valentines-break-button:hover h4{
 	-moz-transition: all .4s;
 	-ms-transition: all .4s;
 	transition: all .4s;
+}
+@media screen and (max-width: 600px) {
+	.valentines-image:after {
+		right: 40%;
+	}
 }
 
 
@@ -623,6 +655,8 @@ a.valentines-break-button:hover h4{
 	height: 105%;
 	background-image: url("../images/valentines/valentines-video-03.png");
 }
+
+
 #valentines-result h2{
 	color: #eb5c5c;
 }
@@ -876,6 +910,9 @@ a.valentines-break-button:hover h4{
 	}
 }
 @media screen and (max-width: 720px){
+	.pull-quote-subtext{
+		display: none;
+	}
 	.montejo-cine-cover{
 		display: none;
 	}
@@ -938,9 +975,7 @@ a.valentines-break-button:hover h4{
 
 
 
-#montejo-results{
-	padding-bottom: 0px;
-}
+
 .montejo-result h2{
 	color: #233e7d;
 }
@@ -1128,9 +1163,18 @@ a.valentines-break-button:hover h4{
 #phocrastinate-topstills img{
 	width: 1080px
 }
+@media screen and (max-width: 600px){
+	#phocrastinate-topstills img{
+		width: 800px
+	}
+}
 
 #phocrastinate-mockup-container-02{
 	background: #264363;
+}
+
+a.phocrastinate-break-button:hover h4 {
+    color: #8f1f28;
 }
 
 
@@ -1264,7 +1308,21 @@ a.valentines-break-button:hover h4{
 #arcade-animation-03:hover{
 	background-image: url("../images/arcade/arcade-load-crystal.gif");
 }
-
+@media screen and (max-device-width: 600px){
+	#arcade-animations:before{
+		display: none;
+	}
+	#arcade-animation-01{
+		margin-top: 100px;
+		background-image: url("../images/arcade/arcade-load-eye.gif");
+	}
+	#arcade-animation-02{
+		background-image: url("../images/arcade/arcade-load-ball.gif");
+	}
+	#arcade-animation-03{
+		background-image: url("../images/arcade/arcade-load-crystal.gif");
+	}
+}
 
 
 #arcade-illustration-01{
