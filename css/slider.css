@@ -378,6 +378,11 @@ type animations
     height: 67.004px;
 	}
 }
+@media screen and (max-device-width: 720px){
+	#slide-elrey{
+		background-image: url(../images/elrey/elrey-bg-mobile.jpg);
+	}
+}
 @media screen and (max-device-width: 600px) { 
 	#home-slide-type-elrey {
     width: 295px;
@@ -412,6 +417,11 @@ type animations
     -moz-animation-delay: 12s;
     -ms-animation-delay: 12s;
     animation-delay: 12s;
+}
+@media screen and (max-device-width: 720px){
+	#slide-valentines{
+		background-image: url(../images/valentines/valentines-bg-mobile.jpg);
+	}
 }
 @media screen and (max-width: 1000px) { 
 	#home-slide-type-valentines {
@@ -558,6 +568,11 @@ type animations
     height: 78.997px;
 	}
 }
+@media screen and (max-device-width: 720px){
+	#slide-contact{
+		background-image: url(../images/contact/contact-bg-mobile.jpg);
+	}
+}
 @media screen and (max-device-width: 600px) { 
 	#slide-type-contact {
     width: 300px;
@@ -617,6 +632,11 @@ type animations
     height: 32.964px;
 	}
 }
+@media screen and (max-device-width: 720px) { 
+	#slide-careers {
+    	background-image: url("../images/careers/careers-bg-mobile.jpg");
+	}
+}
 @media screen and (max-device-width: 600px) { 
 	#slide-type-careers {
     width: 301px;
@@ -674,6 +694,11 @@ type animations
 	#slide-type-team {
     width: 245px;
     height: 74.92px;
+	}
+}
+@media screen and (max-device-width: 720px) { 
+	#slide-team {
+    	background-image: url(../images/team/team-bg-mobile.jpg);
 	}
 }
 @media screen and (max-device-width: 600px) { 
@@ -873,6 +898,11 @@ type animations
     height: 86.746px;
 	}
 }
+@media screen and (max-device-width: 720px){
+	#slide-arcade{
+		background-image: url(../images/arcade/arcade-bg-mobile.jpg);
+	}
+}
 @media screen and (max-device-width: 600px) { 
 	#slide-type-arcade {
     width: 297px;
@@ -926,6 +956,11 @@ type animations
     height: 39.04px;
 	}
 }
+@media screen and (max-device-width: 720px){
+	#slide-calendario{
+		background-image: url(../images/calendario/calendario-bg-mobile.jpg);
+	}
+}
 @media screen and (max-device-width: 600px) { 
 	#slide-type-calendario {
     width: 300px;
@@ -977,6 +1012,11 @@ type animations
 	#slide-type-montejo {
     width: 240px;
     height: 54.765px;
+	}
+}
+@media screen and (max-device-width: 720px){
+	#slide-montejo{
+		background-image: url(../images/montejo/montejo-bg-mobile.jpg);
 	}
 }
 @media screen and (max-device-width: 600px) { 
@@ -1036,6 +1076,11 @@ type animations
 	#slide-type-phocrastinate {
     width: 240px;
     height: 58.989px;
+	}
+}
+@media screen and (max-device-width: 720px){
+	#slide-phocrastinate{
+		background-image: url(../images/phocrastinate/phocrastinate-bg-mobile.jpg);
 	}
 }
 @media screen and (max-device-width: 600px) { 
