@@ -328,7 +328,7 @@
 #slide-type-arcade{
 	width: 689px;
 	height: 248px;
-	background-image: url(../images/aracde-animation.png);
+	background-image: url(../images/arcade-animation.png);
     -webkit-animation: titleOnceAnimation 2s steps(22, end) 0s 1;
     animation: titleOnceAnimation 2s steps(22, end) 0s 1;
     -webkit-animation-fill-mode: both;
