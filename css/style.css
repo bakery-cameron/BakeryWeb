@@ -45,32 +45,15 @@ p{
 }
 
 h1{
-	font-size: 6.5em;
+	font-size: 7.5em;
 	line-height: 1.1em;
 	margin-bottom: 20px;
 }
 h1.thin, h2.thin, h3.thin, h4.thin{
 	font-family: "Trade Gothic W01 Roman", Helvetica, sans;
 }
-@media screen and (max-width: 1680px) {	
-	h1{
-		font-size: 5em;
-	}
-}
-@media screen and (max-width: 1280px) {	
-	h1{
-		font-size: 4em;
-	}
-}
-@media screen and (max-width: 960px) {	
-	h1{
-		font-size: 3em;
-	}
-}
-h1{
-	font-size: 7.5em;
-	line-height: 1.1em;
-	margin-bottom: 20px;
+h1.smaller{
+	font-size: 6.8em;
 }
 @media screen and (max-width: 1680px) {	
 	h1{
@@ -81,15 +64,24 @@ h1{
 	h1{
 		font-size: 6em;
 	}
+	h1.smaller{
+		font-size: 5.5em;
+	}
 }
 @media screen and (max-width: 960px) {	
 	h1{
 		font-size: 4em;
 	}
+	h1.smaller{
+		font-size: 3.5em;
+	}
 }
 @media screen and (max-width: 600px) {	
 	h1{
 		font-size: 3em;
+	}
+	h1.smaller{
+		font-size: 2em;
 	}
 }
 
