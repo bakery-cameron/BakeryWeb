@@ -20,7 +20,7 @@ div#insta-small{
 
 body, textarea, input{
 	height: 100%;
-	font-family: 'Open Sans','Arial Narrow', serif;
+	font-family: 'Open Sans','Arial Narrow', sans-serif;
 	font-weight: 400;
 	font-size: 15px;
 	background: url("../images/bakery-background.png");
