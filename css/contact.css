@@ -7,6 +7,10 @@
 #contact-info .margin{
 	margin-top: 25px;	
 }
+#contact-photo-01, #contact-photo-02, #contact-photo-03, #contact-photo-04{
+	background-size: cover;
+	background-position: center;
+}
 #contact-photo-01{
 	background-image: url("../images/contact/contact-image-01.jpg");
 }
@@ -18,6 +22,7 @@
 }
 #contact-photo-04{
 	background-image: url("../images/contact/contact-image-04.jpg");
+	background-position: center bottom;
 }
 #contact-photo-05{
 	background-image: url("../images/contact/contact-image-05.jpg");
@@ -44,10 +49,6 @@
 	display: -ms-flexbox;
 	display: flex;
 	width: 100%;
-}
-#contact-photo-01, #contact-photo-02, #contact-photo-03, #contact-photo-04{
-	background-size: cover;
-	background-position: center;
 }
 #contact-photo-01, #contact-photo-04{
 	width: 100%;

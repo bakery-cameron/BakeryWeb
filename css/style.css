@@ -20,7 +20,7 @@ div#insta-small{
 
 body, textarea, input{
 	height: 100%;
-	font-family: 'Open Sans','Arial Narrow', serif;
+	font-family: 'Open Sans','Arial Narrow', sans-serif;
 	font-weight: 400;
 	font-size: 15px;
 	background: url("../images/bakery-background.png");
@@ -1079,7 +1079,7 @@ a{
 
 
 #valentines-card{
-	background-image: url(../images/work-valentines-card-image.jpg);
+	background-image: url(../images/work/work-valentines-card-image.gif);
 }
 #valentines-card .hover .info h2:after{
 	background-color: #7ecdc0;
