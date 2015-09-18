@@ -338,6 +338,7 @@ p .text-link{
 		color: #FFFFFF;
 		border: #ffcd33 solid 2px;
 		background-color: #ffcd33;
+		-webkit-transition: color 0s;
 		transition: color 0s;
 	}
 }

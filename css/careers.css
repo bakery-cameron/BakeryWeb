@@ -43,6 +43,23 @@
 
 
 
+@media screen and (max-width: 600px){
+	.two-up div, .two-up-reverse div {
+	    height: 200vw;
+	}
+}
+@media screen and (max-width: 400px){
+	.two-up div, .two-up-reverse div {
+	    height: 250vw;
+	}
+}
+@media screen and (max-width: 350px){
+	.two-up div, .two-up-reverse div {
+	    height: 300vw;
+	}
+}
+
+
 
 
 
