@@ -1,7 +1,18 @@
 .title-padding{
-	color: #ff;
+	color: #fff;
 	padding: 150px 0px 50px 0px;
 }
+@media screen and (max-width: 720px){
+	.title-padding{
+		padding: 75px 0px 50px 0px;
+	}
+}
+@media screen and (max-width: 480px){
+	.title-padding{
+		padding: 50px 0px 50px 0px;
+	}
+}
+
 #about-image-01{
 	background-image: url("../images/about/about-image-01.jpg");
 }
