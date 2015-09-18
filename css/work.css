@@ -1125,6 +1125,9 @@ a.valentines-break-button:hover h4{
 }
 
 @media screen and (max-width: 600px){
+	#phocrastinate-main-logo {
+		max-width: 75%;
+	}
 	.phocrastinate-smaller img{
 		max-width: 75%;
 	}

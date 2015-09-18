@@ -520,6 +520,11 @@ a{
 		padding: 0px;
 	}
 }
+@media screen and (min-width: 2100px) {
+	#home-about{
+		max-height: 33vw;
+	}
+}
 
 
  
@@ -1373,7 +1378,7 @@ textarea.field{
     background: none;
     border: none;
     border-bottom: 2px #666 solid;
-    border-radius: none !important;
+    border-radius: 0;
     padding: 12px 12px 12px 0px;
     font-size: 1rem;
     line-height: 100%;
