@@ -399,6 +399,7 @@
 
 
 .capability-copy p{
+	text-align: center;
 	opacity: 0;
 	font-size: 1em;
 }
