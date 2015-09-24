@@ -638,6 +638,16 @@ a{
 }
 
 
+.home-title-block{
+	display: block;
+    position: relative;
+    padding: 50px 0px;
+    width: 100%;
+    text-align: center;
+    background-color: #1A1A1A;
+}
+
+
 #home-work .featured{
 	width: 50%;
 	position: relative;
