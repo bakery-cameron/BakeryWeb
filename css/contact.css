@@ -26,12 +26,15 @@
 }
 #contact-photo-05{
 	background-image: url("../images/contact/contact-image-05.jpg");
+	position: relative;
 }
 #contact-photo-06{
 	background-image: url("../images/contact/contact-image-06.jpg");
+	position: relative;
 }
 #contact-photo-07{
 	background-image: url("../images/contact/contact-image-07.jpg");
+	position: relative;
 }
 
 
@@ -86,6 +89,17 @@
     .copy-half-parent{
     	height: 33vw;
     }
+}
+
+
+.copyright{
+	color: #ffffff;
+	position: absolute;
+    bottom: 15px;
+}
+.copyright a{
+	color: #ffffff;
+	opacity: .7;
 }
 
 

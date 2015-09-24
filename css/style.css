@@ -522,7 +522,7 @@ a{
 }
 @media screen and (min-width: 2100px) {
 	#home-about{
-		max-height: 33vw;
+		max-height: 33.33vw;
 	}
 }
 
