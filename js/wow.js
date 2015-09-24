@@ -162,7 +162,7 @@
       boxClass: 'wow',
       animateClass: 'animated',
       offset: 0,
-      mobile: false,
+      mobile: true,
       live: true,
       callback: null
     };
