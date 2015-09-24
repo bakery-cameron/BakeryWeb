@@ -1,3 +1,10 @@
+#about-type{
+	margin-bottom: 40px;
+}
+#about-eye-outline{
+	margin-bottom: 25px;
+}
+
 .title-padding{
 	color: #fff;
 	padding: 150px 0px 50px 0px;
@@ -399,6 +406,7 @@
 
 
 .capability-copy p{
+	text-align: center;
 	opacity: 0;
 	font-size: 1em;
 }
