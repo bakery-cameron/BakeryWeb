@@ -573,6 +573,7 @@
 @media screen and (min-width: 2000px){
 	.platforms-parent{
 		padding-bottom: 20vw;
+		width: 20%;
 	}
 }
 
@@ -609,28 +610,33 @@
 
 
 
-
-#web-icon:before{
+#platform-social-icon:before{
 	content: url("../images/icons/png/icon-platforms-01.png");
 }
-#portables-icon:before{
+#video-icon:before{
 	content: url("../images/icons/png/icon-platforms-02.png");
 }
-#platform-social-icon:before{
+#web-icon:before{
 	content: url("../images/icons/png/icon-platforms-03.png");
 }
-#video-icon:before{
+#portables-icon:before{
 	content: url("../images/icons/png/icon-platforms-04.png");
 }
-#vr-icon:before{
+#search-icon:before{
 	content: url("../images/icons/png/icon-platforms-05.png");
 }
-#installations-icon:before{
+#vr-icon:before{
 	content: url("../images/icons/png/icon-platforms-06.png");
 }
-#game-icon:before{
+#installations-icon:before{
 	content: url("../images/icons/png/icon-platforms-07.png");
 }
-#retail-icon:before{
+#game-icon:before{
 	content: url("../images/icons/png/icon-platforms-08.png");
+}
+#retail-icon:before{
+	content: url("../images/icons/png/icon-platforms-09.png");
+}
+#comms-icon:before{
+	content: url("../images/icons/png/icon-platforms-10.png");
 }
