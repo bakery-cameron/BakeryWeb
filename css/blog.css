@@ -195,7 +195,11 @@
 	font-size: 1.1em;
 }
 
-
+.sx-info {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
 
 
 
