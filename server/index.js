@@ -59,8 +59,8 @@ app.get('*', function(req, res) {
 app.post('/email-message',function(req,res){
 	var data = {
 		from: req.body.email,
-		to: 'cmiller060@gmail.com',
-		subject: 'Message From Bakery.agency',
+		to: 'contact@bakery.agency',
+		subject: 'General Inquiry',
 		text: req.body.text
 	};
 	mailgun.messages().send(data, function (err, body) {
@@ -77,8 +77,8 @@ app.post('/email-project',function(req,res){
 	console.log(req.body)
 	var data = {
 		from: req.body.email,
-		to: 'cmiller060@gmail.com',
-		subject: 'Project From Bakery.agency',
+		to: 'contact@bakery.agency',
+		subject: 'Business Opportunity',
 		text: req.body.text
 	};
 	mailgun.messages().send(data, function (err, body) {
@@ -95,8 +95,8 @@ app.post('/email-resume',upload.single('resume'),function(req,res){
 	var attch = new mailgun.Attachment({data: req.file.buffer, filename: req.file.originalname});
 	var data = {
 		from: req.body.email,
-		to: 'cmiller060@gmail.com',
-		subject: 'Resume From Bakery.agency',
+		to: 'contact@bakery.agency',
+		subject: 'Career Submission',
 		text: req.body.text,
 		attachment: attch
 	};
