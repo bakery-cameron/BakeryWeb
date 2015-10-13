@@ -29,7 +29,7 @@
 #blog .static-header{
 	height: auto;
 	min-height: 0px;
-	padding: 75px 0px;
+	padding: 150px 0px;
 }
 
 
@@ -136,8 +136,8 @@
 .careers-production{
 	background-image: url("../images/careers/careers-production-bg.jpg");
 }
-.careers-services{
-	background-image: url("../images/careers/careers-services-bg.jpg");
+.careers-design{
+	background-image: url("../images/careers/careers-design-bg.jpg");
 }
 .careers-creative{
 	background-image: url("../images/careers/careers-creative-bg.jpg");
