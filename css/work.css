@@ -1919,6 +1919,22 @@ a.phocrastinate-break-button:hover h4 {
 
 
 
+#worth-youtube-images{
+	width: 100%;
+	-webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+	-ms-justify-content: space-between;
+	justify-content: space-between;
+}
+#worth-youtube-container, #worth-facebook-container{
+	display: inline-block;
+	margin: 50px 0 150px 0;
+}
+#worth-youtube-container img, #worth-facebook-container img{
+	max-height: 281px;
+	margin: 20px;
+}
+
 #worth-bts-images{
 	flex-flow: wrap;
 }
