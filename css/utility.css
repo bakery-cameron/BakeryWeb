@@ -285,6 +285,9 @@ input.button:hover {
 p .text-link{
 	color: #000;
 }
+p.center{
+	text-align: center;
+}
 .text-link:hover{
 	border-bottom: #fac22b 2px solid;
 	color: #000;
@@ -665,8 +668,9 @@ a.break-button:hover h4{
 .charcoal-bg *{
 	color: #fff;
 }
-.charcoal-bg p{
+.charcoal-bg p, .charcoal-bg span{
 	color: #777;
+	text-align: center;
 }
 
 
