@@ -1919,20 +1919,37 @@ a.phocrastinate-break-button:hover h4 {
 
 
 
-#worth-youtube-images{
-	width: 100%;
-	-webkit-justify-content: space-between;
-	-moz-justify-content: space-between;
-	-ms-justify-content: space-between;
-	justify-content: space-between;
-}
+
+
+
 #worth-youtube-container, #worth-facebook-container{
-	display: inline-block;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-between;
 	margin: 50px 0 150px 0;
 }
-#worth-youtube-container img, #worth-facebook-container img{
-	max-height: 281px;
-	margin: 20px;
+
+
+
+.worth-youtube-block{
+	width: 32%;
+    display: inline-block;
+}
+@media screen and (max-width: 960px){
+	.worth-youtube-block{
+		width: 100%;
+		margin: 50px 0px;
+		text-align: center;
+	}
+	.worth-youtube-block img, .worth-youtube-block p{
+		max-width: 600px;
+		display: inline-block;
+	}
+}
+
+
+.worth-youtube-block img{
+	width: 100%;
 }
 
 #worth-bts-images{
