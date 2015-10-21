@@ -466,12 +466,29 @@ a.break-button:hover h4{
 	font-style: italic;
 	color: #333333;
 }
+.sub-head {
+	font-size: 5em;
+	line-height: 130%;
+	font-style: italic;
+	color: #fff;
+	margin: auto;
+}
+@media screen and (max-width: 1400px) {	
+	.sub-head{
+		font-size: 4.25em;
+	}
+}
+@media screen and (max-width: 1080px) {	
+	.sub-head{
+		font-size: 3.75em;
+	}
+}
+
+
 
 .pull-quote-text {
-	font-family: Trade Gothic W01 Roman;
 	font-weight: 300;
-	font-size: 3em;
-	line-height: 130%;
+	font-size: 4em;
 	font-style: italic;
 	color: #fff;
 	margin: auto;
@@ -483,16 +500,15 @@ a.break-button:hover h4{
 	line-height: 130%;
 	font-style: italic;
 	color: #fff;
-	margin-top: 1em;
 }
 @media screen and (max-width: 1400px) {	
-	.pull-quote h1{
-		font-size: 2.5em;
+	.pull-quote-text{
+		font-size: 3.5em;
 	}
 }
 @media screen and (max-width: 1080px) {	
-	.pull-quote h1{
-		font-size: 2em;
+	.pull-quote-text{
+		font-size: 2.5em;
 	}
 }
 .pull-quote img{
