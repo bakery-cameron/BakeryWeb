@@ -1953,7 +1953,6 @@ a.phocrastinate-break-button:hover h4 {
 .worth-social-block{
 	width: 32%;
     display: inline-block;
-    position: relative;
 }
 @media screen and (max-width: 960px){
 	.worth-social-block{
@@ -1972,42 +1971,24 @@ a.phocrastinate-break-button:hover h4 {
 	width: 100%;
 }
 
-
-#worth-youtube-01, #worth-youtube-02, #worth-youtube-03{
+.worth-social-container{
 	position: relative;
 }
-#worth-youtube-01::after{
-	display: block;
+
+.worth-youtube-number{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	top: 0;
+	left: 0;
 	position: absolute;
 	width: 100%;
-	top: 40%;
-	content: "1";
+	height: 100%;
 	font-family: "TradeGothicW01-BoldCn20 675334", Helvetica, sans;
-	font-weight: 700;
+	font-weight: 300;
 	font-size: 4em;
 	color: #fff;
-}
-#worth-youtube-02::after{
-	display: block;
-	position: absolute;
-	width: 100%;
-	top: 40%;
-	content: "2";
-	font-family: "TradeGothicW01-BoldCn20 675334", Helvetica, sans;
-	font-weight: 700;
-	font-size: 4em;
-	color: #fff;
-}
-#worth-youtube-03::after{
-	display: block;
-	position: absolute;
-	width: 100%;
-	top: 40%;
-	content: "3";
-	font-family: "TradeGothicW01-BoldCn20 675334", Helvetica, sans;
-	font-weight: 700;
-	font-size: 4em;
-	color: #fff;
+	text-shadow: 0px 2px 0px rgba(0,0,0, 0.3);
 }
 
 #worth-bts-images{
