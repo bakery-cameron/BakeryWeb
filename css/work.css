@@ -1921,6 +1921,23 @@ a.phocrastinate-break-button:hover h4 {
 
 
 
+#youtube::before{
+	content: url("../images/worth/worth-accent-youtube.png");
+	text-align: center;
+	margin: 0 auto 15px auto;
+	width: 50px;
+	height: 36px;
+    display: block;
+}
+
+#facebook::before{
+	content: url("../images/worth/worth-accent-facebook.png");
+	text-align: center;
+	margin: 0 auto 15px auto;
+	width: 21px;
+	height: 44px;
+    display: block;
+}
 
 #worth-youtube-container{
 	display: flex;
@@ -1936,22 +1953,61 @@ a.phocrastinate-break-button:hover h4 {
 .worth-social-block{
 	width: 32%;
     display: inline-block;
+    position: relative;
 }
 @media screen and (max-width: 960px){
 	.worth-social-block{
 		width: 100%;
-		margin: 50px 0px;
+		margin: 35px 0px;
 		text-align: center;
 	}
 	.worth-social-block img, .worth-social-block p{
 		max-width: 500px;
 		display: inline-block;
+		text-align: center;
 	}
 }
 
-
 .worth-social-block img{
 	width: 100%;
+}
+
+
+#worth-youtube-01, #worth-youtube-02, #worth-youtube-03{
+	position: relative;
+}
+#worth-youtube-01::after{
+	display: block;
+	position: absolute;
+	width: 100%;
+	top: 40%;
+	content: "1";
+	font-family: "TradeGothicW01-BoldCn20 675334", Helvetica, sans;
+	font-weight: 700;
+	font-size: 4em;
+	color: #fff;
+}
+#worth-youtube-02::after{
+	display: block;
+	position: absolute;
+	width: 100%;
+	top: 40%;
+	content: "2";
+	font-family: "TradeGothicW01-BoldCn20 675334", Helvetica, sans;
+	font-weight: 700;
+	font-size: 4em;
+	color: #fff;
+}
+#worth-youtube-03::after{
+	display: block;
+	position: absolute;
+	width: 100%;
+	top: 40%;
+	content: "3";
+	font-family: "TradeGothicW01-BoldCn20 675334", Helvetica, sans;
+	font-weight: 700;
+	font-size: 4em;
+	color: #fff;
 }
 
 #worth-bts-images{
