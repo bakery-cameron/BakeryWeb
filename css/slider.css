@@ -62,6 +62,7 @@
 	#slide-phocrastinate{
 		background-image: url("../images/phocrastinate/phocrastinate-bg-mobile.png");
 	}
+
 }
 .slider{
 	height: 100vh;
@@ -328,6 +329,71 @@ type animations
 -----------------------------------*/
 
 /*-----home slider-----*/
+
+#slide-type-worth{
+	width: 1072px;
+	height: 248px;
+	background-image: url(../images/worth/worth-animation.png);
+    -webkit-animation: titleOnceAnimation 2s steps(47, end) 0s 1;
+    -moz-animation: titleOnceAnimation 2s steps(47, end) 0s 1;
+    -ms-animation: titleOnceAnimation 2s steps(47, end) 0s 1;
+    animation: titleOnceAnimation 2s steps(47, end) 0s 1;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@media screen and (max-width: 1150px) { 
+	#slide-type-worth {
+    width: 752px;
+    height: 173.97px;
+	}
+}
+@media screen and (max-width: 1000px) { 
+	#slide-type-worth {
+    width: 472px;
+    height: 109.194px;
+	}
+}
+@media screen and (max-width: 600px) { 
+	#slide-type-worth {
+    width: 303px;
+    height: 70.097px;
+	}
+}
+@media screen and (max-width: 376px) { 
+	#slide-type-worth {
+    width: 307px;
+    height: 71.022px;
+	}
+}
+@media screen and (max-width: 330px) { 
+	#slide-type-worth {
+    width: 242px;
+    height: 55.985px;
+	}
+}
+@media screen and (max-device-width: 600px) { 
+	#slide-type-worth {
+    width: 300px;
+    height: 69.403px;
+    background-image: url(../images/worth/worth-mobile.png);
+	}
+}
+@media screen and (max-device-width: 376px) { 
+	#slide-type-worth {
+    width: 305px;
+    height: 70.56px;
+    background-image: url(../images/worth/worth-mobile.png);
+	}
+}
+@media screen and (max-device-width: 330px) { 
+	#slide-type-worth {
+    width: 240px;
+    height: 55.522px;
+    background-image: url(../images/worth/worth-mobile.png);
+	}
+}
 
 #home-slide-type-calendario{
 	width: 700px;
