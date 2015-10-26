@@ -591,6 +591,7 @@ a.valentines-break-button:hover h4{
 	-moz-transition: all .4s;
 	-ms-transition: all .4s;
 	transition: all .4s;
+	z-index: 2;
 }
 @media screen and (max-width: 600px) {
 	.valentines-image:after {
@@ -1974,9 +1975,6 @@ a.phocrastinate-break-button:hover h4 {
 }
 
 
-
-
-
 #youtube::before{
 	content: url("../images/worth/worth-accent-youtube.png");
 	text-align: center;
@@ -2073,7 +2071,9 @@ a.phocrastinate-break-button:hover h4 {
 	background-image: url("../images/worth/worth-bts-03.jpg"); 
 }
 
-
+#worth-video-container{
+	flex-wrap: wrap;
+}
 .worth-video{
 	height: 25vw;
 	width: 50%;
@@ -2084,7 +2084,87 @@ a.phocrastinate-break-button:hover h4 {
 		width: 100%;
 	}
 }
+@media screen and (max-width: 1080px) {
+	#worth-video-container{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+	#worth-video-container .worth-video{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		padding-bottom: 50vw;
+		width: 100%;
+	}
+}
 
+.worth-video .worth-overlay{
+	background-color: rgba(0,0,0,.3);
+	z-index: 1;
+}
+.worth-video:hover .worth-play:after{
+	background-color: #ffcd01;
+	color: #fff;
+
+}
+.worth-play:after {
+	content: "▶";
+	color: #ffcd01;
+	border: 2px solid #ffcd01;
+	font-size: 2em;
+	position: absolute;
+	top: 47%;
+	right: 46%;
+	padding: 35px 22px 35px 24px;
+	line-height: 0px;
+	-webkit-transition: all .4s;
+	-moz-transition: all .4s;
+	-ms-transition: all .4s;
+	transition: all .4s;
+	z-index: 2;
+}
+
+
+.worth-video:hover .worth-overlay{
+	background-color: rgba(0,0,0,0);
+}
+.worth-video .worth-image{
+	height: 100%;
+	pointer-events: none;
+}
+.worth-video:hover .worth-image{
+	transform: scale(1.1,1.1);
+}
+#worth-video-01-parent{
+	overflow: hidden;
+}
+#worth-video-01{
+	background-image: url("../images/worth/worth-video-01.jpg");
+}
+
+#worth-video-02-parent{
+	overflow: hidden;
+}
+#worth-video-02{
+	background-image: url("../images/worth/worth-video-02.jpg");
+}
+
+#worth-video-03-parent{
+	overflow: hidden;
+}
+#worth-video-03{
+	background-image: url("../images/worth/worth-video-03.jpg");
+}
+
+#worth-video-04-parent{
+	overflow: hidden;
+}
+#worth-video-04{
+	background-image: url("../images/worth/worth-video-04.jpg");
+}
 
 
 #worth-crossing-container{
