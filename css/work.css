@@ -1901,6 +1901,26 @@ a.phocrastinate-break-button:hover h4 {
 
 
 
+
+#sub-nav-worth > .icon:hover,#sub-nav-worth #icon-share:hover{
+    color: #003399;
+}
+#sub-nav-worth .icon h4{
+	color: #ff0000;
+}
+#share-worth{
+	background-color: #003399;
+}
+#sub-nav-worth .share-icon {
+    color: #00194A;
+}
+#sub-nav-worth .share-icon:hover {
+    color: #00194A;
+}
+
+
+
+
 #sub-nav-worth > .icon, #sub-nav-worth #icon-share{
     color: #008ED5;;
 }
