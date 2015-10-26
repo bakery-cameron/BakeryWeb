@@ -1899,7 +1899,13 @@ a.phocrastinate-break-button:hover h4 {
 	color: #003399;
 }
 
-
+#slide-type-worth{
+	right: 0%;
+	-webkit-transform: translateX(0%) translateY(-50%);
+    -moz-transform: translateX(0%) translateY(-50%);
+    -ms-transform: translateX(0%) translateY(-50%);
+    transform: translateX(0%) translateY(-50%);
+}
 
 
 #sub-nav-worth > .icon:hover,#sub-nav-worth #icon-share:hover{
