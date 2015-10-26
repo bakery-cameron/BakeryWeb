@@ -2074,6 +2074,19 @@ a.phocrastinate-break-button:hover h4 {
 }
 
 
+.worth-video{
+	height: 25vw;
+	width: 50%;
+}
+@media screen and (max-width: 960px){
+	.worth-video{
+		height: 50vw;
+		width: 100%;
+	}
+}
+
+
+
 #worth-crossing-container{
 	background: -webkit-linear-gradient(top, #4f91cb , #74aed4);
   	background: -o-linear-gradient(bottom, #4f91cb, #74aed4);
