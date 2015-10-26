@@ -1203,7 +1203,7 @@ a{
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     height: 100%;
-    z-index: 4;
+    z-index: 99;
     animation-duration: .8s;
     pointer-events: none;
 }
