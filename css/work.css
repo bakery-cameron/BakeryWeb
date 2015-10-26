@@ -1902,6 +1902,7 @@ a.phocrastinate-break-button:hover h4 {
 
 #worth-slide-video-bg{
 	right: 0%;
+	left: inherit;
 	-webkit-transform: translateX(0%) translateY(-50%);
     -moz-transform: translateX(0%) translateY(-50%);
     -ms-transform: translateX(0%) translateY(-50%);
