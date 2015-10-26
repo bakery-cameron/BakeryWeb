@@ -723,10 +723,6 @@ a.break-button:hover h4{
 }
 
 
-.up-red{
-	color: #ff0000;
-}
-
 
 .arcade-brown{
 	color: #916e4f;
@@ -754,6 +750,15 @@ a.break-button:hover h4{
 }
 .budlight-red{
 	color: #ff0000;
+}
+
+
+
+.up-blue-bg{
+	background-color: #00318E;
+}
+.up-red{
+	color: #cc0000;
 }
 
 

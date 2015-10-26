@@ -1880,15 +1880,15 @@ a.phocrastinate-break-button:hover h4 {
 #worth{
 	background: #fff;
 }
-.tcon-menu__lines.worth-red:before, .tcon-menu__lines.worth-red:after{
-	background-color: #ff0000;
+.tcon-menu__lines.up-red:before, .tcon-menu__lines.up-red:after{
+	background-color: #cc0000;
 }
-#main-nav.worth-red a.active {
-  border-bottom-color: #ff0000;
+#main-nav.up-red a.active {
+	border-bottom-color: #cc0000;
 }
 
 #worth-scroll-down div:before{
-	color: #ff0000;
+	color: #cc0000;
 }
 #worth .pull-quote{
 	background-image: url("../images/worth/worth-texture-blue.png"); 
@@ -1914,7 +1914,7 @@ a.phocrastinate-break-button:hover h4 {
     color: #003399;
 }
 #sub-nav-worth .icon h4{
-	color: #333;
+	color: #cc0000;
 }
 #share-worth{
 	background-color: #003399;
@@ -1927,8 +1927,6 @@ a.phocrastinate-break-button:hover h4 {
 }
 
 
-
-
 #sub-nav-worth > .icon, #sub-nav-worth #icon-share{
     color: #003399;;
 }
@@ -1936,7 +1934,7 @@ a.phocrastinate-break-button:hover h4 {
     color: #0F4C8C;
 }
 #share-worth{
-	background-color: #0F4C8C;
+	background-color: #00339a;
 }
 #sub-nav-worth .share-icon {
     color: rgba(0, 142, 213, .5);
