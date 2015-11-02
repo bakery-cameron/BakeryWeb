@@ -562,7 +562,7 @@ type animations
 /*-----nav pages-----*/
 
 #slide-type-about{
-	width: 699px;
+	width: 814px;
 	height: 386px;
 	background-image: url(../images/about/about-animation.png);
     -webkit-animation: titleOnceAnimation 2s steps(48, end) 0s 1;
@@ -576,45 +576,51 @@ type animations
 }
 @media screen and (max-width: 1000px) { 
 	#slide-type-about {
-    width: 593px;
+    width: 689px;
     height: 327.465px;
+	}
+}
+@media screen and (max-width: 720px) { 
+	#slide-type-about {
+    width: 548px;
+    height: 260.465px;
 	}
 }
 @media screen and (max-width: 600px) { 
 	#slide-type-about {
-    width: 301px;
+    width: 350px;
     height: 166.217px;
 	}
 }
 @media screen and (max-width: 376px) { 
 	#slide-type-about {
-    width: 295px;
+    width: 343px;
     height: 162.904px;
 	}
 }
 @media screen and (max-width: 330px) { 
 	#slide-type-about {
-    width: 247px;
+    width: 287px;
     height: 136.398px;
 	}
 }
 @media screen and (max-device-width: 600px) { 
 	#slide-type-about {
-    width: 301px;
+    width: 350px;
     height: 166.217px;
     background-image: url(../images/about/about-mobile.png);
 	}
 }
 @media screen and (max-device-width: 376px) { 
 	#slide-type-about {
-    width: 295px;
+    width: 343px;
     height: 162.904px;
     background-image: url(../images/about/about-mobile.png);
 	}
 }
 @media screen and (max-device-width: 330px) { 
 	#slide-type-about {
-    width: 247px;
+    width: 287px;
     height: 136.398px;
     background-image: url(../images/about/about-mobile.png);
 	}
