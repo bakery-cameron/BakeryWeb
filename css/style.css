@@ -519,7 +519,6 @@ a{
 	left: 0px;
 	bottom: 0px;
 	background-size: cover;
-
 }
 #home-about-info{
 	padding: 0px 100px;
@@ -530,6 +529,9 @@ a{
 	#home-about-info{
 		padding: 0px 25px;
 	}
+}
+#home-about .button:hover{
+	color: #000;
 }
 
 
