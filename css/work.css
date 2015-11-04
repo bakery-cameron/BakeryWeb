@@ -572,31 +572,29 @@ a.valentines-break-button:hover h4{
 	background-color: rgba(0,0,0,.3);
 	z-index: 1;
 }
-.valentines-video:hover .valentines-image:after{
-	background-color: #eb5c5c;
-	color: #fff;
-
+.play-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
 }
-.valentines-image:after {
-	content: "▶";
+.valentines-play-button{
 	color: #eb5c5c;
-	border: 2px solid #eb5c5c;
-	font-size: 2em;
-	position: absolute;
-	top: 47%;
-	right: 46%;
-	padding: 35px 22px 35px 24px;
-	line-height: 0px;
-	-webkit-transition: all .4s;
+    border: 2px solid #eb5c5c;
+    font-size: 2em;
+    line-height: 100%;
+    padding: 22px 24px;
+	position: relative;
+    margin: 0 auto;
+    -webkit-transition: all .4s;
 	-moz-transition: all .4s;
 	-ms-transition: all .4s;
 	transition: all .4s;
-	z-index: 2;
 }
-@media screen and (max-width: 600px) {
-	.valentines-image:after {
-		right: 40%;
-	}
+
+.valentines-video:hover .valentines-play-button{
+	color: #fff;
+	background-color: #eb5c5c;
 }
 
 
@@ -2107,26 +2105,24 @@ a.phocrastinate-break-button:hover h4 {
 	background-color: rgba(0,0,0,.3);
 	z-index: 1;
 }
-.worth-video:hover .worth-play:after{
-	background-color: #ffcd01;
-	color: #fff;
 
-}
-.worth-play:after {
-	content: "▶";
+.worth-play-button{
 	color: #ffcd01;
-	border: 2px solid #ffcd01;
-	font-size: 2em;
-	position: absolute;
-	top: 47%;
-	right: 46%;
-	padding: 35px 22px 35px 24px;
-	line-height: 0px;
-	-webkit-transition: all .4s;
+    border: 2px solid #ffcd01;
+    font-size: 2em;
+    line-height: 100%;
+    padding: 22px 24px;
+	position: relative;
+    margin: 0 auto;
+    -webkit-transition: all .4s;
 	-moz-transition: all .4s;
 	-ms-transition: all .4s;
 	transition: all .4s;
-	z-index: 2;
+}
+
+.worth-video:hover .worth-play-button{
+	color: #fff;
+	background-color: #ffcd01;
 }
 
 

@@ -283,38 +283,54 @@ input.button:hover {
 
 
 p .text-link{
-	color: #000;
+	color: #333;
 }
 p.center{
 	text-align: center;
 }
+
+.text-link{
+	color: #333;
+}
+.text-link-bakery-orange{
+	color: #333;
+}
+.text-link-bakery-green{
+	color: #333;
+}
+.text-link-bakery-blue{
+	color: #333;
+}
+.text-link-bakery-red{
+	color: #333;
+}
+.text-link-bakery-pink{
+	color: #333;
+}
+.text-link-bakery-purple{
+	color: #333;
+}
+
 .text-link:hover{
 	border-bottom: #fac22b 2px solid;
-	color: #000;
 }
 .text-link-bakery-orange:hover{
 	border-bottom: #ff6021 2px solid;
-	color: #000;
 }
 .text-link-bakery-green:hover{
 	border-bottom: #31ab4a 2px solid;
-	color: #000;
 }
 .text-link-bakery-blue:hover{
 	border-bottom: #00abeb 2px solid;
-	color: #000;
 }
 .text-link-bakery-red:hover{
 	border-bottom: #e91d1d 2px solid;
-	color: #000;
 }
 .text-link-bakery-pink:hover{
 	border-bottom: #ff478a 2px solid;
-	color: #000;
 }
 .text-link-bakery-purple:hover{
 	border-bottom: #9322c7 2px solid;
-	color: #000;
 }
 
 
