@@ -20,6 +20,52 @@ body{
     min-height: 50%;
     min-width: 50%;
 }
+/* Music styles
+* --------------------------------------- */
+.hidden{
+    display: none;
+}
+.mute-play{
+    -webkit-animation: bounceIn 5s 1; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: bounceIn 5s 1; /* Firefox < 16 */
+        -ms-animation: bounceIn 5s 1; /* Internet Explorer */
+         -o-animation: bounceIn 5s 1; /* Opera < 12.1 */
+            animation: bounceIn 5s 1;
+}
+
+
+#mute{
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    z-index: 99;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2em;
+    opacity: .3;
+    transition: opacity .1s;
+}
+#mute:hover{
+    opacity: 1;
+}
+    
+
+input#un-mute {
+    display: none;
+}
+
+.unmute img {
+    display: none;
+}
+
+input#un-mute:checked ~ .unmute img {
+    display: initial;
+}
+
+input#un-mute:checked ~ .mute img {
+    display: none;
+}
+
 
 
 
@@ -31,6 +77,36 @@ h1{
     font-style: italic;
     color: #fff;
     margin: 0;
+}
+@media screen and (max-width: 1400px){
+    h1{
+        font-size: 6em;
+    }
+}
+@media screen and (max-width: 1280px){
+    h1{
+        font-size: 5em;
+    }
+}
+@media screen and (max-width: 1080px){
+    h1{
+        font-size: 4em;
+    }
+}
+@media screen and (max-width: 960px){
+    h1{
+        font-size: 3em;
+    }
+}
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 2.5em;
+    }
+}
+@media screen and (max-width: 480px){
+    h1{
+        font-size: 2em;
+    }
 }
 
 
@@ -51,16 +127,6 @@ h1{
 .section{
 	text-align:center;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -92,3 +158,60 @@ h1{
 /* Opera < 12.1 */
 @-o-keyframes fadein {
     from { opacity: 0; }
+
+
+
+
+@-webkit-keyframes bounceIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(.3);
+    transform: scale(.3);
+  }
+
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+
+  70% {
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(.3);
+    -ms-transform: scale(.3);
+    transform: scale(.3);
+  }
+
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+
+  70% {
+    -webkit-transform: scale(.9);
+    -ms-transform: scale(.9);
+    transform: scale(.9);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+
