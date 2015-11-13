@@ -1,6 +1,13 @@
 body{
 	font-family: helvetica, sans-serif;
 }
+*{
+    list-style: none;
+}
+.inline{
+    display: inline-block;
+}
+
 
 
 #bg-video-container {
@@ -127,6 +134,97 @@ h1{
 .section{
 	text-align:center;
 }
+
+
+
+
+
+
+/* forms
+* --------------------------------------- */
+form {
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+}
+
+.ss-form-entry {
+    margin-bottom: 10px;
+}
+.ss-q-short {
+    background: none;
+    padding: 12px 20px;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 10px;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    font-size: 1em;
+    transition: border .3s;
+    box-sizing: border-box;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow:0 0 0 50px white inset; /* Change the color to your own background color */
+    -webkit-text-fill-color: #333;
+}
+
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: /*your box-shadow*/,0 0 0 50px white inset;
+    -webkit-text-fill-color: #333;
+} 
+.ss-q-short:focus, .ss-q-short:hover{
+    border-color: rgba(255,255,255,.6);
+}
+
+
+
+
+
+
+input[type="checkbox"], input[type="radio"] {
+    -webkit-appearance: none;
+    appearance: none;
+    color: #fff;
+    width: 13px;
+    height: 13px;
+    background: none;
+    margin: 0px 5px 0px 0px;
+    border: 2px solid rgba(255,255,255,.2);
+    outline: none;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    box-sizing: content-box \9;
+    width: 16px \9;
+    height: 16px \9;
+    border-width: 0 \9;
+}
+span.ss-choice-label {
+    color: #fff;
+}
+
+#checkbox{
+    text-align: left;
+    padding: 0px;
+}
+
+input[type="checkbox"]:hover{
+    border-color: rgba(255,255,255,.6);
+}
+input[type="checkbox"]:checked{
+    background: rgba(255,255,255,1);
+    border-color: rgba(255,255,255, 0)
+}
+
+
+
+
+
+
 
 
 
