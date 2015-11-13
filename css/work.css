@@ -2024,6 +2024,9 @@ a.phocrastinate-break-button:hover h4 {
 .worth-social-block img{
 	width: 100%;
 }
+.worth-social-block p {
+    font-size: 1em;
+}
 
 .worth-social-container{
 	position: relative;
