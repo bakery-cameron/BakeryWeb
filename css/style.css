@@ -412,7 +412,7 @@ a{
 }
 @media screen and (max-width: 1280px){
 	.two-up div, .two-up-reverse div {
-	    height: 66vw;
+	    height: 66.66vw;
 	}
 	.copy-half {
     	position: relative;
@@ -420,7 +420,7 @@ a{
 }
 @media screen and (max-width: 960px){
 	.two-up div, .two-up-reverse div {
-	    height: 66vw;
+	    height: 66.66vw;
 	}
 	.copy-half{
 		padding: 100px 10%;
@@ -436,7 +436,7 @@ a{
 }
 @media screen and (max-width: 600px){
 	.two-up div, .two-up-reverse div {
-	    height: 166vw;
+	    height: 66.66vw;
 	}
 	.two-up .bg-image, .two-up-reverse .bg-image{
 	    height: 100vw;
@@ -454,10 +454,10 @@ a{
 }
 @media screen and (min-width: 2000px){
 	.two-up div, .two-up-reverse div {
-	    height: 33vw;
+	    height: 33.33vw;
 	}
 	.copy-half {
-    	height: 33vw;
+    	height: 33.33vw;
     }
 }
 
@@ -602,7 +602,7 @@ a{
 }
 @media screen and (max-width: 1080px) {	
 #home-about-half{
-		width: 66vw;
+		width: 66.66vw;
 	}
 }
 @media screen and (max-width: 720px) {	
@@ -658,8 +658,8 @@ a{
 }
 @media screen and (max-width: 1280px){
 	#home-work .featured{
-	    width: 66%;
-	    height: 66vw;
+	    width: 66.66%;
+	    height: 66.66vw;
 	}
 }
 
@@ -831,14 +831,14 @@ a{
 }
 @media screen and (max-width: 1280px){
 	.blog-card-home-featured{
-		width: 66%;
-		height: 66vw;
+		width: 66.66%;
+		height: 66.66vw;
 	}
 	#home-half{
 		width: 33.33%;
 	}
 	#home-half > div{
-		height: 33vw;
+		height: 33.33vw;
 		width: 100%;
 	}
 }
@@ -1544,8 +1544,8 @@ textarea.field{
 	    display: none;
 	}
 	.blog-card-small-parent {
-	    width: 33%;
-	    height: 33vw;
+	    width: 33.33%;
+	    height: 33.33vw;
 	}
 	.blog-card-small{
 		padding-top: 50px; 
@@ -1573,7 +1573,7 @@ textarea.field{
 }
 @media screen and (max-width: 600px){
 	.blog-card-small-parent {
-	    height: 66vw;
+	    height: 66.66vw;
 	}
 	.blog-card-small {
 	    padding-top: 50px;
