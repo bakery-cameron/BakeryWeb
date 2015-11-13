@@ -358,7 +358,9 @@
 	    padding-bottom: 25vw;
 	}
 }
-
+.capability-parent p {
+    margin-top: 35px;
+}
 
 .capability-copy{
     display: -webkit-flex;
