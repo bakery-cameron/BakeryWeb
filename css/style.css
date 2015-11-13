@@ -533,6 +533,9 @@ a{
 #home-about .button:hover{
 	color: #000;
 }
+#home-about p {
+    margin-top: 35px;
+}
 
 
 

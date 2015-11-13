@@ -111,11 +111,21 @@
 }
 .careers-openings a{
 	display: inline-block;
-	margin-bottom: 15px;
+	margin-bottom: 13px;
 	font-size: 1.3em;
+	border-bottom: 2px solid transparent;
 }
 .careers-openings a:hover{
 	color: #fff;
+}
+
+.no-openings{
+	padding-top: 15px;
+}
+.no-openings:after{
+	content: "No Openings";
+	font-size: 1.3em;
+	color: #666666;
 }
 
 
