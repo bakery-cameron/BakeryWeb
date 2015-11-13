@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Dake test</title>
+	<meta name="author" content="Cameron Miller" />
+	<meta name="description" content="Drake Holiday Part Invite" />
+	<meta name="keywords"  content="Bakery Austin Party Holiday RSVP Drake" />
+	<meta name="Resource-type" content="Document" />
+
+
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link rel="stylesheet" href="css/font-icons.css"></head>
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
+
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="js/examples.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['firstPage', 'secondPage'],
+				navigation: true,
+				navigationPosition: 'right',
+				navigationTooltips: ['First page', 'Second page']
+			});
+		});
+	</script>
+
+</head>
+<body>
+
+<div id="bg-video-container">
+	<video id="bg-video" autoplay loop>
+		<source src="video/hotline-bling-bg.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
+</div>
+
+
+
+<audio id="background_audio" autoplay="autoplay" loop>
+  <source src="audio/hotline-bling.mp3" />
+</audio>
+
+<a href="#noscroll" id="mute">
+	<span class="icon-audio-muted hidden"></span>
+	<span class="icon-audio-playing bounceIn"></span>
+</a>
+
+
+
+
+<script>
+	var audio = document.getElementById('background_audio');
+	document.getElementById('mute').addEventListener('click', function (e)
+	{
+		e = e || window.event;
+	    audio.muted = !audio.muted;
+	    e.preventDefault();
+	    $('.icon-audio-muted, .icon-audio-playing').toggleClass('hidden bounceIn');
+	    doBounce($(this), 1, '-3px', 200); 
+	}, false);
+
+
+	function doBounce(element, times, distance, speed) {
+	    for(var i = 0; i < times; i++) {
+	        element.animate({bottom: '-='+distance}, speed)
+	            .animate({bottom: '+='+distance}, speed);
+	    }        
+	}
+</script>
+
+
+
+
+<div id="fullpage">
+	<div class="section " id="section0">
+		<div class="intro">
+			<h1>DrakeandBake</h1>
+			<h1>DrakeandBake</h1>
+			<h1>DrakeandBake</h1>
+			<h1>DrakeandBake</h1>
+			<h1>DrakeandBake</h1>
+			<h1>DrakeandBake</h1>
+		</div>
+	</div>
+	<div class="section" id="section1">
+		<div class="intro">
+			
+
+			<script type="text/javascript">var submitted=false;</script>
+			<iframe name="hidden_iframe" id="hidden_iframe"
+			style="display:none;" onload="if(submitted)
+			{window.location='http://bakery.agency/drake-and-bake/thank-you';}"></iframe>
+
+
+			<form action="https://docs.google.com/forms/d/15KY6GjipQn0RW87K-VpsIsrgJvVnjp1ECEHMhSD3th0/formResponse" method="post"
+			target="hidden_iframe" onsubmit="submitted=true;">
+				<div class="ss-form-question errorbox-good" role="listitem">
+				<div dir="auto" class="ss-item  ss-text"><div class="ss-form-entry">
+				<label class="ss-q-item-label" for="entry_2012647831">
+
+				<div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
+				<input type="text" name="entry.2012647831"  placeholder="Name" value="" class="ss-q-short" id="entry_2012647831" dir="auto" aria-label="Name" title="" required>
+				<div class="error-message" id="1747530206_errorMessage"></div>
+				
+				</div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+				<div dir="auto" class="ss-item  ss-text"><div class="ss-form-entry">
+				<label class="ss-q-item-label" for="entry_2120133042">
+
+				<div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
+				<input type="email" name="entry.2120133042" placeholder="Email" value="" class="ss-q-short" id="entry_2120133042" dir="auto" aria-label="email  Must be a valid email address" title="Must be a valid email address" required>
+
+				
+				</div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+				<div dir="auto" class="ss-item  ss-text"><div class="ss-form-entry">
+				<label class="ss-q-item-label" for="entry_235014056">
+
+				<div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
+				<input type="text" name="entry.235014056" value=""  placeholder="Company" class="ss-q-short" id="entry_235014056" dir="auto" aria-label="company  " title="">
+				<div class="error-message" id="1845204701_errorMessage"></div>
+				
+				</div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+				<div dir="auto" class="ss-item  ss-checkbox"><div class="ss-form-entry">
+				<label class="ss-q-item-label" for="entry_89180608">
+
+				<div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
+
+				<ul class="ss-choices" role="group" aria-label="Plus one?  "><li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1691810153" value="yes" id="group_1691810153_1" role="checkbox" class="ss-q-checkbox"></span>
+				<span class="ss-choice-label">yes</span>
+				</label></li></ul>
+				<div class="error-message" id="89180608_errorMessage"></div>
+			
+				</div></div></div>
+				<input type="hidden" name="draftResponse" value="[,,&quot;-4783150219358527009&quot;]
+				">
+				<input type="hidden" name="pageHistory" value="0">
+
+				<input type="hidden" name="fvv" value="0">
+
+
+				<input type="hidden" name="fbzx" value="-4783150219358527009">
+
+				<div class="ss-item ss-navigate"><table id="navigation-table"><tbody><tr><td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
+				<input type="submit" name="submit" value="Submit" id="ss-submit" class="jfk-button jfk-button-action ">
+				</td>
+				</tr></tbody></table></div></ol>
+			</form>
+
+
+
+		</div>
+	</div>
+</div>
+
+
+</body>
+</html>
