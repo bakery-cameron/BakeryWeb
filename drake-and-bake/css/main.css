@@ -3,7 +3,19 @@ body{
 }
 *{
     list-style: none;
+    color: #fff;
 }
+
+.break{
+    margin-bottom: 50px; 
+}
+
+#intro-copy{
+    width: 90%;
+    max-width: 720px;
+    margin: auto;
+}
+
 .inline{
     display: inline-block;
 }
@@ -97,17 +109,17 @@ h1{
 }
 @media screen and (max-width: 1080px){
     h1{
-        font-size: 4em;
+        font-size: 4.5em;
     }
 }
 @media screen and (max-width: 960px){
     h1{
-        font-size: 3em;
+        font-size: 3.5em;
     }
 }
 @media screen and (max-width: 600px){
     h1{
-        font-size: 2.5em;
+        font-size: 3em;
     }
 }
 @media screen and (max-width: 480px){
@@ -142,10 +154,21 @@ h1{
 
 /* forms
 * --------------------------------------- */
+
+
+
+
+
+
 form {
     width: 90%;
     max-width: 400px;
     margin: auto;
+    position: relative;
+}
+
+.ss-form-question {
+    width: 100%;
 }
 
 .ss-form-entry {
@@ -221,10 +244,64 @@ input[type="checkbox"]:checked{
 }
 
 
+/*Submit*/
+
+#submit{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
 
 
+input[type="submit"]{
+    -webkit-box-sizing: content-box;
+       -moz-box-sizing: content-box;
+            box-sizing: content-box;
+}
+
+/* Reset `button` and button-style `input` default styles */
+input[type="submit"]{
+    background: none;
+    border: 0;
+    color: inherit;
+    /* cursor: default; */
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+    -webkit-appearance: button; /* for input */
+    -webkit-user-select: none; /* for button */
+       -moz-user-select: none;
+        -ms-user-select: none;
+}
+input::-moz-focus-inner,
+button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
 
 
+/* Demo */
+input[type="submit"]{
+    background: none;
+    padding: 12px 20px;
+    border: 2px solid rgba(255,255,255,1);
+    border-radius: 10px;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    font-size: 1em;
+    transition: background .3s;
+    box-sizing: border-box;
+}
+
+input[type="submit"]:hover{
+    background: rgba(255,255,255,.2);
+}
+
+input[type="submit"]:active{
+    background: rgba(255,255,255,.5);
+}
 
 
 
