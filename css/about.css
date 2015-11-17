@@ -1,9 +1,23 @@
 #about-type{
 	margin-bottom: 40px;
 }
-#about-eye-outline{
+#about-eye{
 	margin-bottom: 25px;
+	position: relative;
 }
+#about-eye-rays-container{
+	visibility: none;
+}
+#about-eye-rays{
+	width: 104px;
+    height: 78px;
+    margin: auto;
+    transform: translate(0px,10px);
+    background-image: url(../images/about/pie-of-providence-top.png);
+}
+
+
+
 
 .title-padding{
 	color: #fff;
@@ -642,3 +656,6 @@
 #comms-icon:before{
 	content: url("../images/icons/png/icon-platforms-10.png");
 }
+
+
+
