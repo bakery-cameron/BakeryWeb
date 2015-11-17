@@ -1,3 +1,11 @@
+$(document).ready(function(){
+   if ($('#about-eye-rays-container').is(':visible')){
+         $('#about-eye-rays').addClass("about-eye-rays-aiminate");
+    }
+ });
+
+
+
 
 $(document).ready(function(){
   $("#nav").click(function(){
@@ -186,10 +194,11 @@ $(window).scroll(function(){
 
 
 
- $(document).ready(function(){
+ $(document).scroll(function(){
   $('#blog-main, #work-main').mixItUp({
     animation: {
-      enable: false   
+      enable: false
     }
   })
 });
+

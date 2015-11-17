@@ -1178,6 +1178,50 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   animation-name: fadeInDown;
 }
 
+
+
+
+@-webkit-keyframes fadeFastInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeFastInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.fadeFastInDown {
+  -webkit-animation-name: fadeFastInDown;
+  animation-name: fadeFastInDown;
+}
+
+
+
+
+
 @-webkit-keyframes fadeInDownBig {
   0% {
     opacity: 0;
@@ -3011,4 +3055,42 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .rollOut {
   -webkit-animation-name: rollOut;
   animation-name: rollOut;
+}
+
+
+
+
+
+
+@-webkit-keyframes bg-cycle {
+  0% {
+    opacity: 1; 
+    background-position: 0% 0%;
+  }
+
+
+  100% {
+    opacity: 1; 
+    background-position: 100% 0%;
+  }
+}
+
+@keyframes bg-cycle {
+  0% {
+    opacity: 1; 
+    background-position: 0% 0%;
+  }
+
+
+  100% {
+    opacity: 1; 
+    background-position: 100% 0%;
+  }
+}
+
+.bg-cycle{
+    -webkit-animation: bg-cycle steps(41, end) infinite;
+    -moz-animation: bg-cycle steps(41, end) infinite;
+    -ms-animation: bg-cycle steps(41, end) infinite;
+    animation: bg-cycle steps(41, end) infinite;
 }
