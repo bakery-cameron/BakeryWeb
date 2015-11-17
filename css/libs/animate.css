@@ -3089,8 +3089,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .bg-cycle{
-    -webkit-animation: bg-cycle steps(41, end) infinite;
-    -moz-animation: bg-cycle steps(41, end) infinite;
-    -ms-animation: bg-cycle steps(41, end) infinite;
-    animation: bg-cycle steps(41, end) infinite;
+    -webkit-animation: bg-cycle steps(45, end) infinite;
+    -moz-animation: bg-cycle steps(45, end) infinite;
+    -ms-animation: bg-cycle steps(45, end) infinite;
+    animation: bg-cycle steps(45, end) infinite;
 }
