@@ -3064,33 +3064,35 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 @-webkit-keyframes bg-cycle {
   0% {
-    opacity: 1; 
     background-position: 0% 0%;
   }
 
 
+  80% {
+    background-position: 100% 0%;
+  }
   100% {
-    opacity: 1; 
     background-position: 100% 0%;
   }
 }
 
 @keyframes bg-cycle {
   0% {
-    opacity: 1; 
     background-position: 0% 0%;
   }
 
 
+  80% {
+    background-position: 100% 0%;
+  }
   100% {
-    opacity: 1; 
     background-position: 100% 0%;
   }
 }
 
 .bg-cycle{
-    -webkit-animation: bg-cycle steps(45, end) infinite;
-    -moz-animation: bg-cycle steps(45, end) infinite;
-    -ms-animation: bg-cycle steps(45, end) infinite;
-    animation: bg-cycle steps(45, end) infinite;
+    -webkit-animation: bg-cycle steps(44, end) infinite;
+    -moz-animation: bg-cycle steps(44, end) infinite;
+    -ms-animation: bg-cycle steps(44, end) infinite;
+    animation: bg-cycle steps(44, end) infinite;
 }
