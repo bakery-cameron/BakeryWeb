@@ -14,6 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
 	<link rel="stylesheet" type="text/css" href="css/main.css" />
 	<link rel="stylesheet" href="css/font-icons.css"></head>
+	<link rel="stylesheet" href="css/animate.css">
 
 	<!--[if IE]>
 		<script type="text/javascript">
@@ -29,6 +30,7 @@
 	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
 	<script type="text/javascript" src="js/examples.js"></script>
 	<script src="js/snowstorm.js"></script>
+	<script src="js/wow.min.js"></script>
 
 	<script type="text/javascript">
 		$(document).ready(function() {
@@ -36,7 +38,7 @@
 				anchors: ['firstPage', 'secondPage', 'thirdPage'],
 				navigation: true,
 				navigationPosition: 'right',
-				navigationTooltips: ['First page', 'Second page', 'Third page']
+				navigationTooltips: ['You are Invited', 'Open Bar?', 'Stop By']
 			});
 		});
 	</script>
@@ -91,8 +93,13 @@
 <div id="fullpage">
 	<div class="section " id="section0">
 		<div class="intro">
-			<img src="imgs/bakery-pie-white.png" alt="logo-01">
-			<h2 class="dash">You're Invited to<br>Bakery's 2015 Holiday Party</h2>
+			<div id="bakery-eye">
+				<div id="bakery-eye-rays-container" class="wow fadeFastInDown"  data-wow-duration="1s" data-wow-delay="1s">
+					<div id="bakery-eye-rays" class="wow bg-cycle"  data-wow-duration="2s" data-wow-delay="2s"></div>
+				</div>
+				<img src="imgs/pie-of-providence-bottom.png" class="wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0s">
+			</div>
+			<h2 class="dash">You're Invited to<br>Bakery's MMXV Holiday Party</h2>
 			<h1>DrakeandBake</h1>
 			<h1>DrakeandBake</h1>
 			<h1>DrakeandBake</h1>
@@ -103,14 +110,23 @@
 		<div class="intro">
 
 			<div id="intro-copy" class="break">
-				<h1 class="dash">Join us<br>at Bakery HQ.</h1>
+				<h1 class="dash">Eat, Drink, and Dance<br>(like Drake)!</h1>
 
-				<p>Let's celebrate the end of the year the way it was meant to; dancing like Drake. We'll have free food and drinks with music by DJ ULOVEI. Space is limited. So RSVP below and make our hotline bling.</p>
-			</div>
-			
-			<div id="sponsers" class="break">
-				<img src="imgs/dos-equis-logo.png">
-				<img src="imgs/deep-eddy-logo.png">
+				<p>We're toasting the end of 2015 and all of the Star Wars, deflated footballs, color-defying dresses, Katy Perry sharks, and hover-boarding it brought us. But most of all, we're celebrating the awkward shimmy Drake bestowed upon us, validating our own broken dancefloor moves. On December 10, we'll be running to east six with our WOEs to try those moves out. Join us!</p>
+				<ul>
+					<li>Music by ULovei</li>
+					<li>Open Bar</li>
+					<li>Free Food</li>
+				</ul>
+
+				<div id="sponsers" class="break">
+					<img src="imgs/dos-equis-logo.png">
+					<img src="imgs/deep-eddy-logo.png">
+				</div>
+
+				<ul>
+					<li>Space is limited. So RSVP below.</li>
+				</ul>
 			</div>
 		</div>
 	</div>
