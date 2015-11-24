@@ -7,12 +7,30 @@ body{
 }
 
 ul{
+    text-align: left;
     padding: 0px;
 }
 
+li{
+    margin-left: 20px;
+    width: 200px;
+    display: list-item;
+    list-style-type: square;
+    margin: auto;
+    margin-top: 5px;
+}
+
+
+.mobile-show{
+        display: none;
+        text-align: left;
+}
 @media screen and (max-width: 720px){
     .mobile-hide{
         display: none;
+    }
+    .mobile-show{
+        display: inline-block;
     }
 }
 
@@ -58,7 +76,9 @@ ul{
     display: inline-block;
 }
 
-
+#sponsers{
+    margin-top: 20px;
+}
 
 #bg-video-container {
     position: absolute;
