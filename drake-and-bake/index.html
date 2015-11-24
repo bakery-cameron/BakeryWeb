@@ -87,6 +87,14 @@
 	}, false);
 
 
+	 $(document).ready( function() {
+	    /* Check width on page load*/
+	    var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+	    if ( width < 720) {
+	     $('.icon-audio-muted, .icon-audio-playing').toggleClass('hidden');
+	    }
+	    else {}
+	 });
 
 
 	function doBounce(element, times, distance, speed) {
