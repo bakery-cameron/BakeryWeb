@@ -73,11 +73,20 @@
 	document.getElementById('mute').addEventListener('click', function (e)
 	{
 		e = e || window.event;
-	    audio.muted = !audio.muted;
-	    e.preventDefault();
+
 	    $('.icon-audio-muted, .icon-audio-playing').toggleClass('hidden bounceIn');
 	    doBounce($(this), 1, '-3px', 200); 
+
+	    var elem = document.getElementById("background_audio");
+
+	    if (elem.paused == false) {
+				elem.pause();
+			} else {
+				elem.play();
+			}
 	}, false);
+
+
 
 
 	function doBounce(element, times, distance, speed) {
