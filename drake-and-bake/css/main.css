@@ -239,6 +239,8 @@ h2{
         -ms-animation: fadein 5s; /* Internet Explorer */
          -o-animation: fadein 5s; /* Opera < 12.1 */
             animation: fadein 5s;
+    max-width: 90%;
+    margin: auto;
 }
 
 .intro p{
