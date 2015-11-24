@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Thanks!</title>
+	<meta name="author" content="Cameron Miller" />
+	<meta name="description" content="Drake Holiday Part Invite" />
+	<meta name="keywords"  content="Bakery Austin Party Holiday RSVP Drake" />
+	<meta name="Resource-type" content="Document" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<link rel="stylesheet" type="text/css" href="../css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="../css/main.css" />
+	<link rel="stylesheet" href="../css/font-icons.css"></head>
+	<link rel="stylesheet" href="../css/animate.css">
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="../js/jquery.slimscroll.min.js"></script>
+
+	<script type="text/javascript" src="../js/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="../js/examples.js"></script>
+	<script type="text/javascript" src="../js/snowstorm.js"></script>
+	<script type="text/javascript" src="../js/wow.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['firstPage', 'secondPage', 'thirdPage'],
+				navigation: true,
+				navigationPosition: 'right',
+				navigationTooltips: ['You are Invited', 'Open Bar?', 'Stop By']
+			});
+		});
+	</script>
+
+</head>
+<body class="animated-gradient">
+
+<div id="bg-video-container" class="mobile-hide">
+	<video id="bg-video" autoplay loop>
+		<source src="../video/hotline-bling-bg.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
+</div>
+
+
+
+<audio id="background_audio" autoplay="autoplay" loop>
+  <source src="../audio/hotline-bling.mp3" />
+  <source src="../audio/hotline-bling.ogg" />
+</audio>
+
+<a href="#noscroll" id="mute">
+	<span class="icon-audio-muted hidden"></span>
+	<span class="icon-audio-playing bounceIn"></span>
+</a>
+
+
+
+
+<script>
+	var audio = document.getElementById('background_audio');
+	document.getElementById('mute').addEventListener('click', function (e)
+	{
+		e = e || window.event;
+
+	    $('.icon-audio-muted, .icon-audio-playing').toggleClass('hidden bounceIn');
+	    doBounce($(this), 1, '-3px', 200); 
+
+	    var elem = document.getElementById("background_audio");
+
+	    if (elem.paused == false) {
+				elem.pause();
+			} else {
+				elem.play();
+			}
+	}, false);
+
+
+	 $(document).ready( function() {
+	    /* Check width on page load*/
+	    var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+	    if ( width < 720) {
+	     $('.icon-audio-muted, .icon-audio-playing').toggleClass('hidden');
+	    }
+	    else {}
+	 });
+
+
+	function doBounce(element, times, distance, speed) {
+	    for(var i = 0; i < times; i++) {
+	        element.animate({bottom: '-='+distance}, speed)
+	            .animate({bottom: '+='+distance}, speed);
+	    }        
+	}
+</script>
+
+
+
+
+<div id="fullpage">
+	<div class="section " id="section0">
+		<div>
+			<div id="bakery-eye">
+				<div id="bakery-eye-rays-container" class="wow fadeFastInDown"  data-wow-duration="1s" data-wow-delay="1s">
+					<div id="bakery-eye-rays" class="wow bg-cycle"  data-wow-duration="2s" data-wow-delay="2s"></div>
+				</div>
+				<img src="../imgs/pie-of-providence-bottom.png" class="wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0s">
+			</div>
+			<h2 class="dash">Thank You.<br>See you soon!</h2>
+			<a href="../">go back</a>
+		</div>
+	</div>
+</div>
+
+
+</body>
+</html>
