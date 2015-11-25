@@ -39,6 +39,21 @@ body{
     color: #fff;
 }
 
+#perks{
+    width: 66%;
+    margin: auto;
+}
+#perks li{
+    margin-left: 20px;
+    display: inline-block;
+    margin: auto;
+    width: 32%;
+    text-align: center;
+    margin-top: 5px;
+}
+#perks li h2{
+    font-size: 1em;
+}
 ul{
     text-align: left;
     padding: 0px;
