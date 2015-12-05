@@ -80,8 +80,9 @@ $(document).ready(function(){
 		$.ajax( {
 	      url: '../email-gif',
 	      type: 'POST',
-	      data: data,
-	      dataType: 'json',
+	      data: fd,
+	      processData: false,
+	      contentType: false,
 	      success:function(){
 	      	alert('Thanks!');
 	      	$('#gif-form')[0].reset();
