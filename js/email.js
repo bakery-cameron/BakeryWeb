@@ -75,7 +75,7 @@ $(document).ready(function(){
    
 		var giffiles = document.getElementById('gif-file-input').files;
 		var fd = new FormData();    
-		fd.append( 'gif', files[0] );
+		fd.append( 'gif', giffiles[0] );
 		fd.append( 'toemail',$('#gif-email').val());
 		$.ajax( {
 	      url: '../email-gif',
