@@ -56,6 +56,27 @@ app.get('*', function(req, res) {
 //-----email stuff-------//
 
 
+
+
+
+app.post('/email-gif',function(req,res){
+	var data = {
+		from: 'info@bakery.agency',
+		to: req.body.toemail,
+		subject: 'Here is your gif',
+		text: req.body.text
+	};
+	mailgun.messages().send(data, function (err, body) {
+		if (err){
+			console.log('Oh noes: ' + err);
+			res.json({ok:false});
+		} else {
+			console.log('Success', body);
+			res.json({ok:true});
+		}
+	});
+});
+
 app.post('/email-message',function(req,res){
 	var data = {
 		from: req.body.email,

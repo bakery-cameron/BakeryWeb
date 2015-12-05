@@ -66,4 +66,26 @@ $(document).ready(function(){
 	      }
 	    } );
 	});
+
+
+
+	$('#gif-submit').on('click',function(e){
+		e.stopPropagation();
+		e.preventDefault();
+   
+   		var data = {
+			toemail:$('#gif-email').val(),
+			text:$('#gif-textbox').val()
+		}
+		$.ajax( {
+	      url: '../email-gif',
+	      type: 'POST',
+	      data: data,
+	      dataType: 'json',
+	      success:function(){
+	      	alert('Thanks!');
+	      	$('#gif-form')[0].reset();
+	      }
+	    } );
+	});
 });
