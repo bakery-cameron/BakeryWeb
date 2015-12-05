@@ -56,15 +56,12 @@ app.get('*', function(req, res) {
 //-----email stuff-------//
 
 
-
-
-
-app.post('/email-gif',function(req,res){
+app.post('/email-gif',upload.single('gif'),function(req,res){
+	var giffile = new mailgun.Attachment({data: req.file.buffer, filename: req.file.originalname});
 	var data = {
 		from: 'info@bakery.agency',
 		to: req.body.toemail,
 		subject: 'Here is your gif',
-		text: req.body.text
 	};
 	mailgun.messages().send(data, function (err, body) {
 		if (err){

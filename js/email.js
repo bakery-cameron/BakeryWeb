@@ -73,10 +73,10 @@ $(document).ready(function(){
 		e.stopPropagation();
 		e.preventDefault();
    
-   		var data = {
-			toemail:$('#gif-email').val(),
-			text:$('#gif-textbox').val()
-		}
+		var giffiles = document.getElementById('gif-file-input').files;
+		var fd = new FormData();    
+		fd.append( 'gif', files[0] );
+		fd.append( 'toemail',$('#gif-email').val());
 		$.ajax( {
 	      url: '../email-gif',
 	      type: 'POST',
