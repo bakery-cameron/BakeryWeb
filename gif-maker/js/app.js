@@ -98,8 +98,8 @@
       upload: function (blob, callback) {
         var fd = new FormData(),
          xhr = new XMLHttpRequest();
-        fd.append('image', blob);
-        xhr.open("POST", "https://api.imgur.com/3/image.json");
+        fd.append('image', blob); // Append the file
+        xhr.open("POST", "https://api.imgur.com/3/image.json"); // Boooom!
         xhr.onload = function () {
           callback && callback(JSON.parse(xhr.response));
         };
