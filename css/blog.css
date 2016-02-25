@@ -13,7 +13,7 @@
     justify-content: center;
 	width: 100vw;
 	height: 100vh;
-	background-image: url("../images/blog/2015/may-01-header-bw.jpg");
+	background-image: url("../images/blog/2016/feb-25-header-bw.jpg");
 }
 #blog-header *{
 	color: #fff;
@@ -492,7 +492,9 @@
 	blog header images
 
 	____________________________*/
-
+#blog-header-2016-feb-25{
+	background-image: url("../images/blog/2016/feb-25-header.jpg");
+}
 #blog-header-2015-may-01{
 	background-image: url("../images/blog/2015/may-01-header.jpg");
 }
@@ -610,7 +612,9 @@
 	blog card images
 
 	____________________________*/
-
+#blog-card-2016-feb-25 .blog-card-image{
+	background-image: url("../images/blog/2016/feb-25-card-image.jpg");
+}
 #blog-card-2015-may-01 .blog-card-image{
 	background-image: url("../images/blog/2015/may-01-card-image.jpg");
 }
