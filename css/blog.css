@@ -492,6 +492,9 @@
 	blog header images
 
 	____________________________*/
+#blog-header-2016-mar-11{
+	background-image: url("../images/blog/2016/mar-11-header.jpg");
+}
 #blog-header-2016-feb-25{
 	background-image: url("../images/blog/2016/feb-25-header.jpg");
 }
