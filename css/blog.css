@@ -13,22 +13,23 @@
     justify-content: center;
 	width: 100vw;
 	height: 100vh;
-	background-image: url("../images/blog/2016/feb-25-header-bw.jpg");
+	background-image: url("../images/blog/2016/mar-11-header-bw.jpg");
 }
 #blog-header *{
 	color: #fff;
 }
 .blog-header-info{
 	padding: 0px 5%;
-	max-width: 720px;
+	max-width: 900px;
 }
 .blog-header-info h1{
 	max-width: 1000px;
 	line-height: 1em;
 	margin-top: 10px;
+	margin-bottom: 0px;
 }
 .blog-header-info p, .blog-header-info h1{
-	max-width: 730px;
+	max-width: 900px;
 }
 @media screen and (max-width: 600px){
 	.blog-header-info p{
@@ -615,6 +616,9 @@
 	blog card images
 
 	____________________________*/
+#blog-card-2016-mar-11 .blog-card-image{
+	background-image: url("../images/blog/2016/mar-11-card-image.jpg");
+}
 #blog-card-2016-feb-25 .blog-card-image{
 	background-image: url("../images/blog/2016/feb-25-card-image.jpg");
 }
