@@ -214,7 +214,7 @@ h1.header-type{
 }
 
 .header-type h2{
-	font-family:"Trade Gothic W01 Roman";
+	font-family:'TradeGothicLTStd-Regular', Helvetica, sans-serif;
 	font-weight: 500;
 	font-size: 2em;
 	line-height: 100%;

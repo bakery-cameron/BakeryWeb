@@ -18,6 +18,36 @@ div#insta-small{
 	display: none;
 }
 
+
+/* Trade Gothic Fonts */
+
+@font-face {
+	font-family:'TradeGothicLTStd-BdCn20';
+	src: url('../fonts/trade-gothic/condensed/TradeGothicLTStd-BdCn20_gdi.eot');
+	src: url('../fonts/trade-gothic/condensed/TradeGothicLTStd-BdCn20_gdi.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/trade-gothic/condensed/TradeGothicLTStd-BdCn20_gdi.woff') format('woff'),
+		url('../fonts/trade-gothic/condensed/TradeGothicLTStd-BdCn20_gdi.ttf') format('truetype'),
+		url('../fonts/trade-gothic/condensed/TradeGothicLTStd-BdCn20_gdi.svg#TradeGothicLTStd-BdCn20') format('svg');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: condensed;
+	unicode-range: U+0020-25CA;
+}
+
+@font-face {
+	font-family:'TradeGothicLTStd-Regular';
+	src: url('../fonts/trade-gothic/regular/TradeGothicLTStd_gdi.eot');
+	src: url('../fonts/trade-gothic/regular/TradeGothicLTStd_gdi.eot?#iefix') format('embedded-opentype'),
+		url('T../fonts/trade-gothic/regular/radeGothicLTStd_gdi.woff') format('woff'),
+		url('../fonts/trade-gothic/regular/TradeGothicLTStd_gdi.ttf') format('truetype'),
+		url('../fonts/trade-gothic/regular/TradeGothicLTStd_gdi.svg#TradeGothicLTStd-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+
+
 body, textarea, input{
 	height: 100%;
 	font-family: 'Open Sans','Arial Narrow', sans-serif;
@@ -33,7 +63,7 @@ body, textarea, input{
 	z-index: 20;
 }
 h1, h2, h3, h4, h5{
-	font-family: "TradeGothicW01-BoldCn20 675334", Helvetica, sans;
+	font-family: 'TradeGothicLTStd-BdCn20', Helvetica, sans-serif;
 	font-weight: 500;
 	text-transform: uppercase;
 	color: #333;
@@ -50,7 +80,7 @@ h1{
 	margin-bottom: 20px;
 }
 h1.thin, h2.thin, h3.thin, h4.thin{
-	font-family: "Trade Gothic W01 Roman", Helvetica, sans;
+	font-family: 'TradeGothicLTStd-Regular', Helvetica, sans-serif;
 }
 h1.thin{
 	font-size: 4.5em;
@@ -313,7 +343,7 @@ a{
 
 
 .slide-client{
-	font-family: Trade Gothic W01 Roman;
+	font-family: 'TradeGothicLTStd-Regular', Helvetica, sans-serif;
 	font-weight: 700;
 	font-style: italic;
 	font-size: 2vw;
@@ -899,7 +929,7 @@ a{
 	margin: 0px
 }
 .info .small{
-	font-family:"Trade Gothic W01 Roman";
+	font-family:'TradeGothicLTStd-Regular', Helvetica, sans-serif;
 	font-weight: 500;
 	font-size: 2em;
 	line-height: 100%;
