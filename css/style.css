@@ -38,7 +38,7 @@ div#insta-small{
 	font-family:'TradeGothicLTStd-Regular';
 	src: url('../fonts/trade-gothic/regular/TradeGothicLTStd_gdi.eot');
 	src: url('../fonts/trade-gothic/regular/TradeGothicLTStd_gdi.eot?#iefix') format('embedded-opentype'),
-		url('T../fonts/trade-gothic/regular/radeGothicLTStd_gdi.woff') format('woff'),
+		url('../fonts/trade-gothic/regular/TradeGothicLTStd_gdi.woff') format('woff'),
 		url('../fonts/trade-gothic/regular/TradeGothicLTStd_gdi.ttf') format('truetype'),
 		url('../fonts/trade-gothic/regular/TradeGothicLTStd_gdi.svg#TradeGothicLTStd-Regular') format('svg');
 	font-weight: 400;
