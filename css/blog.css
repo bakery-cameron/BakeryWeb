@@ -13,7 +13,7 @@
     justify-content: center;
 	width: 100vw;
 	height: 100vh;
-	background-image: url("../images/blog/2016/jun-10-header-bw.jpg");
+	background-image: url("../images/blog/2016/jun-21-header-bw.jpg");
 }
 #blog-header *{
 	color: #fff;
@@ -493,6 +493,9 @@
 	blog header images
 
 	____________________________*/
+#blog-header-2016-jun-21{
+	background-image: url("../images/blog/2016/jun-21-header.jpg");
+}
 #blog-header-2016-jun-10{
 	background-image: url("../images/blog/2016/jun-10-header.jpg");
 }
@@ -619,6 +622,12 @@
 	blog card images
 
 	____________________________*/
+#blog-card-2016-jun-21 .blog-card-image{
+	background-image: url("../images/blog/2016/jun-21-card-image.jpg");
+}
+#blog-card-2016-jun-10 .blog-card-image{
+	background-image: url("../images/blog/2016/jun-10-card-image.jpg");
+}
 #blog-card-2016-mar-11 .blog-card-image{
 	background-image: url("../images/blog/2016/mar-11-card-image.jpg");
 }
