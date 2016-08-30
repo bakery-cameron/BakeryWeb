@@ -148,7 +148,7 @@
 #temp-job-form {
     padding: 50px 0px;
 }
-#contact-career{
+#contact-career:nth-child(2){
     height: 0px;
     opacity: 0;
     pointer-events: none;
