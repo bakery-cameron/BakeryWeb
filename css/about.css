@@ -115,6 +115,49 @@
 
 
 
+#car2go-logo{
+	background-image: url("../images/about/client-car2go.png");
+}
+#car2go-hover-logo{
+	background-image: url("../images/about/client-car2go-hover.png");
+}
+#car2go-hover-bg{
+	background-image: url("../images/about/client-car2go-bg.png");
+}
+
+
+#whisl-logo{
+	background-image: url("../images/about/client-whisl.png");
+}
+#whisl-hover-logo{
+	background-image: url("../images/about/client-whisl-hover.png");
+}
+#whisl-hover-bg{
+	background-image: url("../images/about/client-whisl-bg.png");
+}
+
+
+#cw-logo{
+	background-image: url("../images/about/client-cw.png");
+}
+#cw-hover-logo{
+	background-image: url("../images/about/client-cw-hover.png");
+}
+#cw-hover-bg{
+	background-image: url("../images/about/client-cw-bg.png");
+}
+
+
+#oxido-logo{
+	background-image: url("../images/about/client-oxido.png");
+}
+#oxido-hover-logo{
+	background-image: url("../images/about/client-oxido-hover.png");
+}
+#oxido-hover-bg{
+	background-image: url("../images/about/client-oxido-bg.png");
+}
+
 
 #up-logo{
 	background-image: url("../images/about/client-up.png");
@@ -134,7 +177,7 @@
 	background-image: url("../images/about/client-budlight-hover.png");
 }
 #budlight-hover-bg{
-	background-color: #0f4c8c;
+	background-color: #002376;
 }
 #budlight-hover-bg:after{
     display: block;
