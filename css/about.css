@@ -39,6 +39,7 @@
 }
 #about-image-02{
 	background-image: url("../images/about/about-image-02.jpg");
+	background-position: left center;
 }
 #about-image-03{
 	background-image: url("../images/about/about-image-03.jpg");
